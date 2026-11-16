@@ -1,0 +1,6159 @@
+[
+  {
+    "members": [
+      "2:106:16",
+      "2:106:17",
+      "2:106:18"
+    ],
+    "expression_origins": [
+      "2:106:16"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "2:106:17"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "2:106:18"
+      },
+      {
+        "text": "e",
+        "role": "2:106:16"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "2:107:11",
+      "2:107:12",
+      "2:107:13"
+    ],
+    "expression_origins": [
+      "2:107:13",
+      "2:107:11"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "2:107:13"
+      },
+      {
+        "text": "'tan",
+        "role": "2:107:11"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "2:107:12"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "2:109:30",
+      "2:109:31",
+      "2:109:32"
+    ],
+    "expression_origins": [
+      "2:109:30",
+      "2:109:32"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "2:109:31"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "2:109:32"
+      },
+      {
+        "text": "e",
+        "role": "2:109:30"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "2:165:5",
+      "2:165:6",
+      "2:165:7"
+    ],
+    "expression_origins": [
+      "2:165:7",
+      "2:165:5"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "2:165:7"
+      },
+      {
+        "text": "'tan",
+        "role": "2:165:5"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "2:165:6"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "2:259:64",
+      "2:259:65",
+      "2:259:66"
+    ],
+    "expression_origins": [
+      "2:259:64"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "2:259:65"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "2:259:66"
+      },
+      {
+        "text": "e",
+        "role": "2:259:64"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "2:284:25",
+      "2:284:26",
+      "2:284:27"
+    ],
+    "expression_origins": [
+      "2:284:25",
+      "2:284:27"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "2:284:26"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "2:284:27"
+      },
+      {
+        "text": "e",
+        "role": "2:284:25"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "3:26:22",
+      "3:26:23",
+      "3:26:24"
+    ],
+    "expression_origins": [
+      "3:26:22",
+      "3:26:24"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "3:26:23"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "3:26:24"
+      },
+      {
+        "text": "e",
+        "role": "3:26:22"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "3:29:19",
+      "3:29:20",
+      "3:29:21"
+    ],
+    "expression_origins": [
+      "3:29:19",
+      "3:29:21"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "3:29:20"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "3:29:21"
+      },
+      {
+        "text": "e",
+        "role": "3:29:19"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "3:64:23",
+      "3:64:24",
+      "3:64:25"
+    ],
+    "expression_origins": [
+      "3:64:25",
+      "3:64:23"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "3:64:25"
+      },
+      {
+        "text": "'tan",
+        "role": "3:64:23"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "3:64:24"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "4:85:19",
+      "4:85:20",
+      "4:85:21"
+    ],
+    "expression_origins": [
+      "4:85:19",
+      "4:85:21"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "4:85:20"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "4:85:21"
+      },
+      {
+        "text": "i",
+        "role": "4:85:19"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "4:123:15",
+      "4:123:16",
+      "4:123:17"
+    ],
+    "expression_origins": [
+      "4:123:17",
+      "4:123:15"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "4:123:17"
+      },
+      {
+        "text": "'tan",
+        "role": "4:123:15"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "4:123:16"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "4:173:21",
+      "4:173:22",
+      "4:173:23"
+    ],
+    "expression_origins": [
+      "4:173:23",
+      "4:173:21"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "4:173:23"
+      },
+      {
+        "text": "'tan",
+        "role": "4:173:21"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "4:173:22"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "5:19:25",
+      "5:19:26",
+      "5:19:27"
+    ],
+    "expression_origins": [
+      "5:19:25",
+      "5:19:27"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "5:19:26"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "5:19:27"
+      },
+      {
+        "text": "e",
+        "role": "5:19:25"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "5:116:13",
+      "5:116:14",
+      "5:116:15"
+    ],
+    "expression_origins": [
+      "5:116:15",
+      "5:116:13"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "5:116:15"
+      },
+      {
+        "text": "'tan",
+        "role": "5:116:13"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "5:116:14"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "6:17:14",
+      "6:17:15",
+      "6:17:16"
+    ],
+    "expression_origins": [
+      "6:17:14",
+      "6:17:16"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "6:17:15"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "6:17:16"
+      },
+      {
+        "text": "i",
+        "role": "6:17:14"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "6:56:8",
+      "6:56:9",
+      "6:56:10"
+    ],
+    "expression_origins": [
+      "6:56:10",
+      "6:56:8"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "6:56:10"
+      },
+      {
+        "text": "'tan",
+        "role": "6:56:8"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "6:56:9"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "6:70:19",
+      "6:70:20",
+      "6:70:21"
+    ],
+    "expression_origins": [
+      "6:70:21",
+      "6:70:19"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "6:70:21"
+      },
+      {
+        "text": "'tan",
+        "role": "6:70:19"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "6:70:20"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "6:71:3",
+      "6:71:4",
+      "6:71:5"
+    ],
+    "expression_origins": [
+      "6:71:5",
+      "6:71:3"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "6:71:5"
+      },
+      {
+        "text": "'tan",
+        "role": "6:71:3"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "6:71:4"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "7:30:11",
+      "7:30:12",
+      "7:30:13"
+    ],
+    "expression_origins": [
+      "7:30:13",
+      "7:30:11"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "7:30:13"
+      },
+      {
+        "text": "'tan",
+        "role": "7:30:11"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "7:30:12"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "7:37:26",
+      "7:37:27",
+      "7:37:28"
+    ],
+    "expression_origins": [
+      "7:37:28",
+      "7:37:26"
+    ],
+    "parts": [
+      {
+        "text": "Alah",
+        "role": "7:37:28"
+      },
+      {
+        "text": "'tan",
+        "role": "7:37:26"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başkasına",
+        "role": "7:37:27"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "7:194:4",
+      "7:194:5",
+      "7:194:6"
+    ],
+    "expression_origins": [
+      "7:194:6",
+      "7:194:4"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "7:194:6"
+      },
+      {
+        "text": "'tan",
+        "role": "7:194:4"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "7:194:5"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:27:4",
+      "9:27:5"
+    ],
+    "expression_origins": [
+      "9:27:4"
+    ],
+    "parts": [
+      {
+        "text": "ardı",
+        "role": "9:27:5"
+      },
+      {
+        "text": "ndan",
+        "role": "9:27:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:30:18",
+      "9:30:19"
+    ],
+    "expression_origins": [
+      "9:30:18"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "9:30:19"
+      },
+      {
+        "text": "den",
+        "role": "9:30:18"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:31:5",
+      "9:31:6",
+      "9:31:7"
+    ],
+    "expression_origins": [
+      "9:31:7",
+      "9:31:5"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "9:31:7"
+      },
+      {
+        "text": "'tan",
+        "role": "9:31:5"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "ayrı",
+        "role": "9:31:6"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:39:13",
+      "9:39:14",
+      "9:39:15"
+    ],
+    "expression_origins": [
+      "9:39:13",
+      "9:39:15"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "9:39:14"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "9:39:15"
+      },
+      {
+        "text": "i",
+        "role": "9:39:13"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:50:12",
+      "9:50:13"
+    ],
+    "expression_origins": [
+      "9:50:12"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "9:50:13"
+      },
+      {
+        "text": "den",
+        "role": "9:50:12"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:69:2",
+      "9:69:3"
+    ],
+    "expression_origins": [
+      "9:69:2"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "9:69:3"
+      },
+      {
+        "text": "den",
+        "role": "9:69:2"
+      },
+      {
+        "text": " öncekiler",
+        "role": "9:69:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:69:18",
+      "9:69:19"
+    ],
+    "expression_origins": [
+      "9:69:18"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "9:69:19"
+      },
+      {
+        "text": "den",
+        "role": "9:69:18"
+      },
+      {
+        "text": " öncekilerin",
+        "role": "9:69:19"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:70:5",
+      "9:70:6"
+    ],
+    "expression_origins": [
+      "9:70:5"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "9:70:6"
+      },
+      {
+        "text": "nden",
+        "role": "9:70:5"
+      },
+      {
+        "text": " öncekilerin",
+        "role": "9:70:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:107:14",
+      "9:107:15"
+    ],
+    "expression_origins": [
+      "9:107:14"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "9:107:15"
+      },
+      {
+        "text": "den",
+        "role": "9:107:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "9:116:11",
+      "9:116:12",
+      "9:116:13"
+    ],
+    "expression_origins": [
+      "9:116:13",
+      "9:116:11"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "9:116:13"
+      },
+      {
+        "text": "'tan",
+        "role": "9:116:11"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "9:116:12"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:13:4",
+      "10:13:5"
+    ],
+    "expression_origins": [
+      "10:13:4"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "10:13:5"
+      },
+      {
+        "text": "den",
+        "role": "10:13:4"
+      },
+      {
+        "text": " önce",
+        "role": "10:13:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:14:6",
+      "10:14:7"
+    ],
+    "expression_origins": [
+      "10:14:6"
+    ],
+    "parts": [
+      {
+        "text": "onların ardı",
+        "role": "10:14:7"
+      },
+      {
+        "text": "ndan",
+        "role": "10:14:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:38:11",
+      "10:38:12",
+      "10:38:13"
+    ],
+    "expression_origins": [
+      "10:38:13",
+      "10:38:11"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "10:38:13"
+      },
+      {
+        "text": "'tan",
+        "role": "10:38:11"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "10:38:12"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:39:13",
+      "10:39:14"
+    ],
+    "expression_origins": [
+      "10:39:13"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "10:39:14"
+      },
+      {
+        "text": "dan",
+        "role": "10:39:13"
+      },
+      {
+        "text": " önceki[ler]",
+        "role": "10:39:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:74:3",
+      "10:74:4"
+    ],
+    "expression_origins": [
+      "10:74:3"
+    ],
+    "parts": [
+      {
+        "text": "onun ardı",
+        "role": "10:74:4"
+      },
+      {
+        "text": "ndan",
+        "role": "10:74:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:75:3",
+      "10:75:4"
+    ],
+    "expression_origins": [
+      "10:75:3"
+    ],
+    "parts": [
+      {
+        "text": "onların ardı",
+        "role": "10:75:4"
+      },
+      {
+        "text": "ndan",
+        "role": "10:75:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:94:12",
+      "10:94:13"
+    ],
+    "expression_origins": [
+      "10:94:12"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "10:94:13"
+      },
+      {
+        "text": "den",
+        "role": "10:94:12"
+      },
+      {
+        "text": " önce",
+        "role": "10:94:13"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:102:8",
+      "10:102:9"
+    ],
+    "expression_origins": [
+      "10:102:8"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "10:102:9"
+      },
+      {
+        "text": "nden",
+        "role": "10:102:8"
+      },
+      {
+        "text": " önce",
+        "role": "10:102:9"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "10:104:14",
+      "10:104:15",
+      "10:104:16"
+    ],
+    "expression_origins": [
+      "10:104:16",
+      "10:104:14"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "10:104:16"
+      },
+      {
+        "text": "'tan",
+        "role": "10:104:14"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "10:104:15"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "11:13:13",
+      "11:13:14",
+      "11:13:15"
+    ],
+    "expression_origins": [
+      "11:13:15",
+      "11:13:13"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "11:13:15"
+      },
+      {
+        "text": "'tan",
+        "role": "11:13:13"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "11:13:14"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "11:20:10",
+      "11:20:11",
+      "11:20:12"
+    ],
+    "expression_origins": [
+      "11:20:12",
+      "11:20:10"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "11:20:12"
+      },
+      {
+        "text": "'tan",
+        "role": "11:20:10"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "11:20:11"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "11:113:10",
+      "11:113:11",
+      "11:113:12"
+    ],
+    "expression_origins": [
+      "11:113:12",
+      "11:113:10"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "11:113:12"
+      },
+      {
+        "text": "'tan",
+        "role": "11:113:10"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "11:113:11"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "11:116:5",
+      "11:116:6"
+    ],
+    "expression_origins": [
+      "11:116:5"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "11:116:6"
+      },
+      {
+        "text": "den",
+        "role": "11:116:5"
+      },
+      {
+        "text": " önceki",
+        "role": "11:116:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:3:13",
+      "12:3:14"
+    ],
+    "expression_origins": [
+      "12:3:13"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "12:3:14"
+      },
+      {
+        "text": "ndan",
+        "role": "12:3:13"
+      },
+      {
+        "text": " önce",
+        "role": "12:3:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:9:11",
+      "12:9:12"
+    ],
+    "expression_origins": [
+      "12:9:11"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "12:9:12"
+      },
+      {
+        "text": "ndan",
+        "role": "12:9:11"
+      },
+      {
+        "text": " sonra",
+        "role": "12:9:12"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:48:3",
+      "12:48:4"
+    ],
+    "expression_origins": [
+      "12:48:3"
+    ],
+    "parts": [
+      {
+        "text": "ardı",
+        "role": "12:48:4"
+      },
+      {
+        "text": "ndan",
+        "role": "12:48:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:49:3",
+      "12:49:4"
+    ],
+    "expression_origins": [
+      "12:49:3"
+    ],
+    "parts": [
+      {
+        "text": "ardı",
+        "role": "12:49:4"
+      },
+      {
+        "text": "ndan",
+        "role": "12:49:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:77:8",
+      "12:77:9"
+    ],
+    "expression_origins": [
+      "12:77:8"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "12:77:9"
+      },
+      {
+        "text": "ndan",
+        "role": "12:77:8"
+      },
+      {
+        "text": " önce",
+        "role": "12:77:9"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:109:3",
+      "12:109:4"
+    ],
+    "expression_origins": [
+      "12:109:3"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "12:109:4"
+      },
+      {
+        "text": "den",
+        "role": "12:109:3"
+      },
+      {
+        "text": " önce",
+        "role": "12:109:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:109:21",
+      "12:109:22"
+    ],
+    "expression_origins": [
+      "12:109:21"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "12:109:22"
+      },
+      {
+        "text": "nden",
+        "role": "12:109:21"
+      },
+      {
+        "text": " önceki",
+        "role": "12:109:22"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "12:111:15",
+      "12:111:16"
+    ],
+    "expression_origins": [
+      "12:111:15"
+    ],
+    "parts": [
+      {
+        "text": "kendi",
+        "role": "12:111:16"
+      },
+      {
+        "text": "nden",
+        "role": "12:111:15"
+      },
+      {
+        "text": " öncekinin",
+        "role": "12:111:16"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "13:14:6",
+      "13:14:7"
+    ],
+    "expression_origins": [
+      "13:14:6"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "13:14:7"
+      },
+      {
+        "text": "'ndan",
+        "role": "13:14:6"
+      },
+      {
+        "text": " başka",
+        "role": "13:14:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "14:9:5",
+      "14:9:6"
+    ],
+    "expression_origins": [
+      "14:9:5"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "14:9:6"
+      },
+      {
+        "text": "den",
+        "role": "14:9:5"
+      },
+      {
+        "text": " öncekilerin",
+        "role": "14:9:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "14:9:12",
+      "14:9:13"
+    ],
+    "expression_origins": [
+      "14:9:12"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "14:9:13"
+      },
+      {
+        "text": "dan",
+        "role": "14:9:12"
+      },
+      {
+        "text": " sonra gelen",
+        "role": "14:9:13"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "14:14:3",
+      "14:14:4"
+    ],
+    "expression_origins": [
+      "14:14:3"
+    ],
+    "parts": [
+      {
+        "text": "onların ardı",
+        "role": "14:14:4"
+      },
+      {
+        "text": "ndan",
+        "role": "14:14:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "14:22:38",
+      "14:22:39"
+    ],
+    "expression_origins": [
+      "14:22:38"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "14:22:39"
+      },
+      {
+        "text": "den",
+        "role": "14:22:38"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "14:44:21",
+      "14:44:22"
+    ],
+    "expression_origins": [
+      "14:44:21"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "14:44:22"
+      },
+      {
+        "text": "den",
+        "role": "14:44:21"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "15:10:3",
+      "15:10:4"
+    ],
+    "expression_origins": [
+      "15:10:3"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "15:10:4"
+      },
+      {
+        "text": "den",
+        "role": "15:10:3"
+      },
+      {
+        "text": " önceki",
+        "role": "15:10:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:20:3",
+      "16:20:4",
+      "16:20:5"
+    ],
+    "expression_origins": [
+      "16:20:5",
+      "16:20:3"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "16:20:5"
+      },
+      {
+        "text": "'tan",
+        "role": "16:20:3"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "16:20:4"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:26:4",
+      "16:26:5"
+    ],
+    "expression_origins": [
+      "16:26:4"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "16:26:5"
+      },
+      {
+        "text": "dan",
+        "role": "16:26:4"
+      },
+      {
+        "text": " önceki",
+        "role": "16:26:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:33:14",
+      "16:33:15"
+    ],
+    "expression_origins": [
+      "16:33:14"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "16:33:15"
+      },
+      {
+        "text": "dan",
+        "role": "16:33:14"
+      },
+      {
+        "text": " önceki",
+        "role": "16:33:15"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:35:25",
+      "16:35:26"
+    ],
+    "expression_origins": [
+      "16:35:25"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "16:35:26"
+      },
+      {
+        "text": "dan",
+        "role": "16:35:25"
+      },
+      {
+        "text": " önceki[ler]",
+        "role": "16:35:26"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:43:3",
+      "16:43:4"
+    ],
+    "expression_origins": [
+      "16:43:3"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "16:43:4"
+      },
+      {
+        "text": "den",
+        "role": "16:43:3"
+      },
+      {
+        "text": " önce",
+        "role": "16:43:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:63:6",
+      "16:63:7"
+    ],
+    "expression_origins": [
+      "16:63:6"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "16:63:7"
+      },
+      {
+        "text": "den",
+        "role": "16:63:6"
+      },
+      {
+        "text": " önceki",
+        "role": "16:63:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:86:13",
+      "16:86:14"
+    ],
+    "expression_origins": [
+      "16:86:13"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "16:86:14"
+      },
+      {
+        "text": "den",
+        "role": "16:86:13"
+      },
+      {
+        "text": " başka",
+        "role": "16:86:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:110:15",
+      "16:110:16"
+    ],
+    "expression_origins": [
+      "16:110:15"
+    ],
+    "parts": [
+      {
+        "text": "bun[lar]",
+        "role": "16:110:16"
+      },
+      {
+        "text": "dan",
+        "role": "16:110:15"
+      },
+      {
+        "text": " sonra",
+        "role": "16:110:16"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:118:8",
+      "16:118:9"
+    ],
+    "expression_origins": [
+      "16:118:8"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "16:118:9"
+      },
+      {
+        "text": "ndan",
+        "role": "16:118:8"
+      },
+      {
+        "text": " önce",
+        "role": "16:118:9"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:119:10",
+      "16:119:11"
+    ],
+    "expression_origins": [
+      "16:119:10"
+    ],
+    "parts": [
+      {
+        "text": "ardı",
+        "role": "16:119:11"
+      },
+      {
+        "text": "ndan",
+        "role": "16:119:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "16:119:16",
+      "16:119:17"
+    ],
+    "expression_origins": [
+      "16:119:16"
+    ],
+    "parts": [
+      {
+        "text": "bunlar",
+        "role": "16:119:17"
+      },
+      {
+        "text": "dan",
+        "role": "16:119:16"
+      },
+      {
+        "text": " sonra",
+        "role": "16:119:17"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "17:56:5",
+      "17:56:6"
+    ],
+    "expression_origins": [
+      "17:56:5"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "17:56:6"
+      },
+      {
+        "text": "'ndan",
+        "role": "17:56:5"
+      },
+      {
+        "text": " başka",
+        "role": "17:56:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "17:97:12",
+      "17:97:13"
+    ],
+    "expression_origins": [
+      "17:97:12"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "17:97:13"
+      },
+      {
+        "text": "'ndan",
+        "role": "17:97:12"
+      },
+      {
+        "text": " başka",
+        "role": "17:97:13"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "17:104:2",
+      "17:104:3"
+    ],
+    "expression_origins": [
+      "17:104:2"
+    ],
+    "parts": [
+      {
+        "text": "onun ardı",
+        "role": "17:104:3"
+      },
+      {
+        "text": "ndan",
+        "role": "17:104:2"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "18:14:13",
+      "18:14:14"
+    ],
+    "expression_origins": [
+      "18:14:13"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "18:14:14"
+      },
+      {
+        "text": "'ndan",
+        "role": "18:14:13"
+      },
+      {
+        "text": " başkasına",
+        "role": "18:14:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "18:15:4",
+      "18:15:5"
+    ],
+    "expression_origins": [
+      "18:15:4"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "18:15:5"
+      },
+      {
+        "text": "'ndan",
+        "role": "18:15:4"
+      },
+      {
+        "text": " başka",
+        "role": "18:15:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "18:26:15",
+      "18:26:16"
+    ],
+    "expression_origins": [
+      "18:26:15"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "18:26:16"
+      },
+      {
+        "text": "'ndan",
+        "role": "18:26:15"
+      },
+      {
+        "text": " başka",
+        "role": "18:26:16"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "18:27:13",
+      "18:27:14"
+    ],
+    "expression_origins": [
+      "18:27:13"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "18:27:14"
+      },
+      {
+        "text": "'ndan",
+        "role": "18:27:13"
+      },
+      {
+        "text": " başka",
+        "role": "18:27:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "18:102:7",
+      "18:102:8"
+    ],
+    "expression_origins": [
+      "18:102:7"
+    ],
+    "parts": [
+      {
+        "text": "ben",
+        "role": "18:102:8"
+      },
+      {
+        "text": "den",
+        "role": "18:102:7"
+      },
+      {
+        "text": " ayrı olarak",
+        "role": "18:102:8"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "19:5:4",
+      "19:5:5"
+    ],
+    "expression_origins": [
+      "19:5:4"
+    ],
+    "parts": [
+      {
+        "text": "arkam",
+        "role": "19:5:5"
+      },
+      {
+        "text": "dan",
+        "role": "19:5:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "19:48:4",
+      "19:48:5",
+      "19:48:6"
+    ],
+    "expression_origins": [
+      "19:48:6",
+      "19:48:4"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "19:48:6"
+      },
+      {
+        "text": "'tan",
+        "role": "19:48:4"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "19:48:5"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "19:49:5",
+      "19:49:6",
+      "19:49:7"
+    ],
+    "expression_origins": [
+      "19:49:7",
+      "19:49:5"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "19:49:7"
+      },
+      {
+        "text": "'tan",
+        "role": "19:49:5"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "19:49:6"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "19:59:2",
+      "19:59:3"
+    ],
+    "expression_origins": [
+      "19:59:2"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "19:59:3"
+      },
+      {
+        "text": "dan",
+        "role": "19:59:2"
+      },
+      {
+        "text": " sonra",
+        "role": "19:59:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "19:67:6",
+      "19:67:7"
+    ],
+    "expression_origins": [
+      "19:67:6"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "19:67:7"
+      },
+      {
+        "text": "den",
+        "role": "19:67:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "19:81:2",
+      "19:81:3",
+      "19:81:4"
+    ],
+    "expression_origins": [
+      "19:81:4",
+      "19:81:2"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "19:81:4"
+      },
+      {
+        "text": "'tan",
+        "role": "19:81:2"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "19:81:3"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "20:85:6",
+      "20:85:7"
+    ],
+    "expression_origins": [
+      "20:85:6"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "20:85:7"
+      },
+      {
+        "text": "den",
+        "role": "20:85:6"
+      },
+      {
+        "text": " sonra",
+        "role": "20:85:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "20:90:5",
+      "20:90:6"
+    ],
+    "expression_origins": [
+      "20:90:5"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "20:90:6"
+      },
+      {
+        "text": "den",
+        "role": "20:90:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "20:115:5",
+      "20:115:6"
+    ],
+    "expression_origins": [
+      "20:115:5"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "20:115:6"
+      },
+      {
+        "text": "den",
+        "role": "20:115:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "20:134:5",
+      "20:134:6"
+    ],
+    "expression_origins": [
+      "20:134:5"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "20:134:6"
+      },
+      {
+        "text": "ndan",
+        "role": "20:134:5"
+      },
+      {
+        "text": " önce",
+        "role": "20:134:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:24:3",
+      "21:24:4"
+    ],
+    "expression_origins": [
+      "21:24:3"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "21:24:4"
+      },
+      {
+        "text": "'ndan",
+        "role": "21:24:3"
+      },
+      {
+        "text": " başka",
+        "role": "21:24:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:25:3",
+      "21:25:4"
+    ],
+    "expression_origins": [
+      "21:25:3"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "21:25:4"
+      },
+      {
+        "text": "den",
+        "role": "21:25:3"
+      },
+      {
+        "text": " önce",
+        "role": "21:25:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:29:6",
+      "21:29:7"
+    ],
+    "expression_origins": [
+      "21:29:6"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "21:29:7"
+      },
+      {
+        "text": "'ndan",
+        "role": "21:29:6"
+      },
+      {
+        "text": " başka",
+        "role": "21:29:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:34:4",
+      "21:34:5"
+    ],
+    "expression_origins": [
+      "21:34:4"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "21:34:5"
+      },
+      {
+        "text": "den",
+        "role": "21:34:4"
+      },
+      {
+        "text": " önce",
+        "role": "21:34:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:41:4",
+      "21:41:5"
+    ],
+    "expression_origins": [
+      "21:41:4"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "21:41:5"
+      },
+      {
+        "text": "den",
+        "role": "21:41:4"
+      },
+      {
+        "text": " önceki",
+        "role": "21:41:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:51:5",
+      "21:51:6"
+    ],
+    "expression_origins": [
+      "21:51:5"
+    ],
+    "parts": [
+      {
+        "text": "daha önce",
+        "role": "21:51:6"
+      },
+      {
+        "text": "den",
+        "role": "21:51:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:76:4",
+      "21:76:5"
+    ],
+    "expression_origins": [
+      "21:76:4"
+    ],
+    "parts": [
+      {
+        "text": "bunlar",
+        "role": "21:76:5"
+      },
+      {
+        "text": "dan",
+        "role": "21:76:4"
+      },
+      {
+        "text": " önce",
+        "role": "21:76:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "21:98:4",
+      "21:98:5",
+      "21:98:6"
+    ],
+    "expression_origins": [
+      "21:98:6",
+      "21:98:4"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "21:98:6"
+      },
+      {
+        "text": "'tan",
+        "role": "21:98:4"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "21:98:5"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "22:12:2",
+      "22:12:3",
+      "22:12:4"
+    ],
+    "expression_origins": [
+      "22:12:4",
+      "22:12:2"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "22:12:4"
+      },
+      {
+        "text": "'tan",
+        "role": "22:12:2"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "ayrı olarak",
+        "role": "22:12:3"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "22:52:3",
+      "22:52:4"
+    ],
+    "expression_origins": [
+      "22:52:3"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "22:52:4"
+      },
+      {
+        "text": "den",
+        "role": "22:52:3"
+      },
+      {
+        "text": " önce",
+        "role": "22:52:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "22:62:9",
+      "22:62:10"
+    ],
+    "expression_origins": [
+      "22:62:9"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "22:62:10"
+      },
+      {
+        "text": "'ndan",
+        "role": "22:62:9"
+      },
+      {
+        "text": " başka",
+        "role": "22:62:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "22:73:10",
+      "22:73:11",
+      "22:73:12"
+    ],
+    "expression_origins": [
+      "22:73:12",
+      "22:73:10"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "22:73:12"
+      },
+      {
+        "text": "'tan",
+        "role": "22:73:10"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "22:73:11"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "22:78:21",
+      "22:78:22"
+    ],
+    "expression_origins": [
+      "22:78:21"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "22:78:22"
+      },
+      {
+        "text": "ndan",
+        "role": "22:78:21"
+      },
+      {
+        "text": " önce",
+        "role": "22:78:22"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "23:31:3",
+      "23:31:4"
+    ],
+    "expression_origins": [
+      "23:31:3"
+    ],
+    "parts": [
+      {
+        "text": "onların ardı",
+        "role": "23:31:4"
+      },
+      {
+        "text": "ndan",
+        "role": "23:31:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "23:42:3",
+      "23:42:4"
+    ],
+    "expression_origins": [
+      "23:42:3"
+    ],
+    "parts": [
+      {
+        "text": "onların ardı",
+        "role": "23:42:4"
+      },
+      {
+        "text": "ndan",
+        "role": "23:42:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "23:63:9",
+      "23:63:10",
+      "23:63:11"
+    ],
+    "expression_origins": [
+      "23:63:11",
+      "23:63:9"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "23:63:11"
+      },
+      {
+        "text": "ndan",
+        "role": "23:63:9"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "23:63:10"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "23:83:6",
+      "23:83:7"
+    ],
+    "expression_origins": [
+      "23:83:6"
+    ],
+    "parts": [
+      {
+        "text": "biz",
+        "role": "23:83:7"
+      },
+      {
+        "text": "den",
+        "role": "23:83:6"
+      },
+      {
+        "text": " önce",
+        "role": "23:83:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "24:34:10",
+      "24:34:11"
+    ],
+    "expression_origins": [
+      "24:34:10"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "24:34:11"
+      },
+      {
+        "text": "den",
+        "role": "24:34:10"
+      },
+      {
+        "text": " önce",
+        "role": "24:34:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "24:47:10",
+      "24:47:11"
+    ],
+    "expression_origins": [
+      "24:47:10"
+    ],
+    "parts": [
+      {
+        "text": "ardı",
+        "role": "24:47:11"
+      },
+      {
+        "text": "ndan",
+        "role": "24:47:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "24:55:14",
+      "24:55:15"
+    ],
+    "expression_origins": [
+      "24:55:14"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "24:55:15"
+      },
+      {
+        "text": "dan",
+        "role": "24:55:14"
+      },
+      {
+        "text": " önceki",
+        "role": "24:55:15"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "24:55:23",
+      "24:55:24"
+    ],
+    "expression_origins": [
+      "24:55:23"
+    ],
+    "parts": [
+      {
+        "text": "ardı",
+        "role": "24:55:24"
+      },
+      {
+        "text": "ndan",
+        "role": "24:55:23"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "24:59:10",
+      "24:59:11"
+    ],
+    "expression_origins": [
+      "24:59:10"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "24:59:11"
+      },
+      {
+        "text": "nden",
+        "role": "24:59:10"
+      },
+      {
+        "text": " önceki",
+        "role": "24:59:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "25:3:2",
+      "25:3:3"
+    ],
+    "expression_origins": [
+      "25:3:2"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "25:3:3"
+      },
+      {
+        "text": "'ndan",
+        "role": "25:3:2"
+      },
+      {
+        "text": " ayrı olarak",
+        "role": "25:3:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "25:17:5",
+      "25:17:6",
+      "25:17:7"
+    ],
+    "expression_origins": [
+      "25:17:7",
+      "25:17:5"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "25:17:7"
+      },
+      {
+        "text": "'tan",
+        "role": "25:17:5"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "25:17:6"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "25:18:9",
+      "25:18:10"
+    ],
+    "expression_origins": [
+      "25:18:9"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "25:18:10"
+      },
+      {
+        "text": "den",
+        "role": "25:18:9"
+      },
+      {
+        "text": " başka",
+        "role": "25:18:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "25:55:2",
+      "25:55:3",
+      "25:55:4"
+    ],
+    "expression_origins": [
+      "25:55:4",
+      "25:55:2"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "25:55:4"
+      },
+      {
+        "text": "'tan",
+        "role": "25:55:2"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "25:55:3"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "26:93:1",
+      "26:93:2",
+      "26:93:3"
+    ],
+    "expression_origins": [
+      "26:93:3",
+      "26:93:1"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "26:93:3"
+      },
+      {
+        "text": "'tan",
+        "role": "26:93:1"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başkası",
+        "role": "26:93:2"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "27:43:5",
+      "27:43:6",
+      "27:43:7"
+    ],
+    "expression_origins": [
+      "27:43:7",
+      "27:43:5"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "27:43:7"
+      },
+      {
+        "text": "'tan",
+        "role": "27:43:5"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "27:43:6"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "27:68:6",
+      "27:68:7"
+    ],
+    "expression_origins": [
+      "27:68:6"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "27:68:7"
+      },
+      {
+        "text": "den",
+        "role": "27:68:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "28:46:17",
+      "28:46:18"
+    ],
+    "expression_origins": [
+      "28:46:17"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "28:46:18"
+      },
+      {
+        "text": "den",
+        "role": "28:46:17"
+      },
+      {
+        "text": " önce",
+        "role": "28:46:18"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "28:52:4",
+      "28:52:5"
+    ],
+    "expression_origins": [
+      "28:52:4"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "28:52:5"
+      },
+      {
+        "text": "ndan",
+        "role": "28:52:4"
+      },
+      {
+        "text": " önce",
+        "role": "28:52:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "28:53:13",
+      "28:53:14"
+    ],
+    "expression_origins": [
+      "28:53:13"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "28:53:14"
+      },
+      {
+        "text": "ndan",
+        "role": "28:53:13"
+      },
+      {
+        "text": " önce de",
+        "role": "28:53:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "28:58:11",
+      "28:58:12"
+    ],
+    "expression_origins": [
+      "28:58:11"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "28:58:12"
+      },
+      {
+        "text": "dan",
+        "role": "28:58:11"
+      },
+      {
+        "text": " sonra",
+        "role": "28:58:12"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "28:78:13",
+      "28:78:14"
+    ],
+    "expression_origins": [
+      "28:78:13"
+    ],
+    "parts": [
+      {
+        "text": "kendisi",
+        "role": "28:78:14"
+      },
+      {
+        "text": "nden",
+        "role": "28:78:13"
+      },
+      {
+        "text": " önceki",
+        "role": "28:78:14"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:3:4",
+      "29:3:5"
+    ],
+    "expression_origins": [
+      "29:3:4"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "29:3:5"
+      },
+      {
+        "text": "dan",
+        "role": "29:3:4"
+      },
+      {
+        "text": " öncekilerden",
+        "role": "29:3:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:17:3",
+      "29:17:4",
+      "29:17:5"
+    ],
+    "expression_origins": [
+      "29:17:5",
+      "29:17:3"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "29:17:5"
+      },
+      {
+        "text": "'tan",
+        "role": "29:17:3"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "29:17:4"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:17:12",
+      "29:17:13",
+      "29:17:14"
+    ],
+    "expression_origins": [
+      "29:17:14",
+      "29:17:12"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "29:17:14"
+      },
+      {
+        "text": "'tan",
+        "role": "29:17:12"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "29:17:13"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:18:6",
+      "29:18:7"
+    ],
+    "expression_origins": [
+      "29:18:6"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "29:18:7"
+      },
+      {
+        "text": "den",
+        "role": "29:18:6"
+      },
+      {
+        "text": " önceki",
+        "role": "29:18:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:22:11",
+      "29:22:12",
+      "29:22:13"
+    ],
+    "expression_origins": [
+      "29:22:13",
+      "29:22:11"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "29:22:13"
+      },
+      {
+        "text": "'tan",
+        "role": "29:22:11"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "29:22:12"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:41:4",
+      "29:41:5",
+      "29:41:6"
+    ],
+    "expression_origins": [
+      "29:41:6",
+      "29:41:4"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "29:41:6"
+      },
+      {
+        "text": "'tan",
+        "role": "29:41:4"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "29:41:5"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:42:6",
+      "29:42:7"
+    ],
+    "expression_origins": [
+      "29:42:6"
+    ],
+    "parts": [
+      {
+        "text": "kendisi",
+        "role": "29:42:7"
+      },
+      {
+        "text": "nden",
+        "role": "29:42:6"
+      },
+      {
+        "text": " başka",
+        "role": "29:42:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "29:48:4",
+      "29:48:5"
+    ],
+    "expression_origins": [
+      "29:48:4"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "29:48:5"
+      },
+      {
+        "text": "ndan",
+        "role": "29:48:4"
+      },
+      {
+        "text": " önce",
+        "role": "29:48:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "30:9:10",
+      "30:9:11"
+    ],
+    "expression_origins": [
+      "30:9:10"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "30:9:11"
+      },
+      {
+        "text": "nden",
+        "role": "30:9:10"
+      },
+      {
+        "text": " önceki",
+        "role": "30:9:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "30:47:3",
+      "30:47:4"
+    ],
+    "expression_origins": [
+      "30:47:3"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "30:47:4"
+      },
+      {
+        "text": "den",
+        "role": "30:47:3"
+      },
+      {
+        "text": " önce",
+        "role": "30:47:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "30:49:3",
+      "30:49:4"
+    ],
+    "expression_origins": [
+      "30:49:3"
+    ],
+    "parts": [
+      {
+        "text": "daha önce",
+        "role": "30:49:4"
+      },
+      {
+        "text": "den",
+        "role": "30:49:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "30:51:7",
+      "30:51:8"
+    ],
+    "expression_origins": [
+      "30:51:7"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "30:51:8"
+      },
+      {
+        "text": "ndan",
+        "role": "30:51:7"
+      },
+      {
+        "text": " sonra",
+        "role": "30:51:8"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "30:54:8",
+      "30:54:9"
+    ],
+    "expression_origins": [
+      "30:54:8"
+    ],
+    "parts": [
+      {
+        "text": "ardı",
+        "role": "30:54:9"
+      },
+      {
+        "text": "ndan",
+        "role": "30:54:8"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "31:11:8",
+      "31:11:9"
+    ],
+    "expression_origins": [
+      "31:11:8"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "31:11:9"
+      },
+      {
+        "text": "'ndan",
+        "role": "31:11:8"
+      },
+      {
+        "text": " başka",
+        "role": "31:11:9"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "31:27:10",
+      "31:27:11"
+    ],
+    "expression_origins": [
+      "31:27:10"
+    ],
+    "parts": [
+      {
+        "text": "arkası",
+        "role": "31:27:11"
+      },
+      {
+        "text": "ndan",
+        "role": "31:27:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "31:30:9",
+      "31:30:10"
+    ],
+    "expression_origins": [
+      "31:30:9"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "31:30:10"
+      },
+      {
+        "text": "'ndan",
+        "role": "31:30:9"
+      },
+      {
+        "text": " başka",
+        "role": "31:30:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "32:3:15",
+      "32:3:16"
+    ],
+    "expression_origins": [
+      "32:3:15"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "32:3:16"
+      },
+      {
+        "text": "den",
+        "role": "32:3:15"
+      },
+      {
+        "text": " önce",
+        "role": "32:3:16"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "32:4:17",
+      "32:4:18"
+    ],
+    "expression_origins": [
+      "32:4:17"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "32:4:18"
+      },
+      {
+        "text": "'ndan",
+        "role": "32:4:17"
+      },
+      {
+        "text": " başka",
+        "role": "32:4:18"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "33:17:19",
+      "33:17:20",
+      "33:17:21"
+    ],
+    "expression_origins": [
+      "33:17:21",
+      "33:17:19"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "33:17:21"
+      },
+      {
+        "text": "'tan",
+        "role": "33:17:19"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "33:17:20"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "33:38:16",
+      "33:38:17"
+    ],
+    "expression_origins": [
+      "33:38:16"
+    ],
+    "parts": [
+      {
+        "text": "siz",
+        "role": "33:38:17"
+      },
+      {
+        "text": "den",
+        "role": "33:38:16"
+      },
+      {
+        "text": " önce",
+        "role": "33:38:17"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "33:52:5",
+      "33:52:6"
+    ],
+    "expression_origins": [
+      "33:52:5"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "33:52:6"
+      },
+      {
+        "text": "ndan",
+        "role": "33:52:5"
+      },
+      {
+        "text": " sonra",
+        "role": "33:52:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "33:53:61",
+      "33:53:62"
+    ],
+    "expression_origins": [
+      "33:53:61"
+    ],
+    "parts": [
+      {
+        "text": "kendisi",
+        "role": "33:53:62"
+      },
+      {
+        "text": "nden",
+        "role": "33:53:61"
+      },
+      {
+        "text": " sonra",
+        "role": "33:53:62"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "33:62:6",
+      "33:62:7"
+    ],
+    "expression_origins": [
+      "33:62:6"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "33:62:7"
+      },
+      {
+        "text": "den",
+        "role": "33:62:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "34:22:5",
+      "34:22:6",
+      "34:22:7"
+    ],
+    "expression_origins": [
+      "34:22:7",
+      "34:22:5"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "34:22:7"
+      },
+      {
+        "text": "'tan",
+        "role": "34:22:5"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "34:22:6"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "34:45:3",
+      "34:45:4"
+    ],
+    "expression_origins": [
+      "34:45:3"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "34:45:4"
+      },
+      {
+        "text": "dan",
+        "role": "34:45:3"
+      },
+      {
+        "text": " önceki[ler]",
+        "role": "34:45:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "34:54:9",
+      "34:54:10"
+    ],
+    "expression_origins": [
+      "34:54:9"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "34:54:10"
+      },
+      {
+        "text": "ndan",
+        "role": "34:54:9"
+      },
+      {
+        "text": " önce",
+        "role": "34:54:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "35:1:21",
+      "35:1:22",
+      "35:1:23"
+    ],
+    "expression_origins": [
+      "35:1:21",
+      "35:1:23"
+    ],
+    "parts": [
+      {
+        "text": "her",
+        "role": "35:1:22"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "şey",
+        "role": "35:1:23"
+      },
+      {
+        "text": "i",
+        "role": "35:1:21"
+      }
+    ],
+    "reason": "Separate the quantifier, noun, and case ending of the existing 'her şey' expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "35:4:6",
+      "35:4:7"
+    ],
+    "expression_origins": [
+      "35:4:6"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "35:4:7"
+      },
+      {
+        "text": "den",
+        "role": "35:4:6"
+      },
+      {
+        "text": " önceki",
+        "role": "35:4:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "35:13:23",
+      "35:13:24"
+    ],
+    "expression_origins": [
+      "35:13:23"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "35:13:24"
+      },
+      {
+        "text": "'ndan",
+        "role": "35:13:23"
+      },
+      {
+        "text": " başka",
+        "role": "35:13:24"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "35:25:6",
+      "35:25:7"
+    ],
+    "expression_origins": [
+      "35:25:6"
+    ],
+    "parts": [
+      {
+        "text": "bunlar",
+        "role": "35:25:7"
+      },
+      {
+        "text": "dan",
+        "role": "35:25:6"
+      },
+      {
+        "text": " önceki",
+        "role": "35:25:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "35:40:6",
+      "35:40:7",
+      "35:40:8"
+    ],
+    "expression_origins": [
+      "35:40:8",
+      "35:40:6"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "35:40:8"
+      },
+      {
+        "text": "'tan",
+        "role": "35:40:6"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "35:40:7"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "35:41:14",
+      "35:41:15"
+    ],
+    "expression_origins": [
+      "35:41:14"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "35:41:15"
+      },
+      {
+        "text": "ndan",
+        "role": "35:41:14"
+      },
+      {
+        "text": " sonra",
+        "role": "35:41:15"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "35:44:10",
+      "35:44:11"
+    ],
+    "expression_origins": [
+      "35:44:10"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "35:44:11"
+      },
+      {
+        "text": "nden",
+        "role": "35:44:10"
+      },
+      {
+        "text": " önceki",
+        "role": "35:44:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "36:23:2",
+      "36:23:3"
+    ],
+    "expression_origins": [
+      "36:23:2"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "36:23:3"
+      },
+      {
+        "text": "'ndan",
+        "role": "36:23:2"
+      },
+      {
+        "text": " başka",
+        "role": "36:23:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "36:28:5",
+      "36:28:6"
+    ],
+    "expression_origins": [
+      "36:28:5"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "36:28:6"
+      },
+      {
+        "text": "ndan",
+        "role": "36:28:5"
+      },
+      {
+        "text": " sonra",
+        "role": "36:28:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "36:74:2",
+      "36:74:3",
+      "36:74:4"
+    ],
+    "expression_origins": [
+      "36:74:4",
+      "36:74:2"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "36:74:4"
+      },
+      {
+        "text": "'tan",
+        "role": "36:74:2"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "36:74:3"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "37:23:1",
+      "37:23:2",
+      "37:23:3"
+    ],
+    "expression_origins": [
+      "37:23:3",
+      "37:23:1"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "37:23:3"
+      },
+      {
+        "text": "'tan",
+        "role": "37:23:1"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "37:23:2"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "38:3:3",
+      "38:3:4"
+    ],
+    "expression_origins": [
+      "38:3:3"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "38:3:4"
+      },
+      {
+        "text": "dan",
+        "role": "38:3:3"
+      },
+      {
+        "text": " önceki",
+        "role": "38:3:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "38:35:11",
+      "38:35:12"
+    ],
+    "expression_origins": [
+      "38:35:11"
+    ],
+    "parts": [
+      {
+        "text": "ben",
+        "role": "38:35:12"
+      },
+      {
+        "text": "den",
+        "role": "38:35:11"
+      },
+      {
+        "text": " sonra",
+        "role": "38:35:12"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:3:7",
+      "39:3:8"
+    ],
+    "expression_origins": [
+      "39:3:7"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "39:3:8"
+      },
+      {
+        "text": "'ndan",
+        "role": "39:3:7"
+      },
+      {
+        "text": " başka",
+        "role": "39:3:8"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:8:19",
+      "39:8:20"
+    ],
+    "expression_origins": [
+      "39:8:19"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "39:8:20"
+      },
+      {
+        "text": "den",
+        "role": "39:8:19"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:15:4",
+      "39:15:5"
+    ],
+    "expression_origins": [
+      "39:15:4"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "39:15:5"
+      },
+      {
+        "text": "'ndan",
+        "role": "39:15:4"
+      },
+      {
+        "text": " başka",
+        "role": "39:15:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:25:3",
+      "39:25:4"
+    ],
+    "expression_origins": [
+      "39:25:3"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "39:25:4"
+      },
+      {
+        "text": "dan",
+        "role": "39:25:3"
+      },
+      {
+        "text": " öncekiler",
+        "role": "39:25:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:36:7",
+      "39:36:8"
+    ],
+    "expression_origins": [
+      "39:36:7"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "39:36:8"
+      },
+      {
+        "text": "'ndan",
+        "role": "39:36:7"
+      },
+      {
+        "text": " başka",
+        "role": "39:36:8"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:38:13",
+      "39:38:14",
+      "39:38:15"
+    ],
+    "expression_origins": [
+      "39:38:15",
+      "39:38:13"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "39:38:15"
+      },
+      {
+        "text": "'tan",
+        "role": "39:38:13"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "39:38:14"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:45:14",
+      "39:45:15"
+    ],
+    "expression_origins": [
+      "39:45:14"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "39:45:15"
+      },
+      {
+        "text": "'ndan",
+        "role": "39:45:14"
+      },
+      {
+        "text": " başka",
+        "role": "39:45:15"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:50:4",
+      "39:50:5"
+    ],
+    "expression_origins": [
+      "39:50:4"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "39:50:5"
+      },
+      {
+        "text": "dan",
+        "role": "39:50:4"
+      },
+      {
+        "text": " öncekiler",
+        "role": "39:50:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "39:65:6",
+      "39:65:7"
+    ],
+    "expression_origins": [
+      "39:65:6"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "39:65:7"
+      },
+      {
+        "text": "den",
+        "role": "39:65:6"
+      },
+      {
+        "text": " önceki",
+        "role": "39:65:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:5:6",
+      "40:5:7"
+    ],
+    "expression_origins": [
+      "40:5:6"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "40:5:7"
+      },
+      {
+        "text": "dan",
+        "role": "40:5:6"
+      },
+      {
+        "text": " sonraki",
+        "role": "40:5:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:20:6",
+      "40:20:7"
+    ],
+    "expression_origins": [
+      "40:20:6"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "40:20:7"
+      },
+      {
+        "text": "'ndan",
+        "role": "40:20:6"
+      },
+      {
+        "text": " başka",
+        "role": "40:20:7"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:21:11",
+      "40:21:12"
+    ],
+    "expression_origins": [
+      "40:21:11"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "40:21:12"
+      },
+      {
+        "text": "nden",
+        "role": "40:21:11"
+      },
+      {
+        "text": " önceki",
+        "role": "40:21:12"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:31:8",
+      "40:31:9"
+    ],
+    "expression_origins": [
+      "40:31:8"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "40:31:9"
+      },
+      {
+        "text": "dan",
+        "role": "40:31:8"
+      },
+      {
+        "text": " sonrakilerin",
+        "role": "40:31:9"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:34:21",
+      "40:34:22"
+    ],
+    "expression_origins": [
+      "40:34:21"
+    ],
+    "parts": [
+      {
+        "text": "o",
+        "role": "40:34:22"
+      },
+      {
+        "text": "ndan",
+        "role": "40:34:21"
+      },
+      {
+        "text": " sonra",
+        "role": "40:34:22"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:66:8",
+      "40:66:9",
+      "40:66:10"
+    ],
+    "expression_origins": [
+      "40:66:10",
+      "40:66:8"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "40:66:10"
+      },
+      {
+        "text": "'tan",
+        "role": "40:66:8"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "40:66:9"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:74:11",
+      "40:74:12"
+    ],
+    "expression_origins": [
+      "40:74:11"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "40:74:12"
+      },
+      {
+        "text": "den",
+        "role": "40:74:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:78:4",
+      "40:78:5"
+    ],
+    "expression_origins": [
+      "40:78:4"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "40:78:5"
+      },
+      {
+        "text": "den",
+        "role": "40:78:4"
+      },
+      {
+        "text": " önce de",
+        "role": "40:78:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "40:82:10",
+      "40:82:11"
+    ],
+    "expression_origins": [
+      "40:82:10"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "40:82:11"
+      },
+      {
+        "text": "nden",
+        "role": "40:82:10"
+      },
+      {
+        "text": " önceki",
+        "role": "40:82:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "41:25:18",
+      "41:25:19"
+    ],
+    "expression_origins": [
+      "41:25:18"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "41:25:19"
+      },
+      {
+        "text": "nden",
+        "role": "41:25:18"
+      },
+      {
+        "text": " önce",
+        "role": "41:25:19"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "41:43:9",
+      "41:43:10"
+    ],
+    "expression_origins": [
+      "41:43:9"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "41:43:10"
+      },
+      {
+        "text": "den",
+        "role": "41:43:9"
+      },
+      {
+        "text": " önceki",
+        "role": "41:43:10"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "41:48:6",
+      "41:48:7"
+    ],
+    "expression_origins": [
+      "41:48:6"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "41:48:7"
+      },
+      {
+        "text": "den",
+        "role": "41:48:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "42:6:3",
+      "42:6:4"
+    ],
+    "expression_origins": [
+      "42:6:3"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "42:6:4"
+      },
+      {
+        "text": "'ndan",
+        "role": "42:6:3"
+      },
+      {
+        "text": " başka",
+        "role": "42:6:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "42:9:3",
+      "42:9:4"
+    ],
+    "expression_origins": [
+      "42:9:3"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "42:9:4"
+      },
+      {
+        "text": "'ndan",
+        "role": "42:9:3"
+      },
+      {
+        "text": " başka",
+        "role": "42:9:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "42:14:25",
+      "42:14:26"
+    ],
+    "expression_origins": [
+      "42:14:25"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "42:14:26"
+      },
+      {
+        "text": "dan",
+        "role": "42:14:25"
+      },
+      {
+        "text": " sonra",
+        "role": "42:14:26"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "42:31:8",
+      "42:31:9",
+      "42:31:10"
+    ],
+    "expression_origins": [
+      "42:31:10",
+      "42:31:8"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "42:31:10"
+      },
+      {
+        "text": "'tan",
+        "role": "42:31:8"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "42:31:9"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "42:44:8",
+      "42:44:9"
+    ],
+    "expression_origins": [
+      "42:44:8"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "42:44:9"
+      },
+      {
+        "text": "'ndan",
+        "role": "42:44:8"
+      },
+      {
+        "text": " sonra",
+        "role": "42:44:9"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "42:46:7",
+      "42:46:8",
+      "42:46:9"
+    ],
+    "expression_origins": [
+      "42:46:9",
+      "42:46:7"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "42:46:9"
+      },
+      {
+        "text": "'tan",
+        "role": "42:46:7"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "42:46:8"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "43:21:4",
+      "43:21:5"
+    ],
+    "expression_origins": [
+      "43:21:4"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "43:21:5"
+      },
+      {
+        "text": "ndan",
+        "role": "43:21:4"
+      },
+      {
+        "text": " önce",
+        "role": "43:21:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "43:23:4",
+      "43:23:5"
+    ],
+    "expression_origins": [
+      "43:23:4"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "43:23:5"
+      },
+      {
+        "text": "den",
+        "role": "43:23:4"
+      },
+      {
+        "text": " önce",
+        "role": "43:23:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "43:45:4",
+      "43:45:5"
+    ],
+    "expression_origins": [
+      "43:45:4"
+    ],
+    "parts": [
+      {
+        "text": "sen",
+        "role": "43:45:5"
+      },
+      {
+        "text": "den",
+        "role": "43:45:4"
+      },
+      {
+        "text": " önce",
+        "role": "43:45:5"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "43:45:9",
+      "43:45:10",
+      "43:45:11"
+    ],
+    "expression_origins": [
+      "43:45:11",
+      "43:45:9"
+    ],
+    "parts": [
+      {
+        "text": "Rahman",
+        "role": "43:45:11"
+      },
+      {
+        "text": "'dan",
+        "role": "43:45:9"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "43:45:10"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "43:86:5",
+      "43:86:6"
+    ],
+    "expression_origins": [
+      "43:86:5"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "43:86:6"
+      },
+      {
+        "text": "'ndan",
+        "role": "43:86:5"
+      },
+      {
+        "text": " başka",
+        "role": "43:86:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "44:37:7",
+      "44:37:8"
+    ],
+    "expression_origins": [
+      "44:37:7"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "44:37:8"
+      },
+      {
+        "text": "dan",
+        "role": "44:37:7"
+      },
+      {
+        "text": " öncekiler [mi?]",
+        "role": "44:37:8"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "45:10:13",
+      "45:10:14",
+      "45:10:15"
+    ],
+    "expression_origins": [
+      "45:10:15",
+      "45:10:13"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "45:10:15"
+      },
+      {
+        "text": "'tan",
+        "role": "45:10:13"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "45:10:14"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "46:4:5",
+      "46:4:6",
+      "46:4:7"
+    ],
+    "expression_origins": [
+      "46:4:7",
+      "46:4:5"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "46:4:7"
+      },
+      {
+        "text": "'tan",
+        "role": "46:4:5"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "46:4:6"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "46:17:12",
+      "46:17:13"
+    ],
+    "expression_origins": [
+      "46:17:12"
+    ],
+    "parts": [
+      {
+        "text": "ben",
+        "role": "46:17:13"
+      },
+      {
+        "text": "den",
+        "role": "46:17:12"
+      },
+      {
+        "text": " önce",
+        "role": "46:17:13"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "46:18:10",
+      "46:18:11"
+    ],
+    "expression_origins": [
+      "46:18:10"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "46:18:11"
+      },
+      {
+        "text": "nden",
+        "role": "46:18:10"
+      },
+      {
+        "text": " önce",
+        "role": "46:18:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "46:21:11",
+      "46:21:12"
+    ],
+    "expression_origins": [
+      "46:21:11"
+    ],
+    "parts": [
+      {
+        "text": "onun önü",
+        "role": "46:21:12"
+      },
+      {
+        "text": "nden",
+        "role": "46:21:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "46:32:12",
+      "46:32:13"
+    ],
+    "expression_origins": [
+      "46:32:12"
+    ],
+    "parts": [
+      {
+        "text": "O",
+        "role": "46:32:13"
+      },
+      {
+        "text": "'ndan",
+        "role": "46:32:12"
+      },
+      {
+        "text": " başka",
+        "role": "46:32:13"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "47:10:10",
+      "47:10:11"
+    ],
+    "expression_origins": [
+      "47:10:10"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "47:10:11"
+      },
+      {
+        "text": "nden",
+        "role": "47:10:10"
+      },
+      {
+        "text": " önceki",
+        "role": "47:10:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "48:15:21",
+      "48:15:22"
+    ],
+    "expression_origins": [
+      "48:15:21"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "48:15:22"
+      },
+      {
+        "text": "den",
+        "role": "48:15:21"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "48:16:24",
+      "48:16:25"
+    ],
+    "expression_origins": [
+      "48:16:24"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "48:16:25"
+      },
+      {
+        "text": "den",
+        "role": "48:16:24"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "48:27:24",
+      "48:27:25",
+      "48:27:26"
+    ],
+    "expression_origins": [
+      "48:27:26",
+      "48:27:24"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "48:27:26"
+      },
+      {
+        "text": "ndan",
+        "role": "48:27:24"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "48:27:25"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "51:52:5",
+      "51:52:6"
+    ],
+    "expression_origins": [
+      "51:52:5"
+    ],
+    "parts": [
+      {
+        "text": "onlar",
+        "role": "51:52:6"
+      },
+      {
+        "text": "dan",
+        "role": "51:52:5"
+      },
+      {
+        "text": " önce",
+        "role": "51:52:6"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "52:28:3",
+      "52:28:4"
+    ],
+    "expression_origins": [
+      "52:28:3"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "52:28:4"
+      },
+      {
+        "text": "ndan",
+        "role": "52:28:3"
+      },
+      {
+        "text": " önce",
+        "role": "52:28:4"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "53:52:3",
+      "53:52:4"
+    ],
+    "expression_origins": [
+      "53:52:3"
+    ],
+    "parts": [
+      {
+        "text": "önce",
+        "role": "53:52:4"
+      },
+      {
+        "text": "den",
+        "role": "53:52:3"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "53:58:3",
+      "53:58:4",
+      "53:58:5"
+    ],
+    "expression_origins": [
+      "53:58:5",
+      "53:58:3"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "53:58:5"
+      },
+      {
+        "text": "'tan",
+        "role": "53:58:3"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "53:58:4"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "57:10:27",
+      "57:10:28"
+    ],
+    "expression_origins": [
+      "57:10:27"
+    ],
+    "parts": [
+      {
+        "text": "sonra",
+        "role": "57:10:28"
+      },
+      {
+        "text": "dan",
+        "role": "57:10:27"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "57:16:19",
+      "57:16:20"
+    ],
+    "expression_origins": [
+      "57:16:19"
+    ],
+    "parts": [
+      {
+        "text": "bu",
+        "role": "57:16:20"
+      },
+      {
+        "text": "ndan",
+        "role": "57:16:19"
+      },
+      {
+        "text": " önce",
+        "role": "57:16:20"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "58:5:10",
+      "58:5:11"
+    ],
+    "expression_origins": [
+      "58:5:10"
+    ],
+    "parts": [
+      {
+        "text": "kendileri",
+        "role": "58:5:11"
+      },
+      {
+        "text": "nden",
+        "role": "58:5:10"
+      },
+      {
+        "text": " önceki",
+        "role": "58:5:11"
+      }
+    ],
+    "reason": "Repeated temporal/besides glosses: expose the overt ablative ending while preserving the complete existing phrase.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "60:4:18",
+      "60:4:19",
+      "60:4:20"
+    ],
+    "expression_origins": [
+      "60:4:20",
+      "60:4:18"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "60:4:20"
+      },
+      {
+        "text": "'tan",
+        "role": "60:4:18"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "60:4:19"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "71:25:9",
+      "71:25:10",
+      "71:25:11"
+    ],
+    "expression_origins": [
+      "71:25:11",
+      "71:25:9"
+    ],
+    "parts": [
+      {
+        "text": "Allah",
+        "role": "71:25:11"
+      },
+      {
+        "text": "'tan",
+        "role": "71:25:9"
+      },
+      {
+        "text": " ",
+        "role": "context"
+      },
+      {
+        "text": "başka",
+        "role": "71:25:10"
+      }
+    ],
+    "reason": "The ablative ending is stored on the later noun; share the full noun + case + postposition expression.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "3:165:12",
+      "3:165:13",
+      "3:165:14"
+    ],
+    "expression_origins": [
+      "3:165:12"
+    ],
+    "parts": [
+      {
+        "text": "kendiniz",
+        "role": "3:165:14"
+      },
+      {
+        "text": "den",
+        "role": "3:165:13"
+      },
+      {
+        "text": "dir",
+        "role": "3:165:12"
+      }
+    ],
+    "reason": "Reviewed three-entry copula_case construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "14:12:11",
+      "14:12:12",
+      "14:12:13"
+    ],
+    "expression_origins": [
+      "14:12:11"
+    ],
+    "parts": [
+      {
+        "text": "bize yap",
+        "role": "14:12:13"
+      },
+      {
+        "text": "tığ",
+        "role": "14:12:12"
+      },
+      {
+        "text": "ınız eziyetler",
+        "role": "14:12:13"
+      },
+      {
+        "text": "e",
+        "role": "14:12:11"
+      }
+    ],
+    "reason": "Reviewed three-entry case_clause construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "15:88:4",
+      "15:88:5",
+      "15:88:6"
+    ],
+    "expression_origins": [
+      "15:88:4"
+    ],
+    "parts": [
+      {
+        "text": "ver",
+        "role": "15:88:6"
+      },
+      {
+        "text": "diğ",
+        "role": "15:88:5"
+      },
+      {
+        "text": "imiz dünyalığ",
+        "role": "15:88:6"
+      },
+      {
+        "text": "a",
+        "role": "15:88:4"
+      }
+    ],
+    "reason": "Reviewed three-entry case_clause construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "17:73:4",
+      "17:73:5",
+      "17:73:6"
+    ],
+    "expression_origins": [
+      "17:73:4"
+    ],
+    "parts": [
+      {
+        "text": "vahyet",
+        "role": "17:73:6"
+      },
+      {
+        "text": "tiğ",
+        "role": "17:73:5"
+      },
+      {
+        "text": "imiz",
+        "role": "17:73:6"
+      },
+      {
+        "text": "den",
+        "role": "17:73:4"
+      }
+    ],
+    "reason": "Reviewed three-entry case_clause construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "24:43:31",
+      "24:43:32",
+      "24:43:33"
+    ],
+    "expression_origins": [
+      "24:43:31"
+    ],
+    "parts": [
+      {
+        "text": "dile",
+        "role": "24:43:33"
+      },
+      {
+        "text": "diğ",
+        "role": "24:43:32"
+      },
+      {
+        "text": "i",
+        "role": "24:43:33"
+      },
+      {
+        "text": "nden",
+        "role": "24:43:31"
+      }
+    ],
+    "reason": "Reviewed three-entry case_clause construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "17:99:10",
+      "17:99:11",
+      "17:99:12"
+    ],
+    "expression_origins": [
+      "17:99:10"
+    ],
+    "parts": [
+      {
+        "text": "yarat",
+        "role": "17:99:12"
+      },
+      {
+        "text": "mağ",
+        "role": "17:99:11"
+      },
+      {
+        "text": "a",
+        "role": "17:99:10"
+      },
+      {
+        "text": " da",
+        "role": "17:99:12"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "23:95:2",
+      "23:95:3",
+      "23:95:4"
+    ],
+    "expression_origins": [
+      "23:95:2"
+    ],
+    "parts": [
+      {
+        "text": "sana göster",
+        "role": "23:95:4"
+      },
+      {
+        "text": "meğ",
+        "role": "23:95:3"
+      },
+      {
+        "text": "e",
+        "role": "23:95:2"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "36:81:7",
+      "36:81:8",
+      "36:81:9"
+    ],
+    "expression_origins": [
+      "36:81:7"
+    ],
+    "parts": [
+      {
+        "text": "yarat",
+        "role": "36:81:9"
+      },
+      {
+        "text": "ma",
+        "role": "36:81:8"
+      },
+      {
+        "text": "ya",
+        "role": "36:81:7"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "46:33:13",
+      "46:33:14",
+      "46:33:15"
+    ],
+    "expression_origins": [
+      "46:33:13"
+    ],
+    "parts": [
+      {
+        "text": "dirilt",
+        "role": "46:33:15"
+      },
+      {
+        "text": "meğ",
+        "role": "46:33:14"
+      },
+      {
+        "text": "e",
+        "role": "46:33:13"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "70:41:1",
+      "70:41:2",
+      "70:41:3"
+    ],
+    "expression_origins": [
+      "70:41:1"
+    ],
+    "parts": [
+      {
+        "text": "onları değiştir",
+        "role": "70:41:3"
+      },
+      {
+        "text": "meğ",
+        "role": "70:41:2"
+      },
+      {
+        "text": "e",
+        "role": "70:41:1"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "75:4:3",
+      "75:4:4",
+      "75:4:5"
+    ],
+    "expression_origins": [
+      "75:4:3"
+    ],
+    "parts": [
+      {
+        "text": "düzenle",
+        "role": "75:4:5"
+      },
+      {
+        "text": "meğ",
+        "role": "75:4:4"
+      },
+      {
+        "text": "e",
+        "role": "75:4:3"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "75:40:4",
+      "75:40:5",
+      "75:40:6"
+    ],
+    "expression_origins": [
+      "75:40:4"
+    ],
+    "parts": [
+      {
+        "text": "dirilt",
+        "role": "75:40:6"
+      },
+      {
+        "text": "meğ",
+        "role": "75:40:5"
+      },
+      {
+        "text": "e",
+        "role": "75:40:4"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "79:18:4",
+      "79:18:5",
+      "79:18:6"
+    ],
+    "expression_origins": [
+      "79:18:4"
+    ],
+    "parts": [
+      {
+        "text": "arın",
+        "role": "79:18:6"
+      },
+      {
+        "text": "ma",
+        "role": "79:18:5"
+      },
+      {
+        "text": "yı",
+        "role": "79:18:4"
+      }
+    ],
+    "reason": "Reviewed three-entry case_infinitive construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "19:43:7",
+      "19:43:8",
+      "19:43:9"
+    ],
+    "expression_origins": [
+      "19:43:7"
+    ],
+    "parts": [
+      {
+        "text": "sana gel",
+        "role": "19:43:9"
+      },
+      {
+        "text": "me",
+        "role": "19:43:8"
+      },
+      {
+        "text": "yen",
+        "role": "19:43:7"
+      }
+    ],
+    "reason": "Reviewed three-entry relative_negative construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "42:21:8",
+      "42:21:9",
+      "42:21:10"
+    ],
+    "expression_origins": [
+      "42:21:8"
+    ],
+    "parts": [
+      {
+        "text": "izin ver",
+        "role": "42:21:10"
+      },
+      {
+        "text": "me",
+        "role": "42:21:9"
+      },
+      {
+        "text": "diğ",
+        "role": "42:21:8"
+      },
+      {
+        "text": "i",
+        "role": "42:21:10"
+      }
+    ],
+    "reason": "Reviewed three-entry relative_negative construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "60:12:8",
+      "60:12:9",
+      "60:12:10"
+    ],
+    "expression_origins": [
+      "60:12:8"
+    ],
+    "parts": [
+      {
+        "text": "ortak koş",
+        "role": "60:12:10"
+      },
+      {
+        "text": "ma",
+        "role": "60:12:9"
+      },
+      {
+        "text": "ma",
+        "role": "60:12:8"
+      },
+      {
+        "text": "ları",
+        "role": "60:12:10"
+      }
+    ],
+    "reason": "Reviewed three-entry relative_negative construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "90:5:2",
+      "90:5:3",
+      "90:5:4"
+    ],
+    "expression_origins": [
+      "90:5:2"
+    ],
+    "parts": [
+      {
+        "text": "güç yetire",
+        "role": "90:5:4"
+      },
+      {
+        "text": "me",
+        "role": "90:5:3"
+      },
+      {
+        "text": "yeceğ",
+        "role": "90:5:2"
+      },
+      {
+        "text": "ini",
+        "role": "90:5:4"
+      }
+    ],
+    "reason": "Reviewed three-entry relative_negative construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "90:7:2",
+      "90:7:3",
+      "90:7:4"
+    ],
+    "expression_origins": [
+      "90:7:2"
+    ],
+    "parts": [
+      {
+        "text": "kendisini gör",
+        "role": "90:7:4"
+      },
+      {
+        "text": "me",
+        "role": "90:7:3"
+      },
+      {
+        "text": "diğ",
+        "role": "90:7:2"
+      },
+      {
+        "text": "ini",
+        "role": "90:7:4"
+      }
+    ],
+    "reason": "Reviewed three-entry relative_negative construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "17:111:4",
+      "17:111:5",
+      "17:111:6"
+    ],
+    "expression_origins": [
+      "17:111:4"
+    ],
+    "parts": [
+      {
+        "text": "edin",
+        "role": "17:111:6"
+      },
+      {
+        "text": "me",
+        "role": "17:111:5"
+      },
+      {
+        "text": "yen",
+        "role": "17:111:4"
+      }
+    ],
+    "reason": "Reviewed three-entry relative_negative construction; retain original wording and separate its grammatical contributions.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "50:16:12",
+      "50:16:13",
+      "50:16:14"
+    ],
+    "expression_origins": [
+      "50:16:12"
+    ],
+    "parts": [
+      {
+        "text": "şah ",
+        "role": "50:16:14"
+      },
+      {
+        "text": "damarı",
+        "role": "50:16:13"
+      },
+      {
+        "text": "ndan",
+        "role": "50:16:12"
+      }
+    ],
+    "reason": "The existing 'şah damarı' compound corresponds to jugular + vein, with the comparative ending aligned separately.",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "4:23:22",
+      "4:23:23"
+    ],
+    "expression_origins": [
+      "4:23:26"
+    ],
+    "parts": [
+      {
+        "text": "evleriniz",
+        "role": "4:23:23"
+      },
+      {
+        "text": "de",
+        "role": "4:23:22"
+      },
+      {
+        "text": " bulunan",
+        "role": "context"
+      }
+    ],
+    "reason": "Move the existing guardianship phrase from 4:23:26 to its correct source range (4:23:22–23).",
+    "status": "reviewed_local_alignment"
+  },
+  {
+    "members": [
+      "4:23:26",
+      "4:23:27"
+    ],
+    "expression_origins": [
+      "4:23:22"
+    ],
+    "parts": [
+      {
+        "text": "birleş",
+        "role": "4:23:27"
+      },
+      {
+        "text": "tiğ",
+        "role": "4:23:26"
+      },
+      {
+        "text": "iniz",
+        "role": "4:23:27"
+      }
+    ],
+    "reason": "Move the existing relations phrase from 4:23:22 to its correct source range (4:23:26–27).",
+    "status": "reviewed_local_alignment"
+  }
+]
