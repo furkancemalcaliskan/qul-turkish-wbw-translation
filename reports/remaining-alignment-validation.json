@@ -1,0 +1,17 @@
+{
+  "english_unchanged_from_initial": true,
+  "english_entries": 83665,
+  "turkish_entries": 83665,
+  "missing_keys": 0,
+  "extra_keys": 0,
+  "duplicate_keys": 0,
+  "ayah_numbers_unchanged": 6236,
+  "exact_reference_order": true,
+  "untouched_pairs_preserved": true,
+  "manifest_reconstruction": "passed",
+  "origin_material_checks": "passed for all preservation-only groups",
+  "boundary_and_displacement_regressions": "passed",
+  "turkish_sha256": "3f92efca0d85727623920e99f37690c701d37341aa7a0a30b9979c1402329d45",
+  "linguistic_review_keys": 831,
+  "scope": "Structural completion verified; not a certification of all inherited or newly reviewed meanings."
+}

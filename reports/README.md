@@ -5,11 +5,11 @@ Generated with `python scripts/audit_missing.py`. Reports use numeric surah–ay
 | Measure | Count |
 | --- | ---: |
 | English entries | 83,665 |
-| Turkish entries | 82,025 |
-| Missing Turkish keys | 1,640 |
+| Turkish entries | 83,665 |
+| Missing Turkish keys | 0 |
 | Missing ayah-number keys | 0 |
-| Missing word or phrase keys | 1,640 |
-| Ayahs with missing word or phrase keys | 1,265 |
+| Missing word or phrase keys | 0 |
+| Ayahs with missing word or phrase keys | 0 |
 | Turkish keys absent from English | 0 |
 
 - `missing-summary.json`: source SHA-256 hashes, totals, and counts by surah.
@@ -29,7 +29,35 @@ The inventory script does not modify either translation file. These reports were
 - `contextual-alignment-changes.json`: authoritative applied manifest, including source roles, exact boundaries, expression origins, reasons, and before/after values for every group.
 - `contextual-alignment-changes.csv`: flattened entry-level change log for review.
 - `contextual-alignment-validation.json`: resulting file hash and verification result.
-- `alignment-pending.json`: all 1,640 remaining missing keys, with preliminary reasons and baseline neighboring context. These still require individual review; further fused expressions may remain.
+- `alignment-pending.json`: the current missing-key list, now empty. Semantic review is tracked separately in `linguistic-review.json`.
 - `suffix-candidates.json`, `verb-candidates.json`, and `*-alignment-plan.json`: intermediate baseline-based candidate/review outputs. A `proposed` status here does not mean applied. Only the authoritative change manifest defines the committed changes; overlapping proposals, exclusions, and deferred candidates are reconciled during assembly.
 
 This step adds 5,250 keys and changes 5,288 existing values in 5,228 shared-expression groups. It preserves inherited lexical spelling, apart from recorded expression redistribution and display delimiters. Selective Arabic checks and local linguistic review do not constitute complete translation certification.
+
+The continuation batch is recorded separately in `continued-alignment-changes.json`: 77 additional keys, 180 modified existing values, and 77 groups, based on commit `033d895`. Expanded groups supersede the earlier displays for their listed members; the original manifest remains the historical audit record. Run `python scripts/continue_alignment.py` to reproduce or verify this batch, followed by `python scripts/audit_missing.py` to regenerate the structural inventory. The earlier applier targets its historical baseline and should not be rerun over later work.
+
+## Broad continuation
+
+The broad batch added 1,021 keys and modified 1,013 existing values in 1,010 groups. This covered approximately 65% of the 1,563 gaps present at its start. Its baseline is `033d895` plus the recorded 77-key continuation, reconstructed without overwriting that earlier audit trail.
+
+- `broad-alignment-changes.json`: historical broad-batch manifest, including exact before/after values, expression parts, zero-surface keys, lexical-revision flags, and reasons.
+- `broad-alignment-changes.csv`: flattened review table for the same changes.
+- `broad-alignment-validation.json`: independent structural verification and final hash.
+- `broad-linguistic-review.json`: historical follow-up list from the broad batch, which ended with 542 missing keys. Consult `linguistic-review.json` for current values and combined review history.
+
+There are 521 context-only views with no independently identified Turkish surface. These are explicitly recorded, not assumed to be certified zero equivalents. The notation guide explains how to distinguish them from overt suffixes. Thirty groups introduce lexical wording or repair a case/phrase; the rest preserve the inherited written material, apart from documented display normalization and redistribution. Structural completion is not a certification of the entire Turkish translation.
+
+The broad batch was reproduced with `python scripts/complete_broad_alignment.py --apply`, then `python scripts/validate_broad_alignment.py` and `python scripts/audit_missing.py`. Its applier/validator targets that historical state and intentionally refuses later Turkish edits.
+
+## Completion of the missing-key inventory
+
+The latest batch adds all 542 remaining keys and modifies 616 existing values in 526 groups. Forty-four groups record lexical, spelling, compound, or phrase repairs explicitly. The Turkish and English files now have exactly the same 83,665 keys in the same reference order, with all 6,236 ayah-number entries preserved.
+
+- `remaining-alignment-changes.json`: authoritative latest changes, source roles, expression origins, original values, resulting displays, reasons, zero-surface flags, and revision flags.
+- `remaining-alignment-changes.csv`: flattened before/after table for every listed entry.
+- `remaining-alignment-validation.json`: independent reconstruction and final structural checks.
+- `linguistic-review.json`: combined semantic-review history for 831 present keys, including their current values and whether each currently has a context-only display. Of these, 693 currently have no independently identified overt surface; the remainder have lexical/phrase repair history or earlier zero-surface concerns. This is a focused follow-up list, not an exhaustive certification or error inventory of the entire translation.
+
+There are 172 context-only views in the latest batch, including six newly added keys. The other new keys expose lexical or grammatical contributions. A complete key set does not prove that all source meanings, spelling, grammar, or alignment choices are correct. Context-only entries and interpretive repairs remain visibly queued for semantic review.
+
+Reproduce or verify the current state with `python scripts/finish_remaining_alignment.py --apply`, `python scripts/validate_remaining_alignment.py`, and `python scripts/audit_missing.py`. The preparation script reconstructs its fixed baseline from the committed file plus the previous two manifests and refuses unexpected working-tree changes. Its explicit cases are in `remaining_special_cases.py` and `remaining_final_cases.py`. Earlier manifests and validation results remain historical; later groups supersede their listed source keys.

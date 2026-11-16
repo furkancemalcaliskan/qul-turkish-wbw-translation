@@ -1,0 +1,4537 @@
+{
+  "summary": {
+    "baseline_commit": "033d895",
+    "added_keys": 77,
+    "modified_existing_keys": 180,
+    "groups": 77,
+    "remaining_missing_keys": 1563,
+    "english_sha256": "917a0fb15244cfd84ab3492172d33418225a682e92d74f529c32df96a0f5f7f2",
+    "turkish_before_sha256": "94e871f2b1de1aae8c836ac5db4aa5a3f5c4a8c1699463bd00ba46ef93ac2770",
+    "turkish_after_sha256": "698d10cc1eb8599834ae09cddd1bc387363205c7684ff9e7c676ecfad6e30fd9"
+  },
+  "groups": [
+    {
+      "members": [
+        "2:109:8",
+        "2:109:9",
+        "2:109:10"
+      ],
+      "before": {
+        "2:109:8": "sonra",
+        "2:109:9": null,
+        "2:109:10": "imanınızdan"
+      },
+      "english": {
+        "2:109:8": "from",
+        "2:109:9": "after",
+        "2:109:10": "your (having) faith"
+      },
+      "parts": [
+        {
+          "text": "imanınız",
+          "role": "2:109:10"
+        },
+        {
+          "text": "dan",
+          "role": "2:109:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:109:9"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "2:109:10",
+          "expression": "imanınızdan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:109:8",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "imanınızdan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:109:8": "(imanınız)dan (sonra)",
+        "2:109:9": "(imanınızdan) sonra",
+        "2:109:10": "imanınız(dan sonra)"
+      }
+    },
+    {
+      "members": [
+        "2:109:16",
+        "2:109:17",
+        "2:109:18",
+        "2:109:19"
+      ],
+      "before": {
+        "2:109:16": "sonra",
+        "2:109:17": null,
+        "2:109:18": "(apaçık belli ol)duk(tan)",
+        "2:109:19": "apaçık belli ol(duk)tan"
+      },
+      "english": {
+        "2:109:16": "(even) from",
+        "2:109:17": "after",
+        "2:109:18": "[what]",
+        "2:109:19": "became clear"
+      },
+      "parts": [
+        {
+          "text": "apaçık belli ol",
+          "role": "2:109:19"
+        },
+        {
+          "text": "duk",
+          "role": "2:109:18"
+        },
+        {
+          "text": "tan",
+          "role": "2:109:16"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:109:17"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "2:109:18",
+            "2:109:19"
+          ],
+          "expression": "apaçık belli olduktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:109:16",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "apaçık belli olduktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:109:16": "(apaçık belli olduk)tan (sonra)",
+        "2:109:17": "(apaçık belli olduktan) sonra",
+        "2:109:18": "(apaçık belli ol)duk(tan sonra)",
+        "2:109:19": "apaçık belli ol(duktan sonra)"
+      }
+    },
+    {
+      "members": [
+        "2:159:9",
+        "2:159:10",
+        "2:159:11",
+        "2:159:12"
+      ],
+      "before": {
+        "2:159:9": "sonra",
+        "2:159:10": null,
+        "2:159:11": "(biz açıkça belirt)tik(ten)",
+        "2:159:12": "biz açıkça belirt(tik)ten"
+      },
+      "english": {
+        "2:159:9": "from",
+        "2:159:10": "after",
+        "2:159:11": "[what]",
+        "2:159:12": "We made clear"
+      },
+      "parts": [
+        {
+          "text": "biz açıkça belirt",
+          "role": "2:159:12"
+        },
+        {
+          "text": "tik",
+          "role": "2:159:11"
+        },
+        {
+          "text": "ten",
+          "role": "2:159:9"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:159:10"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "2:159:11",
+            "2:159:12"
+          ],
+          "expression": "biz açıkça belirttikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:159:9",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "biz açıkça belirttikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:159:9": "(biz açıkça belirttik)ten (sonra)",
+        "2:159:10": "(biz açıkça belirttikten) sonra",
+        "2:159:11": "(biz açıkça belirt)tik(ten sonra)",
+        "2:159:12": "biz açıkça belirt(tikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "2:209:3",
+        "2:209:4",
+        "2:209:5",
+        "2:209:6"
+      ],
+      "before": {
+        "2:209:3": "sonra",
+        "2:209:4": null,
+        "2:209:5": "(size gel)dik(ten)",
+        "2:209:6": "size gel(dik)ten"
+      },
+      "english": {
+        "2:209:3": "from",
+        "2:209:4": "after",
+        "2:209:5": "[what]",
+        "2:209:6": "came to you"
+      },
+      "parts": [
+        {
+          "text": "size gel",
+          "role": "2:209:6"
+        },
+        {
+          "text": "dik",
+          "role": "2:209:5"
+        },
+        {
+          "text": "ten",
+          "role": "2:209:3"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:209:4"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "2:209:5",
+            "2:209:6"
+          ],
+          "expression": "size geldikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:209:3",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "size geldikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:209:3": "(size geldik)ten (sonra)",
+        "2:209:4": "(size geldikten) sonra",
+        "2:209:5": "(size gel)dik(ten sonra)",
+        "2:209:6": "size gel(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "2:211:13",
+        "2:211:14",
+        "2:211:15",
+        "2:211:16"
+      ],
+      "before": {
+        "2:211:13": "sonra",
+        "2:211:14": null,
+        "2:211:15": "(gel)dik(ten)",
+        "2:211:16": "gel(dik)ten"
+      },
+      "english": {
+        "2:211:13": "from",
+        "2:211:14": "after",
+        "2:211:15": "[what]",
+        "2:211:16": "it (has) come to him "
+      },
+      "parts": [
+        {
+          "text": "gel",
+          "role": "2:211:16"
+        },
+        {
+          "text": "dik",
+          "role": "2:211:15"
+        },
+        {
+          "text": "ten",
+          "role": "2:211:13"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:211:14"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "2:211:15",
+            "2:211:16"
+          ],
+          "expression": "geldikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:211:13",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "geldikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:211:13": "(geldik)ten (sonra)",
+        "2:211:14": "(geldikten) sonra",
+        "2:211:15": "(gel)dik(ten sonra)",
+        "2:211:16": "gel(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "2:213:26",
+        "2:213:27",
+        "2:213:28",
+        "2:213:29"
+      ],
+      "before": {
+        "2:213:26": "sonra",
+        "2:213:27": null,
+        "2:213:28": "(kendilerine gel)dik(ten)",
+        "2:213:29": "kendilerine gel(dik)ten"
+      },
+      "english": {
+        "2:213:26": "from",
+        "2:213:27": "after",
+        "2:213:28": "[what]",
+        "2:213:29": "came to them"
+      },
+      "parts": [
+        {
+          "text": "kendilerine gel",
+          "role": "2:213:29"
+        },
+        {
+          "text": "dik",
+          "role": "2:213:28"
+        },
+        {
+          "text": "ten",
+          "role": "2:213:26"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:213:27"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "2:213:28",
+            "2:213:29"
+          ],
+          "expression": "kendilerine geldikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:213:26",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "kendilerine geldikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:213:26": "(kendilerine geldik)ten (sonra)",
+        "2:213:27": "(kendilerine geldikten) sonra",
+        "2:213:28": "(kendilerine gel)dik(ten sonra)",
+        "2:213:29": "kendilerine gel(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "2:237:3",
+        "2:237:4",
+        "2:237:5",
+        "2:237:6"
+      ],
+      "before": {
+        "2:237:3": "önce",
+        "2:237:4": null,
+        "2:237:5": "(henüz dokun)ma(dan)",
+        "2:237:6": "henüz dokun(ma)dan"
+      },
+      "english": {
+        "2:237:3": "from",
+        "2:237:4": "before",
+        "2:237:5": "[that]",
+        "2:237:6": "you (have) touched them"
+      },
+      "parts": [
+        {
+          "text": "henüz dokun",
+          "role": "2:237:6"
+        },
+        {
+          "text": "ma",
+          "role": "2:237:5"
+        },
+        {
+          "text": "dan",
+          "role": "2:237:3"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "2:237:4"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "2:237:5",
+            "2:237:6"
+          ],
+          "expression": "henüz dokunmadan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:237:3",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "henüz dokunmadan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:237:3": "(henüz dokunma)dan (önce)",
+        "2:237:4": "(henüz dokunmadan) önce",
+        "2:237:5": "(henüz dokun)ma(dan önce)",
+        "2:237:6": "henüz dokun(madan önce)"
+      }
+    },
+    {
+      "members": [
+        "2:246:8",
+        "2:246:9",
+        "2:246:10"
+      ],
+      "before": {
+        "2:246:8": "sonra",
+        "2:246:9": null,
+        "2:246:10": "Musa'dan"
+      },
+      "english": {
+        "2:246:8": "from",
+        "2:246:9": "after",
+        "2:246:10": "Musa"
+      },
+      "parts": [
+        {
+          "text": "Musa",
+          "role": "2:246:10"
+        },
+        {
+          "text": "'dan",
+          "role": "2:246:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:246:9"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "2:246:10",
+          "expression": "Musa'dan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:246:8",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "Musa'dan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:246:8": "(Musa)'dan (sonra)",
+        "2:246:9": "(Musa'dan) sonra",
+        "2:246:10": "Musa('dan sonra)"
+      }
+    },
+    {
+      "members": [
+        "2:253:30",
+        "2:253:31",
+        "2:253:32",
+        "2:253:33"
+      ],
+      "before": {
+        "2:253:30": "sonra",
+        "2:253:31": null,
+        "2:253:32": "(gelmiş ol)duk(tan)",
+        "2:253:33": "gelmiş ol(duk)tan"
+      },
+      "english": {
+        "2:253:30": "from",
+        "2:253:31": "after",
+        "2:253:32": "[what]",
+        "2:253:33": "came to them"
+      },
+      "parts": [
+        {
+          "text": "gelmiş ol",
+          "role": "2:253:33"
+        },
+        {
+          "text": "duk",
+          "role": "2:253:32"
+        },
+        {
+          "text": "tan",
+          "role": "2:253:30"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "2:253:31"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "2:253:32",
+            "2:253:33"
+          ],
+          "expression": "gelmiş olduktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "2:253:30",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "gelmiş olduktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "2:253:30": "(gelmiş olduk)tan (sonra)",
+        "2:253:31": "(gelmiş olduktan) sonra",
+        "2:253:32": "(gelmiş ol)duk(tan sonra)",
+        "2:253:33": "gelmiş ol(duktan sonra)"
+      }
+    },
+    {
+      "members": [
+        "3:19:12",
+        "3:19:13",
+        "3:19:14",
+        "3:19:15"
+      ],
+      "before": {
+        "3:19:12": "sonra",
+        "3:19:13": null,
+        "3:19:14": "(gel)dik(ten)",
+        "3:19:15": "gel(dik)ten"
+      },
+      "english": {
+        "3:19:12": "from",
+        "3:19:13": "after",
+        "3:19:14": "[what]",
+        "3:19:15": "came to them"
+      },
+      "parts": [
+        {
+          "text": "gel",
+          "role": "3:19:15"
+        },
+        {
+          "text": "dik",
+          "role": "3:19:14"
+        },
+        {
+          "text": "ten",
+          "role": "3:19:12"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "3:19:13"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "3:19:14",
+            "3:19:15"
+          ],
+          "expression": "geldikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "3:19:12",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "geldikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "3:19:12": "(geldik)ten (sonra)",
+        "3:19:13": "(geldikten) sonra",
+        "3:19:14": "(gel)dik(ten sonra)",
+        "3:19:15": "gel(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "3:93:13",
+        "3:93:14",
+        "3:93:15",
+        "3:93:16"
+      ],
+      "before": {
+        "3:93:13": "önce",
+        "3:93:14": null,
+        "3:93:15": "(indiril)me(den)",
+        "3:93:16": "indiril(me)den"
+      },
+      "english": {
+        "3:93:13": "from",
+        "3:93:14": "before",
+        "3:93:15": "[that]",
+        "3:93:16": "(was) revealed"
+      },
+      "parts": [
+        {
+          "text": "indiril",
+          "role": "3:93:16"
+        },
+        {
+          "text": "me",
+          "role": "3:93:15"
+        },
+        {
+          "text": "den",
+          "role": "3:93:13"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "3:93:14"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "3:93:15",
+            "3:93:16"
+          ],
+          "expression": "indirilmeden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "3:93:13",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "indirilmeden önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "3:93:13": "(indirilme)den (önce)",
+        "3:93:14": "(indirilmeden) önce",
+        "3:93:15": "(indiril)me(den önce)",
+        "3:93:16": "indiril(meden önce)"
+      }
+    },
+    {
+      "members": [
+        "3:143:5",
+        "3:143:6",
+        "3:143:7",
+        "3:143:8"
+      ],
+      "before": {
+        "3:143:5": "önce",
+        "3:143:6": null,
+        "3:143:7": "(onunla karşılaş)ma(dan)",
+        "3:143:8": "onunla karşılaş(ma)dan"
+      },
+      "english": {
+        "3:143:5": "from",
+        "3:143:6": "before",
+        "3:143:7": "[that]",
+        "3:143:8": "you met it"
+      },
+      "parts": [
+        {
+          "text": "onunla karşılaş",
+          "role": "3:143:8"
+        },
+        {
+          "text": "ma",
+          "role": "3:143:7"
+        },
+        {
+          "text": "dan",
+          "role": "3:143:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "3:143:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "3:143:7",
+            "3:143:8"
+          ],
+          "expression": "onunla karşılaşmadan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "3:143:5",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "onunla karşılaşmadan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "3:143:5": "(onunla karşılaşma)dan (önce)",
+        "3:143:6": "(onunla karşılaşmadan) önce",
+        "3:143:7": "(onunla karşılaş)ma(dan önce)",
+        "3:143:8": "onunla karşılaş(madan önce)"
+      }
+    },
+    {
+      "members": [
+        "3:152:15",
+        "3:152:16",
+        "3:152:17",
+        "3:152:18"
+      ],
+      "before": {
+        "3:152:15": "sonra",
+        "3:152:16": null,
+        "3:152:17": "(size göster)dik(ten)",
+        "3:152:18": "size göster(dik)ten"
+      },
+      "english": {
+        "3:152:15": "from",
+        "3:152:16": "after",
+        "3:152:17": "[what]",
+        "3:152:18": "He (had) shown you"
+      },
+      "parts": [
+        {
+          "text": "size göster",
+          "role": "3:152:18"
+        },
+        {
+          "text": "dik",
+          "role": "3:152:17"
+        },
+        {
+          "text": "ten",
+          "role": "3:152:15"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "3:152:16"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "3:152:17",
+            "3:152:18"
+          ],
+          "expression": "size gösterdikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "3:152:15",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "size gösterdikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "3:152:15": "(size gösterdik)ten (sonra)",
+        "3:152:16": "(size gösterdikten) sonra",
+        "3:152:17": "(size göster)dik(ten sonra)",
+        "3:152:18": "size göster(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "4:12:19",
+        "4:12:20",
+        "4:12:21"
+      ],
+      "before": {
+        "4:12:19": "sonra",
+        "4:12:20": null,
+        "4:12:21": "vasiyyetten"
+      },
+      "english": {
+        "4:12:19": "from",
+        "4:12:20": "after",
+        "4:12:21": "any will"
+      },
+      "parts": [
+        {
+          "text": "vasiyyet",
+          "role": "4:12:21"
+        },
+        {
+          "text": "ten",
+          "role": "4:12:19"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "4:12:20"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "4:12:21",
+          "expression": "vasiyyetten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "4:12:19",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "vasiyyetten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "4:12:19": "(vasiyyet)ten (sonra)",
+        "4:12:20": "(vasiyyetten) sonra",
+        "4:12:21": "vasiyyet(ten sonra)"
+      }
+    },
+    {
+      "members": [
+        "4:12:74",
+        "4:12:75",
+        "4:12:76"
+      ],
+      "before": {
+        "4:12:74": "sonradır",
+        "4:12:75": null,
+        "4:12:76": "vasiyyetten"
+      },
+      "english": {
+        "4:12:74": "from",
+        "4:12:75": "after",
+        "4:12:76": "any will"
+      },
+      "parts": [
+        {
+          "text": "vasiyyet",
+          "role": "4:12:76"
+        },
+        {
+          "text": "ten",
+          "role": "4:12:74"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonradır",
+          "role": "4:12:75"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "4:12:76",
+          "expression": "vasiyyetten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "4:12:74",
+          "expression": "sonradır"
+        }
+      ],
+      "shared_expression": "vasiyyetten sonradır",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "4:12:74": "(vasiyyet)ten (sonradır)",
+        "4:12:75": "(vasiyyetten) sonradır",
+        "4:12:76": "vasiyyet(ten sonradır)"
+      }
+    },
+    {
+      "members": [
+        "4:41:4",
+        "4:41:5",
+        "4:41:6"
+      ],
+      "before": {
+        "4:41:4": "her",
+        "4:41:5": null,
+        "4:41:6": "ümmetten"
+      },
+      "english": {
+        "4:41:4": "from",
+        "4:41:5": "every",
+        "4:41:6": "nation"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "4:41:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "ümmet",
+          "role": "4:41:6"
+        },
+        {
+          "text": "ten",
+          "role": "4:41:4"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "4:41:4",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "4:41:6",
+          "expression": "ümmetten"
+        }
+      ],
+      "shared_expression": "her ümmetten",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "4:41:4": "(her ümmet)ten",
+        "4:41:5": "her (ümmetten)",
+        "4:41:6": "(her) ümmet(ten)"
+      }
+    },
+    {
+      "members": [
+        "4:115:4",
+        "4:115:5",
+        "4:115:6",
+        "4:115:7"
+      ],
+      "before": {
+        "4:115:4": "sonra",
+        "4:115:5": null,
+        "4:115:6": "(belli ol)duk(tan)",
+        "4:115:7": "belli ol(duk)tan"
+      },
+      "english": {
+        "4:115:4": "from",
+        "4:115:5": "after",
+        "4:115:6": "what",
+        "4:115:7": "(has) become clear"
+      },
+      "parts": [
+        {
+          "text": "belli ol",
+          "role": "4:115:7"
+        },
+        {
+          "text": "duk",
+          "role": "4:115:6"
+        },
+        {
+          "text": "tan",
+          "role": "4:115:4"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "4:115:5"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "4:115:6",
+            "4:115:7"
+          ],
+          "expression": "belli olduktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "4:115:4",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "belli olduktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "4:115:4": "(belli olduk)tan (sonra)",
+        "4:115:5": "(belli olduktan) sonra",
+        "4:115:6": "(belli ol)duk(tan sonra)",
+        "4:115:7": "belli ol(duktan sonra)"
+      }
+    },
+    {
+      "members": [
+        "5:34:4",
+        "5:34:5",
+        "5:34:6",
+        "5:34:7"
+      ],
+      "before": {
+        "5:34:4": "önce",
+        "5:34:5": null,
+        "5:34:6": "(ele geçir)me(nizden)",
+        "5:34:7": "ele geçir(me)nizden"
+      },
+      "english": {
+        "5:34:4": "from",
+        "5:34:5": "before",
+        "5:34:6": "that",
+        "5:34:7": "you overpower"
+      },
+      "parts": [
+        {
+          "text": "ele geçir",
+          "role": "5:34:7"
+        },
+        {
+          "text": "me",
+          "role": "5:34:6"
+        },
+        {
+          "text": "niz",
+          "role": "5:34:7"
+        },
+        {
+          "text": "den",
+          "role": "5:34:4"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "5:34:5"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "5:34:6",
+            "5:34:7"
+          ],
+          "expression": "ele geçirmenizden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "5:34:4",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "ele geçirmenizden önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "5:34:4": "(ele geçirmeniz)den (önce)",
+        "5:34:5": "(ele geçirmenizden) önce",
+        "5:34:6": "(ele geçir)me(nizden önce)",
+        "5:34:7": "ele geçir(me)niz(den önce)"
+      }
+    },
+    {
+      "members": [
+        "5:39:3",
+        "5:39:4",
+        "5:39:5"
+      ],
+      "before": {
+        "5:39:3": "sonra",
+        "5:39:4": null,
+        "5:39:5": "yaptığı haksızlıktan"
+      },
+      "english": {
+        "5:39:3": "from",
+        "5:39:4": "after",
+        "5:39:5": "his wrongdoing"
+      },
+      "parts": [
+        {
+          "text": "yaptığı haksızlık",
+          "role": "5:39:5"
+        },
+        {
+          "text": "tan",
+          "role": "5:39:3"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "5:39:4"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "5:39:5",
+          "expression": "yaptığı haksızlıktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "5:39:3",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "yaptığı haksızlıktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "5:39:3": "(yaptığı haksızlık)tan (sonra)",
+        "5:39:4": "(yaptığı haksızlıktan) sonra",
+        "5:39:5": "yaptığı haksızlık(tan sonra)"
+      }
+    },
+    {
+      "members": [
+        "5:106:29",
+        "5:106:30",
+        "5:106:31"
+      ],
+      "before": {
+        "5:106:29": "sonra",
+        "5:106:30": null,
+        "5:106:31": "namazdan"
+      },
+      "english": {
+        "5:106:29": "from",
+        "5:106:30": "after",
+        "5:106:31": "the prayer"
+      },
+      "parts": [
+        {
+          "text": "namaz",
+          "role": "5:106:31"
+        },
+        {
+          "text": "dan",
+          "role": "5:106:29"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "5:106:30"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "5:106:31",
+          "expression": "namazdan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "5:106:29",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "namazdan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "5:106:29": "(namaz)dan (sonra)",
+        "5:106:30": "(namazdan) sonra",
+        "5:106:31": "namaz(dan sonra)"
+      }
+    },
+    {
+      "members": [
+        "7:69:15",
+        "7:69:16",
+        "7:69:17"
+      ],
+      "before": {
+        "7:69:15": "sonra",
+        "7:69:16": null,
+        "7:69:17": "kavminden"
+      },
+      "english": {
+        "7:69:15": "from",
+        "7:69:16": "after",
+        "7:69:17": "(the) people"
+      },
+      "parts": [
+        {
+          "text": "kavmi",
+          "role": "7:69:17"
+        },
+        {
+          "text": "nden",
+          "role": "7:69:15"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "7:69:16"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "7:69:17",
+          "expression": "kavminden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "7:69:15",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "kavminden sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "7:69:15": "(kavmi)nden (sonra)",
+        "7:69:16": "(kavminden) sonra",
+        "7:69:17": "kavmi(nden sonra)"
+      }
+    },
+    {
+      "members": [
+        "7:74:5",
+        "7:74:6",
+        "7:74:7"
+      ],
+      "before": {
+        "7:74:5": "sonra",
+        "7:74:6": null,
+        "7:74:7": "Ad'dan"
+      },
+      "english": {
+        "7:74:5": "from",
+        "7:74:6": "after",
+        "7:74:7": "Aad"
+      },
+      "parts": [
+        {
+          "text": "Ad",
+          "role": "7:74:7"
+        },
+        {
+          "text": "'dan",
+          "role": "7:74:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "7:74:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "7:74:7",
+          "expression": "Ad'dan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "7:74:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "Ad'dan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "7:74:5": "(Ad)'dan (sonra)",
+        "7:74:6": "(Ad'dan) sonra",
+        "7:74:7": "Ad('dan sonra)"
+      }
+    },
+    {
+      "members": [
+        "7:100:6",
+        "7:100:7",
+        "7:100:8"
+      ],
+      "before": {
+        "7:100:6": "sonra",
+        "7:100:7": null,
+        "7:100:8": "sahiplerinden"
+      },
+      "english": {
+        "7:100:6": "from",
+        "7:100:7": "after",
+        "7:100:8": "its people"
+      },
+      "parts": [
+        {
+          "text": "sahipleri",
+          "role": "7:100:8"
+        },
+        {
+          "text": "nden",
+          "role": "7:100:6"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "7:100:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "7:100:8",
+          "expression": "sahiplerinden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "7:100:6",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "sahiplerinden sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "7:100:6": "(sahipleri)nden (sonra)",
+        "7:100:7": "(sahiplerinden) sonra",
+        "7:100:8": "sahipleri(nden sonra)"
+      }
+    },
+    {
+      "members": [
+        "9:12:4",
+        "9:12:5",
+        "9:12:6"
+      ],
+      "before": {
+        "9:12:4": "sonra",
+        "9:12:5": null,
+        "9:12:6": "andlaşma yaptıktan"
+      },
+      "english": {
+        "9:12:4": "after",
+        "9:12:5": "after",
+        "9:12:6": "their treaty"
+      },
+      "parts": [
+        {
+          "text": "andlaşma yaptık",
+          "role": "9:12:6"
+        },
+        {
+          "text": "tan",
+          "role": "9:12:4"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "9:12:5"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "9:12:6",
+          "expression": "andlaşma yaptıktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "9:12:4",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "andlaşma yaptıktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "9:12:4": "(andlaşma yaptık)tan (sonra)",
+        "9:12:5": "(andlaşma yaptıktan) sonra",
+        "9:12:6": "andlaşma yaptık(tan sonra)"
+      }
+    },
+    {
+      "members": [
+        "9:122:8",
+        "9:122:9",
+        "9:122:10"
+      ],
+      "before": {
+        "9:122:8": "her",
+        "9:122:9": null,
+        "9:122:10": "kabileden"
+      },
+      "english": {
+        "9:122:8": "from",
+        "9:122:9": "every",
+        "9:122:10": "group"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "9:122:9"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "kabile",
+          "role": "9:122:10"
+        },
+        {
+          "text": "den",
+          "role": "9:122:8"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "9:122:8",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "9:122:10",
+          "expression": "kabileden"
+        }
+      ],
+      "shared_expression": "her kabileden",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "9:122:8": "(her kabile)den",
+        "9:122:9": "her (kabileden)",
+        "9:122:10": "(her) kabile(den)"
+      }
+    },
+    {
+      "members": [
+        "10:21:5",
+        "10:21:6",
+        "10:21:7"
+      ],
+      "before": {
+        "10:21:5": "sonra",
+        "10:21:6": null,
+        "10:21:7": "bir darlıktan"
+      },
+      "english": {
+        "10:21:5": "after",
+        "10:21:6": "after",
+        "10:21:7": "adversity"
+      },
+      "parts": [
+        {
+          "text": "bir darlık",
+          "role": "10:21:7"
+        },
+        {
+          "text": "tan",
+          "role": "10:21:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "10:21:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "10:21:7",
+          "expression": "bir darlıktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "10:21:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "bir darlıktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "10:21:5": "(bir darlık)tan (sonra)",
+        "10:21:6": "(bir darlıktan) sonra",
+        "10:21:7": "bir darlık(tan sonra)"
+      }
+    },
+    {
+      "members": [
+        "10:22:23",
+        "10:22:24",
+        "10:22:25"
+      ],
+      "before": {
+        "10:22:23": "her",
+        "10:22:24": null,
+        "10:22:25": "yönden"
+      },
+      "english": {
+        "10:22:23": "from",
+        "10:22:24": "every",
+        "10:22:25": "place"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "10:22:24"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "yön",
+          "role": "10:22:25"
+        },
+        {
+          "text": "den",
+          "role": "10:22:23"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "10:22:23",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "10:22:25",
+          "expression": "yönden"
+        }
+      ],
+      "shared_expression": "her yönden",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "10:22:23": "(her yön)den",
+        "10:22:24": "her (yönden)",
+        "10:22:25": "(her) yön(den)"
+      }
+    },
+    {
+      "members": [
+        "11:7:21",
+        "11:7:22",
+        "11:7:23"
+      ],
+      "before": {
+        "11:7:21": "sonra",
+        "11:7:22": null,
+        "11:7:23": "ölümden"
+      },
+      "english": {
+        "11:7:21": "after",
+        "11:7:22": "after",
+        "11:7:23": "[the] death"
+      },
+      "parts": [
+        {
+          "text": "ölüm",
+          "role": "11:7:23"
+        },
+        {
+          "text": "den",
+          "role": "11:7:21"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "11:7:22"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "11:7:23",
+          "expression": "ölümden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "11:7:21",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "ölümden sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "11:7:21": "(ölüm)den (sonra)",
+        "11:7:22": "(ölümden) sonra",
+        "11:7:23": "ölüm(den sonra)"
+      }
+    },
+    {
+      "members": [
+        "11:49:13",
+        "11:49:14",
+        "11:49:15"
+      ],
+      "before": {
+        "11:49:13": "önce",
+        "11:49:14": null,
+        "11:49:15": "bundan"
+      },
+      "english": {
+        "11:49:13": "from",
+        "11:49:14": "before",
+        "11:49:15": "this"
+      },
+      "parts": [
+        {
+          "text": "bu",
+          "role": "11:49:15"
+        },
+        {
+          "text": "ndan",
+          "role": "11:49:13"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "11:49:14"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "11:49:15",
+          "expression": "bundan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "11:49:13",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "bundan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "11:49:13": "(bu)ndan (önce)",
+        "11:49:14": "(bundan) önce",
+        "11:49:15": "bu(ndan önce)"
+      }
+    },
+    {
+      "members": [
+        "12:100:30",
+        "12:100:31",
+        "12:100:32",
+        "12:100:33"
+      ],
+      "before": {
+        "12:100:30": "sonra",
+        "12:100:31": null,
+        "12:100:32": "(fitne sok)tuk(tan)",
+        "12:100:33": "fitne sok(tuk)tan"
+      },
+      "english": {
+        "12:100:30": "after",
+        "12:100:31": "after",
+        "12:100:32": "[that]",
+        "12:100:33": "had caused discord"
+      },
+      "parts": [
+        {
+          "text": "fitne sok",
+          "role": "12:100:33"
+        },
+        {
+          "text": "tuk",
+          "role": "12:100:32"
+        },
+        {
+          "text": "tan",
+          "role": "12:100:30"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "12:100:31"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "12:100:32",
+            "12:100:33"
+          ],
+          "expression": "fitne soktuktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "12:100:30",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "fitne soktuktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "12:100:30": "(fitne soktuk)tan (sonra)",
+        "12:100:31": "(fitne soktuktan) sonra",
+        "12:100:32": "(fitne sok)tuk(tan sonra)",
+        "12:100:33": "fitne sok(tuktan sonra)"
+      }
+    },
+    {
+      "members": [
+        "13:23:13",
+        "13:23:14",
+        "13:23:15"
+      ],
+      "before": {
+        "13:23:13": "her",
+        "13:23:14": null,
+        "13:23:15": "kapıdan"
+      },
+      "english": {
+        "13:23:13": "from",
+        "13:23:14": "every",
+        "13:23:15": "gate"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "13:23:14"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "kapı",
+          "role": "13:23:15"
+        },
+        {
+          "text": "dan",
+          "role": "13:23:13"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "13:23:13",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "13:23:15",
+          "expression": "kapıdan"
+        }
+      ],
+      "shared_expression": "her kapıdan",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "13:23:13": "(her kapı)dan",
+        "13:23:14": "her (kapıdan)",
+        "13:23:15": "(her) kapı(dan)"
+      }
+    },
+    {
+      "members": [
+        "13:25:5",
+        "13:25:6",
+        "13:25:7"
+      ],
+      "before": {
+        "13:25:5": "sonra",
+        "13:25:6": null,
+        "13:25:7": "iyice pekiştirdikten"
+      },
+      "english": {
+        "13:25:5": "from",
+        "13:25:6": "after",
+        "13:25:7": "contracting it"
+      },
+      "parts": [
+        {
+          "text": "iyice pekiştirdik",
+          "role": "13:25:7"
+        },
+        {
+          "text": "ten",
+          "role": "13:25:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "13:25:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "13:25:7",
+          "expression": "iyice pekiştirdikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "13:25:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "iyice pekiştirdikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "13:25:5": "(iyice pekiştirdik)ten (sonra)",
+        "13:25:6": "(iyice pekiştirdikten) sonra",
+        "13:25:7": "iyice pekiştirdik(ten sonra)"
+      }
+    },
+    {
+      "members": [
+        "14:17:7",
+        "14:17:8",
+        "14:17:9"
+      ],
+      "before": {
+        "14:17:7": "her",
+        "14:17:8": null,
+        "14:17:9": "yandan"
+      },
+      "english": {
+        "14:17:7": "from",
+        "14:17:8": "every",
+        "14:17:9": "side"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "14:17:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "yan",
+          "role": "14:17:9"
+        },
+        {
+          "text": "dan",
+          "role": "14:17:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "14:17:7",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "14:17:9",
+          "expression": "yandan"
+        }
+      ],
+      "shared_expression": "her yandan",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "14:17:7": "(her yan)dan",
+        "14:17:8": "her (yandan)",
+        "14:17:9": "(her) yan(dan)"
+      }
+    },
+    {
+      "members": [
+        "14:31:12",
+        "14:31:13",
+        "14:31:14",
+        "14:31:15"
+      ],
+      "before": {
+        "14:31:12": "önce",
+        "14:31:13": null,
+        "14:31:14": "(gel)me(den)",
+        "14:31:15": "gel(me)den"
+      },
+      "english": {
+        "14:31:12": "before",
+        "14:31:13": "before",
+        "14:31:14": "[that]",
+        "14:31:15": "comes"
+      },
+      "parts": [
+        {
+          "text": "gel",
+          "role": "14:31:15"
+        },
+        {
+          "text": "me",
+          "role": "14:31:14"
+        },
+        {
+          "text": "den",
+          "role": "14:31:12"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "14:31:13"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "14:31:14",
+            "14:31:15"
+          ],
+          "expression": "gelmeden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "14:31:12",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "gelmeden önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "14:31:12": "(gelme)den (önce)",
+        "14:31:13": "(gelmeden) önce",
+        "14:31:14": "(gel)me(den önce)",
+        "14:31:15": "gel(meden önce)"
+      }
+    },
+    {
+      "members": [
+        "15:17:2",
+        "15:17:3",
+        "15:17:4"
+      ],
+      "before": {
+        "15:17:2": "her",
+        "15:17:3": null,
+        "15:17:4": "şeytandan"
+      },
+      "english": {
+        "15:17:2": "from",
+        "15:17:3": "every",
+        "15:17:4": "devil"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "15:17:3"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "şeytan",
+          "role": "15:17:4"
+        },
+        {
+          "text": "dan",
+          "role": "15:17:2"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "15:17:2",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "15:17:4",
+          "expression": "şeytandan"
+        }
+      ],
+      "shared_expression": "her şeytandan",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "15:17:2": "(her şeytan)dan",
+        "15:17:3": "her (şeytandan)",
+        "15:17:4": "(her) şeytan(dan)"
+      }
+    },
+    {
+      "members": [
+        "16:41:5",
+        "16:41:6",
+        "16:41:7",
+        "16:41:8"
+      ],
+      "before": {
+        "16:41:5": "sonra",
+        "16:41:6": null,
+        "16:41:7": "(kendilerine zulmedil)dik(ten)",
+        "16:41:8": "kendilerine zulmedil(dik)ten"
+      },
+      "english": {
+        "16:41:5": "after",
+        "16:41:6": "after",
+        "16:41:7": "[what]",
+        "16:41:8": "they were wronged"
+      },
+      "parts": [
+        {
+          "text": "kendilerine zulmedil",
+          "role": "16:41:8"
+        },
+        {
+          "text": "dik",
+          "role": "16:41:7"
+        },
+        {
+          "text": "ten",
+          "role": "16:41:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "16:41:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "16:41:7",
+            "16:41:8"
+          ],
+          "expression": "kendilerine zulmedildikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "16:41:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "kendilerine zulmedildikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "16:41:5": "(kendilerine zulmedildik)ten (sonra)",
+        "16:41:6": "(kendilerine zulmedildikten) sonra",
+        "16:41:7": "(kendilerine zulmedil)dik(ten sonra)",
+        "16:41:8": "kendilerine zulmedil(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "16:84:3",
+        "16:84:4",
+        "16:84:5"
+      ],
+      "before": {
+        "16:84:3": "her",
+        "16:84:4": null,
+        "16:84:5": "ümmetten"
+      },
+      "english": {
+        "16:84:3": "from",
+        "16:84:4": "every",
+        "16:84:5": "nation"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "16:84:4"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "ümmet",
+          "role": "16:84:5"
+        },
+        {
+          "text": "ten",
+          "role": "16:84:3"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "16:84:3",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "16:84:5",
+          "expression": "ümmetten"
+        }
+      ],
+      "shared_expression": "her ümmetten",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "16:84:3": "(her ümmet)ten",
+        "16:84:4": "her (ümmetten)",
+        "16:84:5": "(her) ümmet(ten)"
+      }
+    },
+    {
+      "members": [
+        "16:106:4",
+        "16:106:5",
+        "16:106:6"
+      ],
+      "before": {
+        "16:106:4": "sonra",
+        "16:106:5": null,
+        "16:106:6": "inandıktan"
+      },
+      "english": {
+        "16:106:4": "after",
+        "16:106:5": "after",
+        "16:106:6": "his belief"
+      },
+      "parts": [
+        {
+          "text": "inandık",
+          "role": "16:106:6"
+        },
+        {
+          "text": "tan",
+          "role": "16:106:4"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "16:106:5"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "16:106:6",
+          "expression": "inandıktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "16:106:4",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "inandıktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "16:106:4": "(inandık)tan (sonra)",
+        "16:106:5": "(inandıktan) sonra",
+        "16:106:6": "inandık(tan sonra)"
+      }
+    },
+    {
+      "members": [
+        "16:110:6",
+        "16:110:7",
+        "16:110:8",
+        "16:110:9"
+      ],
+      "before": {
+        "16:110:6": "sonra",
+        "16:110:7": null,
+        "16:110:8": "(işkenceye uğratıl)dık(tan)",
+        "16:110:9": "işkenceye uğratıl(dık)tan"
+      },
+      "english": {
+        "16:110:6": "after",
+        "16:110:7": "after",
+        "16:110:8": "what",
+        "16:110:9": "they had been put to trials"
+      },
+      "parts": [
+        {
+          "text": "işkenceye uğratıl",
+          "role": "16:110:9"
+        },
+        {
+          "text": "dık",
+          "role": "16:110:8"
+        },
+        {
+          "text": "tan",
+          "role": "16:110:6"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "16:110:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "16:110:8",
+            "16:110:9"
+          ],
+          "expression": "işkenceye uğratıldıktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "16:110:6",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "işkenceye uğratıldıktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "16:110:6": "(işkenceye uğratıldık)tan (sonra)",
+        "16:110:7": "(işkenceye uğratıldıktan) sonra",
+        "16:110:8": "(işkenceye uğratıl)dık(tan sonra)",
+        "16:110:9": "işkenceye uğratıl(dıktan sonra)"
+      }
+    },
+    {
+      "members": [
+        "16:112:11",
+        "16:112:12",
+        "16:112:13"
+      ],
+      "before": {
+        "16:112:11": "her",
+        "16:112:12": null,
+        "16:112:13": "yerden"
+      },
+      "english": {
+        "16:112:11": "from",
+        "16:112:12": "every",
+        "16:112:13": "place"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "16:112:12"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "yer",
+          "role": "16:112:13"
+        },
+        {
+          "text": "den",
+          "role": "16:112:11"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "16:112:11",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "16:112:13",
+          "expression": "yerden"
+        }
+      ],
+      "shared_expression": "her yerden",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "16:112:11": "(her yer)den",
+        "16:112:12": "her (yerden)",
+        "16:112:13": "(her) yer(den)"
+      }
+    },
+    {
+      "members": [
+        "17:17:5",
+        "17:17:6",
+        "17:17:7"
+      ],
+      "before": {
+        "17:17:5": "sonra",
+        "17:17:6": null,
+        "17:17:7": "Nuh'dan"
+      },
+      "english": {
+        "17:17:5": "after",
+        "17:17:6": "after",
+        "17:17:7": "Nuh"
+      },
+      "parts": [
+        {
+          "text": "Nuh",
+          "role": "17:17:7"
+        },
+        {
+          "text": "'dan",
+          "role": "17:17:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "17:17:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "17:17:7",
+          "expression": "Nuh'dan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "17:17:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "Nuh'dan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "17:17:5": "(Nuh)'dan (sonra)",
+        "17:17:6": "(Nuh'dan) sonra",
+        "17:17:7": "Nuh('dan sonra)"
+      }
+    },
+    {
+      "members": [
+        "18:84:7",
+        "18:84:8",
+        "18:84:9"
+      ],
+      "before": {
+        "18:84:7": "her",
+        "18:84:8": null,
+        "18:84:9": "şeyden"
+      },
+      "english": {
+        "18:84:7": "of",
+        "18:84:8": "every",
+        "18:84:9": "thing"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "18:84:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "şey",
+          "role": "18:84:9"
+        },
+        {
+          "text": "den",
+          "role": "18:84:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "18:84:7",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "18:84:9",
+          "expression": "şeyden"
+        }
+      ],
+      "shared_expression": "her şeyden",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "18:84:7": "(her şey)den",
+        "18:84:8": "her (şeyden)",
+        "18:84:9": "(her) şey(den)"
+      }
+    },
+    {
+      "members": [
+        "19:69:3",
+        "19:69:4",
+        "19:69:5"
+      ],
+      "before": {
+        "19:69:3": "her",
+        "19:69:4": null,
+        "19:69:5": "milletten"
+      },
+      "english": {
+        "19:69:3": "from",
+        "19:69:4": "every",
+        "19:69:5": "sect"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "19:69:4"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "millet",
+          "role": "19:69:5"
+        },
+        {
+          "text": "ten",
+          "role": "19:69:3"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "19:69:3",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "19:69:5",
+          "expression": "milletten"
+        }
+      ],
+      "shared_expression": "her milletten",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "19:69:3": "(her millet)ten",
+        "19:69:4": "her (milletten)",
+        "19:69:5": "(her) millet(ten)"
+      }
+    },
+    {
+      "members": [
+        "20:134:15",
+        "20:134:16",
+        "20:134:17",
+        "20:134:18"
+      ],
+      "before": {
+        "20:134:15": "önce",
+        "20:134:16": null,
+        "20:134:17": "(rezil ol)ma(dan)",
+        "20:134:18": "rezil ol(ma)dan"
+      },
+      "english": {
+        "20:134:15": "before",
+        "20:134:16": "before",
+        "20:134:17": "[that]",
+        "20:134:18": "we were humiliated"
+      },
+      "parts": [
+        {
+          "text": "rezil ol",
+          "role": "20:134:18"
+        },
+        {
+          "text": "ma",
+          "role": "20:134:17"
+        },
+        {
+          "text": "dan",
+          "role": "20:134:15"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "20:134:16"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "20:134:17",
+            "20:134:18"
+          ],
+          "expression": "rezil olmadan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "20:134:15",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "rezil olmadan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "20:134:15": "(rezil olma)dan (önce)",
+        "20:134:16": "(rezil olmadan) önce",
+        "20:134:17": "(rezil ol)ma(dan önce)",
+        "20:134:18": "rezil ol(madan önce)"
+      }
+    },
+    {
+      "members": [
+        "21:96:7",
+        "21:96:8",
+        "21:96:9"
+      ],
+      "before": {
+        "21:96:7": "her",
+        "21:96:8": null,
+        "21:96:9": "tepeden"
+      },
+      "english": {
+        "21:96:7": "from",
+        "21:96:8": "every",
+        "21:96:9": "elevation"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "21:96:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "tepe",
+          "role": "21:96:9"
+        },
+        {
+          "text": "den",
+          "role": "21:96:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "21:96:7",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "21:96:9",
+          "expression": "tepeden"
+        }
+      ],
+      "shared_expression": "her tepeden",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "21:96:7": "(her tepe)den",
+        "21:96:8": "her (tepeden)",
+        "21:96:9": "(her) tepe(den)"
+      }
+    },
+    {
+      "members": [
+        "24:33:44",
+        "24:33:45",
+        "24:33:46"
+      ],
+      "before": {
+        "24:33:44": "sonra",
+        "24:33:45": null,
+        "24:33:46": "zorlanmalarından"
+      },
+      "english": {
+        "24:33:44": "after",
+        "24:33:45": "after",
+        "24:33:46": "their compulsion"
+      },
+      "parts": [
+        {
+          "text": "zorlanmaları",
+          "role": "24:33:46"
+        },
+        {
+          "text": "ndan",
+          "role": "24:33:44"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "24:33:45"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "24:33:46",
+          "expression": "zorlanmalarından"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "24:33:44",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "zorlanmalarından sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "24:33:44": "(zorlanmaları)ndan (sonra)",
+        "24:33:45": "(zorlanmalarından) sonra",
+        "24:33:46": "zorlanmaları(ndan sonra)"
+      }
+    },
+    {
+      "members": [
+        "24:58:15",
+        "24:58:16",
+        "24:58:17"
+      ],
+      "before": {
+        "24:58:15": "önce",
+        "24:58:16": null,
+        "24:58:17": "namazından"
+      },
+      "english": {
+        "24:58:15": "before",
+        "24:58:16": "before",
+        "24:58:17": "(the) prayer"
+      },
+      "parts": [
+        {
+          "text": "namazı",
+          "role": "24:58:17"
+        },
+        {
+          "text": "ndan",
+          "role": "24:58:15"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "24:58:16"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "24:58:17",
+          "expression": "namazından"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "24:58:15",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "namazından önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "24:58:15": "(namazı)ndan (önce)",
+        "24:58:16": "(namazından) önce",
+        "24:58:17": "namazı(ndan önce)"
+      }
+    },
+    {
+      "members": [
+        "29:63:11",
+        "29:63:12",
+        "29:63:13"
+      ],
+      "before": {
+        "29:63:11": "sonra",
+        "29:63:12": null,
+        "29:63:13": "öldükten"
+      },
+      "english": {
+        "29:63:11": "after",
+        "29:63:12": "after",
+        "29:63:13": "its death"
+      },
+      "parts": [
+        {
+          "text": "öldük",
+          "role": "29:63:13"
+        },
+        {
+          "text": "ten",
+          "role": "29:63:11"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "29:63:12"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "29:63:13",
+          "expression": "öldükten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "29:63:11",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "öldükten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "29:63:11": "(öldük)ten (sonra)",
+        "29:63:12": "(öldükten) sonra",
+        "29:63:13": "öldük(ten sonra)"
+      }
+    },
+    {
+      "members": [
+        "30:3:5",
+        "30:3:6",
+        "30:3:7"
+      ],
+      "before": {
+        "30:3:5": "sonra",
+        "30:3:6": null,
+        "30:3:7": "yenilgilerinden"
+      },
+      "english": {
+        "30:3:5": "after",
+        "30:3:6": "after",
+        "30:3:7": "their defeat"
+      },
+      "parts": [
+        {
+          "text": "yenilgileri",
+          "role": "30:3:7"
+        },
+        {
+          "text": "nden",
+          "role": "30:3:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "30:3:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "30:3:7",
+          "expression": "yenilgilerinden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "30:3:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "yenilgilerinden sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "30:3:5": "(yenilgileri)nden (sonra)",
+        "30:3:6": "(yenilgilerinden) sonra",
+        "30:3:7": "yenilgileri(nden sonra)"
+      }
+    },
+    {
+      "members": [
+        "30:43:5",
+        "30:43:6",
+        "30:43:7",
+        "30:43:8"
+      ],
+      "before": {
+        "30:43:5": "önce",
+        "30:43:6": null,
+        "30:43:7": "(gel)me(sinden)",
+        "30:43:8": "gel(me)sinden"
+      },
+      "english": {
+        "30:43:5": "before",
+        "30:43:6": "before",
+        "30:43:7": "[that]",
+        "30:43:8": "comes"
+      },
+      "parts": [
+        {
+          "text": "gel",
+          "role": "30:43:8"
+        },
+        {
+          "text": "me",
+          "role": "30:43:7"
+        },
+        {
+          "text": "si",
+          "role": "30:43:8"
+        },
+        {
+          "text": "nden",
+          "role": "30:43:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "30:43:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "30:43:7",
+            "30:43:8"
+          ],
+          "expression": "gelmesinden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "30:43:5",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "gelmesinden önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "30:43:5": "(gelmesi)nden (önce)",
+        "30:43:6": "(gelmesinden) önce",
+        "30:43:7": "(gel)me(sinden önce)",
+        "30:43:8": "gel(me)si(nden önce)"
+      }
+    },
+    {
+      "members": [
+        "33:49:9",
+        "33:49:10",
+        "33:49:11",
+        "33:49:12"
+      ],
+      "before": {
+        "33:49:9": "önce",
+        "33:49:10": null,
+        "33:49:11": "(onlara dokun)ma(dan)",
+        "33:49:12": "onlara dokun(ma)dan"
+      },
+      "english": {
+        "33:49:9": "before",
+        "33:49:10": "before",
+        "33:49:11": "[that]",
+        "33:49:12": "you have touched them"
+      },
+      "parts": [
+        {
+          "text": "onlara dokun",
+          "role": "33:49:12"
+        },
+        {
+          "text": "ma",
+          "role": "33:49:11"
+        },
+        {
+          "text": "dan",
+          "role": "33:49:9"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "33:49:10"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "33:49:11",
+            "33:49:12"
+          ],
+          "expression": "onlara dokunmadan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "33:49:9",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "onlara dokunmadan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "33:49:9": "(onlara dokunma)dan (önce)",
+        "33:49:10": "(onlara dokunmadan) önce",
+        "33:49:11": "(onlara dokun)ma(dan önce)",
+        "33:49:12": "onlara dokun(madan önce)"
+      }
+    },
+    {
+      "members": [
+        "37:8:7",
+        "37:8:8",
+        "37:8:9"
+      ],
+      "before": {
+        "37:8:7": "her",
+        "37:8:8": null,
+        "37:8:9": "yandan"
+      },
+      "english": {
+        "37:8:7": "from",
+        "37:8:8": "every",
+        "37:8:9": "side"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "37:8:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "yan",
+          "role": "37:8:9"
+        },
+        {
+          "text": "dan",
+          "role": "37:8:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "37:8:7",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "37:8:9",
+          "expression": "yandan"
+        }
+      ],
+      "shared_expression": "her yandan",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "quantifier_expansion",
+      "after": {
+        "37:8:7": "(her yan)dan",
+        "37:8:8": "her (yandan)",
+        "37:8:9": "(her) yan(dan)"
+      }
+    },
+    {
+      "members": [
+        "39:6:20",
+        "39:6:21",
+        "39:6:22"
+      ],
+      "before": {
+        "39:6:20": "sonra",
+        "39:6:21": null,
+        "39:6:22": "bir yaratılıştan"
+      },
+      "english": {
+        "39:6:20": "after",
+        "39:6:21": "after",
+        "39:6:22": "creation"
+      },
+      "parts": [
+        {
+          "text": "bir yaratılış",
+          "role": "39:6:22"
+        },
+        {
+          "text": "tan",
+          "role": "39:6:20"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "39:6:21"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "39:6:22",
+          "expression": "bir yaratılıştan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "39:6:20",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "bir yaratılıştan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "39:6:20": "(bir yaratılış)tan (sonra)",
+        "39:6:21": "(bir yaratılıştan) sonra",
+        "39:6:22": "bir yaratılış(tan sonra)"
+      }
+    },
+    {
+      "members": [
+        "39:54:6",
+        "39:54:7",
+        "39:54:8",
+        "39:54:9"
+      ],
+      "before": {
+        "39:54:6": "önce",
+        "39:54:7": null,
+        "39:54:8": "(size gelip çat)ma(dan)",
+        "39:54:9": "size gelip çat(ma)dan"
+      },
+      "english": {
+        "39:54:6": "before",
+        "39:54:7": "before",
+        "39:54:8": "[that]",
+        "39:54:9": "comes to you"
+      },
+      "parts": [
+        {
+          "text": "size gelip çat",
+          "role": "39:54:9"
+        },
+        {
+          "text": "ma",
+          "role": "39:54:8"
+        },
+        {
+          "text": "dan",
+          "role": "39:54:6"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "39:54:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "39:54:8",
+            "39:54:9"
+          ],
+          "expression": "size gelip çatmadan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "39:54:6",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "size gelip çatmadan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "39:54:6": "(size gelip çatma)dan (önce)",
+        "39:54:7": "(size gelip çatmadan) önce",
+        "39:54:8": "(size gelip çat)ma(dan önce)",
+        "39:54:9": "size gelip çat(madan önce)"
+      }
+    },
+    {
+      "members": [
+        "41:50:5",
+        "41:50:6",
+        "41:50:7"
+      ],
+      "before": {
+        "41:50:5": "sonra",
+        "41:50:6": null,
+        "41:50:7": "bir zarardan"
+      },
+      "english": {
+        "41:50:5": "after",
+        "41:50:6": "after",
+        "41:50:7": "an adversity"
+      },
+      "parts": [
+        {
+          "text": "bir zarar",
+          "role": "41:50:7"
+        },
+        {
+          "text": "dan",
+          "role": "41:50:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "41:50:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "41:50:7",
+          "expression": "bir zarardan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "41:50:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "bir zarardan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "41:50:5": "(bir zarar)dan (sonra)",
+        "41:50:6": "(bir zarardan) sonra",
+        "41:50:7": "bir zarar(dan sonra)"
+      }
+    },
+    {
+      "members": [
+        "42:14:4",
+        "42:14:5",
+        "42:14:6",
+        "42:14:7"
+      ],
+      "before": {
+        "42:14:4": "sonra",
+        "42:14:5": null,
+        "42:14:6": "(kendilerine gel)dik(ten)",
+        "42:14:7": "kendilerine gel(dik)ten"
+      },
+      "english": {
+        "42:14:4": "after",
+        "42:14:5": "after",
+        "42:14:6": "[what]",
+        "42:14:7": "came to them"
+      },
+      "parts": [
+        {
+          "text": "kendilerine gel",
+          "role": "42:14:7"
+        },
+        {
+          "text": "dik",
+          "role": "42:14:6"
+        },
+        {
+          "text": "ten",
+          "role": "42:14:4"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "42:14:5"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "42:14:6",
+            "42:14:7"
+          ],
+          "expression": "kendilerine geldikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "42:14:4",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "kendilerine geldikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "42:14:4": "(kendilerine geldik)ten (sonra)",
+        "42:14:5": "(kendilerine geldikten) sonra",
+        "42:14:6": "(kendilerine gel)dik(ten sonra)",
+        "42:14:7": "kendilerine gel(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "42:16:5",
+        "42:16:6",
+        "42:16:7",
+        "42:16:8"
+      ],
+      "before": {
+        "42:16:5": "sonra",
+        "42:16:6": null,
+        "42:16:7": "(kabul et)tik(ten)",
+        "42:16:8": "kabul et(tik)ten"
+      },
+      "english": {
+        "42:16:5": "after",
+        "42:16:6": "after",
+        "42:16:7": "[what]",
+        "42:16:8": "response has been made to Him"
+      },
+      "parts": [
+        {
+          "text": "kabul et",
+          "role": "42:16:8"
+        },
+        {
+          "text": "tik",
+          "role": "42:16:7"
+        },
+        {
+          "text": "ten",
+          "role": "42:16:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "42:16:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "42:16:7",
+            "42:16:8"
+          ],
+          "expression": "kabul ettikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "42:16:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "kabul ettikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "42:16:5": "(kabul ettik)ten (sonra)",
+        "42:16:6": "(kabul ettikten) sonra",
+        "42:16:7": "(kabul et)tik(ten sonra)",
+        "42:16:8": "kabul et(tikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "42:28:5",
+        "42:28:6",
+        "42:28:7",
+        "42:28:8"
+      ],
+      "before": {
+        "42:28:5": "sonra",
+        "42:28:6": null,
+        "42:28:7": "(umutlarını kes)tik(ten)",
+        "42:28:8": "umutlarını kes(tik)ten"
+      },
+      "english": {
+        "42:28:5": "after",
+        "42:28:6": "after",
+        "42:28:7": "[what]",
+        "42:28:8": "they have despaired"
+      },
+      "parts": [
+        {
+          "text": "umutlarını kes",
+          "role": "42:28:8"
+        },
+        {
+          "text": "tik",
+          "role": "42:28:7"
+        },
+        {
+          "text": "ten",
+          "role": "42:28:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "42:28:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "42:28:7",
+            "42:28:8"
+          ],
+          "expression": "umutlarını kestikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "42:28:5",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "umutlarını kestikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "42:28:5": "(umutlarını kestik)ten (sonra)",
+        "42:28:6": "(umutlarını kestikten) sonra",
+        "42:28:7": "(umutlarını kes)tik(ten sonra)",
+        "42:28:8": "umutlarını kes(tikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "45:17:8",
+        "45:17:9",
+        "45:17:10",
+        "45:17:11"
+      ],
+      "before": {
+        "45:17:8": "sonra",
+        "45:17:9": null,
+        "45:17:10": "(kendilerine gel)dik(ten)",
+        "45:17:11": "kendilerine gel(dik)ten"
+      },
+      "english": {
+        "45:17:8": "after",
+        "45:17:9": "after",
+        "45:17:10": "[what]",
+        "45:17:11": "came to them"
+      },
+      "parts": [
+        {
+          "text": "kendilerine gel",
+          "role": "45:17:11"
+        },
+        {
+          "text": "dik",
+          "role": "45:17:10"
+        },
+        {
+          "text": "ten",
+          "role": "45:17:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "45:17:9"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "45:17:10",
+            "45:17:11"
+          ],
+          "expression": "kendilerine geldikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "45:17:8",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "kendilerine geldikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "45:17:8": "(kendilerine geldik)ten (sonra)",
+        "45:17:9": "(kendilerine geldikten) sonra",
+        "45:17:10": "(kendilerine gel)dik(ten sonra)",
+        "45:17:11": "kendilerine gel(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "45:23:20",
+        "45:23:21",
+        "45:23:22"
+      ],
+      "before": {
+        "45:23:20": "sonra",
+        "45:23:21": null,
+        "45:23:22": "Allah'tan"
+      },
+      "english": {
+        "45:23:20": "after",
+        "45:23:21": "after",
+        "45:23:22": "Allah"
+      },
+      "parts": [
+        {
+          "text": "Allah",
+          "role": "45:23:22"
+        },
+        {
+          "text": "'tan",
+          "role": "45:23:20"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "45:23:21"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "45:23:22",
+          "expression": "Allah'tan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "45:23:20",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "Allah'tan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "45:23:20": "(Allah)'tan (sonra)",
+        "45:23:21": "(Allah'tan) sonra",
+        "45:23:22": "Allah('tan sonra)"
+      }
+    },
+    {
+      "members": [
+        "46:4:20",
+        "46:4:21",
+        "46:4:22"
+      ],
+      "before": {
+        "46:4:20": "önce",
+        "46:4:21": null,
+        "46:4:22": "bundan"
+      },
+      "english": {
+        "46:4:20": "from",
+        "46:4:21": "before",
+        "46:4:22": "this"
+      },
+      "parts": [
+        {
+          "text": "bu",
+          "role": "46:4:22"
+        },
+        {
+          "text": "ndan",
+          "role": "46:4:20"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "46:4:21"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "46:4:22",
+          "expression": "bundan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "46:4:20",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "bundan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "46:4:20": "(bu)ndan (önce)",
+        "46:4:21": "(bundan) önce",
+        "46:4:22": "bu(ndan önce)"
+      }
+    },
+    {
+      "members": [
+        "46:30:7",
+        "46:30:8",
+        "46:30:9"
+      ],
+      "before": {
+        "46:30:7": "sonra",
+        "46:30:8": null,
+        "46:30:9": "Musa'dan"
+      },
+      "english": {
+        "46:30:7": "after",
+        "46:30:8": "after",
+        "46:30:9": "Musa"
+      },
+      "parts": [
+        {
+          "text": "Musa",
+          "role": "46:30:9"
+        },
+        {
+          "text": "'dan",
+          "role": "46:30:7"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "46:30:8"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "46:30:9",
+          "expression": "Musa'dan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "46:30:7",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "Musa'dan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "46:30:7": "(Musa)'dan (sonra)",
+        "46:30:8": "(Musa'dan) sonra",
+        "46:30:9": "Musa('dan sonra)"
+      }
+    },
+    {
+      "members": [
+        "47:25:6",
+        "47:25:7",
+        "47:25:8",
+        "47:25:9"
+      ],
+      "before": {
+        "47:25:6": "sonra",
+        "47:25:7": null,
+        "47:25:8": "(belli ol)duk(tan)",
+        "47:25:9": "belli ol(duk)tan"
+      },
+      "english": {
+        "47:25:6": "after",
+        "47:25:7": "after",
+        "47:25:8": "what",
+        "47:25:9": "(has) become clear"
+      },
+      "parts": [
+        {
+          "text": "belli ol",
+          "role": "47:25:9"
+        },
+        {
+          "text": "duk",
+          "role": "47:25:8"
+        },
+        {
+          "text": "tan",
+          "role": "47:25:6"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "47:25:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "47:25:8",
+            "47:25:9"
+          ],
+          "expression": "belli olduktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "47:25:6",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "belli olduktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "47:25:6": "(belli olduk)tan (sonra)",
+        "47:25:7": "(belli olduktan) sonra",
+        "47:25:8": "(belli ol)duk(tan sonra)",
+        "47:25:9": "belli ol(duktan sonra)"
+      }
+    },
+    {
+      "members": [
+        "47:32:10",
+        "47:32:11",
+        "47:32:12",
+        "47:32:13"
+      ],
+      "before": {
+        "47:32:10": "sonra",
+        "47:32:11": null,
+        "47:32:12": "(belli ol)duk(tan)",
+        "47:32:13": "belli ol(duk)tan"
+      },
+      "english": {
+        "47:32:10": "after",
+        "47:32:11": "after",
+        "47:32:12": "[what]",
+        "47:32:13": "(has been) made clear"
+      },
+      "parts": [
+        {
+          "text": "belli ol",
+          "role": "47:32:13"
+        },
+        {
+          "text": "duk",
+          "role": "47:32:12"
+        },
+        {
+          "text": "tan",
+          "role": "47:32:10"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "47:32:11"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "47:32:12",
+            "47:32:13"
+          ],
+          "expression": "belli olduktan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "47:32:10",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "belli olduktan sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "47:32:10": "(belli olduk)tan (sonra)",
+        "47:32:11": "(belli olduktan) sonra",
+        "47:32:12": "(belli ol)duk(tan sonra)",
+        "47:32:13": "belli ol(duktan sonra)"
+      }
+    },
+    {
+      "members": [
+        "48:24:10",
+        "48:24:11",
+        "48:24:12",
+        "48:24:13"
+      ],
+      "before": {
+        "48:24:10": "sonra",
+        "48:24:11": null,
+        "48:24:12": "(sizi galip getir)dik(ten)",
+        "48:24:13": "sizi galip getir(dik)ten"
+      },
+      "english": {
+        "48:24:10": "after",
+        "48:24:11": "after",
+        "48:24:12": "that",
+        "48:24:13": "He gave you victory"
+      },
+      "parts": [
+        {
+          "text": "sizi galip getir",
+          "role": "48:24:13"
+        },
+        {
+          "text": "dik",
+          "role": "48:24:12"
+        },
+        {
+          "text": "ten",
+          "role": "48:24:10"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "sonra",
+          "role": "48:24:11"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "48:24:12",
+            "48:24:13"
+          ],
+          "expression": "sizi galip getirdikten"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "48:24:10",
+          "expression": "sonra"
+        }
+      ],
+      "shared_expression": "sizi galip getirdikten sonra",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "48:24:10": "(sizi galip getirdik)ten (sonra)",
+        "48:24:11": "(sizi galip getirdikten) sonra",
+        "48:24:12": "(sizi galip getir)dik(ten sonra)",
+        "48:24:13": "sizi galip getir(dikten sonra)"
+      }
+    },
+    {
+      "members": [
+        "57:10:17",
+        "57:10:18",
+        "57:10:19"
+      ],
+      "before": {
+        "57:10:17": "önce",
+        "57:10:18": null,
+        "57:10:19": "fetihden"
+      },
+      "english": {
+        "57:10:17": "before",
+        "57:10:18": "before",
+        "57:10:19": "the victory"
+      },
+      "parts": [
+        {
+          "text": "fetih",
+          "role": "57:10:19"
+        },
+        {
+          "text": "den",
+          "role": "57:10:17"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "57:10:18"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "57:10:19",
+          "expression": "fetihden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "57:10:17",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "fetihden önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "57:10:17": "(fetih)den (önce)",
+        "57:10:18": "(fetihden) önce",
+        "57:10:19": "fetih(den önce)"
+      }
+    },
+    {
+      "members": [
+        "57:22:13",
+        "57:22:14",
+        "57:22:15",
+        "57:22:16"
+      ],
+      "before": {
+        "57:22:13": "önce",
+        "57:22:14": null,
+        "57:22:15": "(biz onu yarat)ma(dan)",
+        "57:22:16": "biz onu yarat(ma)dan"
+      },
+      "english": {
+        "57:22:13": "before",
+        "57:22:14": "before",
+        "57:22:15": "that",
+        "57:22:16": "We bring it into existence"
+      },
+      "parts": [
+        {
+          "text": "biz onu yarat",
+          "role": "57:22:16"
+        },
+        {
+          "text": "ma",
+          "role": "57:22:15"
+        },
+        {
+          "text": "dan",
+          "role": "57:22:13"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "57:22:14"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "57:22:15",
+            "57:22:16"
+          ],
+          "expression": "biz onu yaratmadan"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "57:22:13",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "biz onu yaratmadan önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "57:22:13": "(biz onu yaratma)dan (önce)",
+        "57:22:14": "(biz onu yaratmadan) önce",
+        "57:22:15": "(biz onu yarat)ma(dan önce)",
+        "57:22:16": "biz onu yarat(madan önce)"
+      }
+    },
+    {
+      "members": [
+        "63:10:5",
+        "63:10:6",
+        "63:10:7",
+        "63:10:8"
+      ],
+      "before": {
+        "63:10:5": "önce",
+        "63:10:6": null,
+        "63:10:7": "(gel)me(den)",
+        "63:10:8": "gel(me)den"
+      },
+      "english": {
+        "63:10:5": "from",
+        "63:10:6": "before",
+        "63:10:7": "[that]",
+        "63:10:8": "comes"
+      },
+      "parts": [
+        {
+          "text": "gel",
+          "role": "63:10:8"
+        },
+        {
+          "text": "me",
+          "role": "63:10:7"
+        },
+        {
+          "text": "den",
+          "role": "63:10:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "63:10:6"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "63:10:7",
+            "63:10:8"
+          ],
+          "expression": "gelmeden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "63:10:5",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "gelmeden önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "63:10:5": "(gelme)den (önce)",
+        "63:10:6": "(gelmeden) önce",
+        "63:10:7": "(gel)me(den önce)",
+        "63:10:8": "gel(meden önce)"
+      }
+    },
+    {
+      "members": [
+        "71:1:9",
+        "71:1:10",
+        "71:1:11",
+        "71:1:12"
+      ],
+      "before": {
+        "71:1:9": "önce",
+        "71:1:10": null,
+        "71:1:11": "(onlara gel)me(den)",
+        "71:1:12": "onlara gel(me)den"
+      },
+      "english": {
+        "71:1:9": "from",
+        "71:1:10": "before",
+        "71:1:11": "[that]",
+        "71:1:12": "comes to them"
+      },
+      "parts": [
+        {
+          "text": "onlara gel",
+          "role": "71:1:12"
+        },
+        {
+          "text": "me",
+          "role": "71:1:11"
+        },
+        {
+          "text": "den",
+          "role": "71:1:9"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "önce",
+          "role": "71:1:10"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "previous_manifest_group",
+          "members": [
+            "71:1:11",
+            "71:1:12"
+          ],
+          "expression": "onlara gelmeden"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "71:1:9",
+          "expression": "önce"
+        }
+      ],
+      "shared_expression": "onlara gelmeden önce",
+      "reason": "The outer ablative ending supplies the first source relation; the postposition or quantifier was stored at that relation's key. Retain any established inner clause roles.",
+      "category": "temporal_expansion",
+      "after": {
+        "71:1:9": "(onlara gelme)den (önce)",
+        "71:1:10": "(onlara gelmeden) önce",
+        "71:1:11": "(onlara gel)me(den önce)",
+        "71:1:12": "onlara gel(meden önce)"
+      }
+    },
+    {
+      "members": [
+        "7:29:7",
+        "7:29:8",
+        "7:29:9"
+      ],
+      "before": {
+        "7:29:7": "her",
+        "7:29:8": null,
+        "7:29:9": "mescidde"
+      },
+      "english": {
+        "7:29:7": "at",
+        "7:29:8": "every",
+        "7:29:9": "masjid"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "7:29:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "mescid",
+          "role": "7:29:9"
+        },
+        {
+          "text": "de",
+          "role": "7:29:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "7:29:7",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "7:29:9",
+          "expression": "mescidde"
+        }
+      ],
+      "shared_expression": "her mescidde",
+      "reason": "Expose the locative ending, quantifier, and noun in their existing Turkish order.",
+      "category": "locative_quantifier",
+      "after": {
+        "7:29:7": "(her mescid)de",
+        "7:29:8": "her (mescidde)",
+        "7:29:9": "(her) mescid(de)"
+      }
+    },
+    {
+      "members": [
+        "8:56:7",
+        "8:56:8",
+        "8:56:9"
+      ],
+      "before": {
+        "8:56:7": "her",
+        "8:56:8": null,
+        "8:56:9": "defasında"
+      },
+      "english": {
+        "8:56:7": "[in]",
+        "8:56:8": "every",
+        "8:56:9": "time"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "8:56:8"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "defası",
+          "role": "8:56:9"
+        },
+        {
+          "text": "nda",
+          "role": "8:56:7"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "8:56:7",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "8:56:9",
+          "expression": "defasında"
+        }
+      ],
+      "shared_expression": "her defasında",
+      "reason": "Expose the locative ending, quantifier, and noun in their existing Turkish order.",
+      "category": "locative_quantifier",
+      "after": {
+        "8:56:7": "(her defası)nda",
+        "8:56:8": "her (defasında)",
+        "8:56:9": "(her) defası(nda)"
+      }
+    },
+    {
+      "members": [
+        "26:225:4",
+        "26:225:5",
+        "26:225:6"
+      ],
+      "before": {
+        "26:225:4": "her",
+        "26:225:5": null,
+        "26:225:6": "vadide"
+      },
+      "english": {
+        "26:225:4": "in",
+        "26:225:5": "every",
+        "26:225:6": "valley"
+      },
+      "parts": [
+        {
+          "text": "her",
+          "role": "26:225:5"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "vadi",
+          "role": "26:225:6"
+        },
+        {
+          "text": "de",
+          "role": "26:225:4"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "26:225:4",
+          "expression": "her"
+        },
+        {
+          "kind": "baseline_value",
+          "key": "26:225:6",
+          "expression": "vadide"
+        }
+      ],
+      "shared_expression": "her vadide",
+      "reason": "Expose the locative ending, quantifier, and noun in their existing Turkish order.",
+      "category": "locative_quantifier",
+      "after": {
+        "26:225:4": "(her vadi)de",
+        "26:225:5": "her (vadide)",
+        "26:225:6": "(her) vadi(de)"
+      }
+    },
+    {
+      "members": [
+        "3:28:25",
+        "3:28:26"
+      ],
+      "before": {
+        "3:28:25": "ve Allah'adır",
+        "3:28:26": null
+      },
+      "english": {
+        "3:28:25": "and to",
+        "3:28:26": "Allah"
+      },
+      "parts": [
+        {
+          "text": "ve ",
+          "role": "3:28:25"
+        },
+        {
+          "text": "Allah",
+          "role": "3:28:26"
+        },
+        {
+          "text": "'a",
+          "role": "3:28:25"
+        },
+        {
+          "text": "dır",
+          "role": "context"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "3:28:25",
+          "expression": "ve Allah'adır"
+        }
+      ],
+      "shared_expression": "ve Allah'adır",
+      "reason": "Separate the overt dative from the divine name; the copular ending remains shared context rather than being labeled as the preposition.",
+      "category": "proper_name_dative",
+      "after": {
+        "3:28:25": "ve (Allah)'a(dır)",
+        "3:28:26": "(ve) Allah('adır)"
+      }
+    },
+    {
+      "members": [
+        "5:48:43",
+        "5:48:44"
+      ],
+      "before": {
+        "5:48:43": "Allah'adır",
+        "5:48:44": null
+      },
+      "english": {
+        "5:48:43": "To",
+        "5:48:44": "Allah"
+      },
+      "parts": [
+        {
+          "text": "Allah",
+          "role": "5:48:44"
+        },
+        {
+          "text": "'a",
+          "role": "5:48:43"
+        },
+        {
+          "text": "dır",
+          "role": "context"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "5:48:43",
+          "expression": "Allah'adır"
+        }
+      ],
+      "shared_expression": "Allah'adır",
+      "reason": "Separate the overt dative from the divine name; the copular ending remains shared context rather than being labeled as the preposition.",
+      "category": "proper_name_dative",
+      "after": {
+        "5:48:43": "(Allah)'a(dır)",
+        "5:48:44": "Allah('adır)"
+      }
+    },
+    {
+      "members": [
+        "5:105:12",
+        "5:105:13"
+      ],
+      "before": {
+        "5:105:12": "Allah'adır",
+        "5:105:13": null
+      },
+      "english": {
+        "5:105:12": "To",
+        "5:105:13": "Allah"
+      },
+      "parts": [
+        {
+          "text": "Allah",
+          "role": "5:105:13"
+        },
+        {
+          "text": "'a",
+          "role": "5:105:12"
+        },
+        {
+          "text": "dır",
+          "role": "context"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "5:105:12",
+          "expression": "Allah'adır"
+        }
+      ],
+      "shared_expression": "Allah'adır",
+      "reason": "Separate the overt dative from the divine name; the copular ending remains shared context rather than being labeled as the preposition.",
+      "category": "proper_name_dative",
+      "after": {
+        "5:105:12": "(Allah)'a(dır)",
+        "5:105:13": "Allah('adır)"
+      }
+    },
+    {
+      "members": [
+        "11:4:1",
+        "11:4:2"
+      ],
+      "before": {
+        "11:4:1": "Allah'adır",
+        "11:4:2": null
+      },
+      "english": {
+        "11:4:1": "To",
+        "11:4:2": "Allah"
+      },
+      "parts": [
+        {
+          "text": "Allah",
+          "role": "11:4:2"
+        },
+        {
+          "text": "'a",
+          "role": "11:4:1"
+        },
+        {
+          "text": "dır",
+          "role": "context"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "11:4:1",
+          "expression": "Allah'adır"
+        }
+      ],
+      "shared_expression": "Allah'adır",
+      "reason": "Separate the overt dative from the divine name; the copular ending remains shared context rather than being labeled as the preposition.",
+      "category": "proper_name_dative",
+      "after": {
+        "11:4:1": "(Allah)'a(dır)",
+        "11:4:2": "Allah('adır)"
+      }
+    },
+    {
+      "members": [
+        "12:66:8",
+        "12:66:9"
+      ],
+      "before": {
+        "12:66:8": "Allah adına",
+        "12:66:9": null
+      },
+      "english": {
+        "12:66:8": "by",
+        "12:66:9": "Allah"
+      },
+      "parts": [
+        {
+          "text": "Allah",
+          "role": "12:66:9"
+        },
+        {
+          "text": " ",
+          "role": "context"
+        },
+        {
+          "text": "adına",
+          "role": "12:66:8"
+        }
+      ],
+      "expression_origins": [
+        {
+          "kind": "baseline_value",
+          "key": "12:66:8",
+          "expression": "Allah adına"
+        }
+      ],
+      "shared_expression": "Allah adına",
+      "reason": "The existing oath expression has a separate postposition; expose it without inventing a case ending.",
+      "category": "oath_expression",
+      "after": {
+        "12:66:8": "(Allah) adına",
+        "12:66:9": "Allah (adına)"
+      }
+    }
+  ]
+}

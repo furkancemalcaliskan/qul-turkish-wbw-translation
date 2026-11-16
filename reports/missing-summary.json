@@ -2,17 +2,17 @@
   "scope": "Structural comparison only; missing keys do not establish missing meanings.",
   "source_sha256": {
     "english": "917a0fb15244cfd84ab3492172d33418225a682e92d74f529c32df96a0f5f7f2",
-    "turkish": "94e871f2b1de1aae8c836ac5db4aa5a3f5c4a8c1699463bd00ba46ef93ac2770"
+    "turkish": "3f92efca0d85727623920e99f37690c701d37341aa7a0a30b9979c1402329d45"
   },
   "english_entries": 83665,
-  "turkish_entries": 82025,
-  "missing_keys": 1640,
+  "turkish_entries": 83665,
+  "missing_keys": 0,
   "missing_by_category": {
     "ayah_number": 0,
-    "word_or_phrase": 1640
+    "word_or_phrase": 0
   },
   "extra_turkish_keys": [],
-  "ayahs_with_missing_word_or_phrase_keys": 1265,
+  "ayahs_with_missing_word_or_phrase_keys": 0,
   "missing_by_surah": [
     {
       "surah": 1,
@@ -22,382 +22,382 @@
     {
       "surah": 2,
       "ayah_number": 0,
-      "word_or_phrase": 128
+      "word_or_phrase": 0
     },
     {
       "surah": 3,
       "ayah_number": 0,
-      "word_or_phrase": 86
+      "word_or_phrase": 0
     },
     {
       "surah": 4,
       "ayah_number": 0,
-      "word_or_phrase": 130
+      "word_or_phrase": 0
     },
     {
       "surah": 5,
       "ayah_number": 0,
-      "word_or_phrase": 65
+      "word_or_phrase": 0
     },
     {
       "surah": 6,
       "ayah_number": 0,
-      "word_or_phrase": 66
+      "word_or_phrase": 0
     },
     {
       "surah": 7,
       "ayah_number": 0,
-      "word_or_phrase": 77
+      "word_or_phrase": 0
     },
     {
       "surah": 8,
       "ayah_number": 0,
-      "word_or_phrase": 27
+      "word_or_phrase": 0
     },
     {
       "surah": 9,
       "ayah_number": 0,
-      "word_or_phrase": 46
+      "word_or_phrase": 0
     },
     {
       "surah": 10,
       "ayah_number": 0,
-      "word_or_phrase": 42
+      "word_or_phrase": 0
     },
     {
       "surah": 11,
       "ayah_number": 0,
-      "word_or_phrase": 51
+      "word_or_phrase": 0
     },
     {
       "surah": 12,
       "ayah_number": 0,
-      "word_or_phrase": 43
+      "word_or_phrase": 0
     },
     {
       "surah": 13,
       "ayah_number": 0,
-      "word_or_phrase": 24
+      "word_or_phrase": 0
     },
     {
       "surah": 14,
       "ayah_number": 0,
-      "word_or_phrase": 17
+      "word_or_phrase": 0
     },
     {
       "surah": 15,
       "ayah_number": 0,
-      "word_or_phrase": 9
+      "word_or_phrase": 0
     },
     {
       "surah": 16,
       "ayah_number": 0,
-      "word_or_phrase": 48
+      "word_or_phrase": 0
     },
     {
       "surah": 17,
       "ayah_number": 0,
-      "word_or_phrase": 49
+      "word_or_phrase": 0
     },
     {
       "surah": 18,
       "ayah_number": 0,
-      "word_or_phrase": 41
+      "word_or_phrase": 0
     },
     {
       "surah": 19,
       "ayah_number": 0,
-      "word_or_phrase": 26
+      "word_or_phrase": 0
     },
     {
       "surah": 20,
       "ayah_number": 0,
-      "word_or_phrase": 22
+      "word_or_phrase": 0
     },
     {
       "surah": 21,
       "ayah_number": 0,
-      "word_or_phrase": 22
+      "word_or_phrase": 0
     },
     {
       "surah": 22,
       "ayah_number": 0,
-      "word_or_phrase": 18
+      "word_or_phrase": 0
     },
     {
       "surah": 23,
       "ayah_number": 0,
-      "word_or_phrase": 13
+      "word_or_phrase": 0
     },
     {
       "surah": 24,
       "ayah_number": 0,
-      "word_or_phrase": 22
+      "word_or_phrase": 0
     },
     {
       "surah": 25,
       "ayah_number": 0,
-      "word_or_phrase": 19
+      "word_or_phrase": 0
     },
     {
       "surah": 26,
       "ayah_number": 0,
-      "word_or_phrase": 25
+      "word_or_phrase": 0
     },
     {
       "surah": 27,
       "ayah_number": 0,
-      "word_or_phrase": 20
+      "word_or_phrase": 0
     },
     {
       "surah": 28,
       "ayah_number": 0,
-      "word_or_phrase": 29
+      "word_or_phrase": 0
     },
     {
       "surah": 29,
       "ayah_number": 0,
-      "word_or_phrase": 13
+      "word_or_phrase": 0
     },
     {
       "surah": 30,
       "ayah_number": 0,
-      "word_or_phrase": 23
+      "word_or_phrase": 0
     },
     {
       "surah": 31,
       "ayah_number": 0,
-      "word_or_phrase": 10
+      "word_or_phrase": 0
     },
     {
       "surah": 32,
       "ayah_number": 0,
-      "word_or_phrase": 9
+      "word_or_phrase": 0
     },
     {
       "surah": 33,
       "ayah_number": 0,
-      "word_or_phrase": 26
+      "word_or_phrase": 0
     },
     {
       "surah": 34,
       "ayah_number": 0,
-      "word_or_phrase": 27
+      "word_or_phrase": 0
     },
     {
       "surah": 35,
       "ayah_number": 0,
-      "word_or_phrase": 15
+      "word_or_phrase": 0
     },
     {
       "surah": 36,
       "ayah_number": 0,
-      "word_or_phrase": 12
+      "word_or_phrase": 0
     },
     {
       "surah": 37,
       "ayah_number": 0,
-      "word_or_phrase": 16
+      "word_or_phrase": 0
     },
     {
       "surah": 38,
       "ayah_number": 0,
-      "word_or_phrase": 13
+      "word_or_phrase": 0
     },
     {
       "surah": 39,
       "ayah_number": 0,
-      "word_or_phrase": 24
+      "word_or_phrase": 0
     },
     {
       "surah": 40,
       "ayah_number": 0,
-      "word_or_phrase": 20
+      "word_or_phrase": 0
     },
     {
       "surah": 41,
       "ayah_number": 0,
-      "word_or_phrase": 23
+      "word_or_phrase": 0
     },
     {
       "surah": 42,
       "ayah_number": 0,
-      "word_or_phrase": 25
+      "word_or_phrase": 0
     },
     {
       "surah": 43,
       "ayah_number": 0,
-      "word_or_phrase": 10
+      "word_or_phrase": 0
     },
     {
       "surah": 44,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 45,
       "ayah_number": 0,
-      "word_or_phrase": 9
+      "word_or_phrase": 0
     },
     {
       "surah": 46,
       "ayah_number": 0,
-      "word_or_phrase": 17
+      "word_or_phrase": 0
     },
     {
       "surah": 47,
       "ayah_number": 0,
-      "word_or_phrase": 8
+      "word_or_phrase": 0
     },
     {
       "surah": 48,
       "ayah_number": 0,
-      "word_or_phrase": 10
+      "word_or_phrase": 0
     },
     {
       "surah": 49,
       "ayah_number": 0,
-      "word_or_phrase": 9
+      "word_or_phrase": 0
     },
     {
       "surah": 50,
       "ayah_number": 0,
-      "word_or_phrase": 6
+      "word_or_phrase": 0
     },
     {
       "surah": 51,
       "ayah_number": 0,
-      "word_or_phrase": 6
+      "word_or_phrase": 0
     },
     {
       "surah": 52,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 53,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 54,
       "ayah_number": 0,
-      "word_or_phrase": 4
+      "word_or_phrase": 0
     },
     {
       "surah": 55,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 56,
       "ayah_number": 0,
-      "word_or_phrase": 4
+      "word_or_phrase": 0
     },
     {
       "surah": 57,
       "ayah_number": 0,
-      "word_or_phrase": 10
+      "word_or_phrase": 0
     },
     {
       "surah": 58,
       "ayah_number": 0,
-      "word_or_phrase": 12
+      "word_or_phrase": 0
     },
     {
       "surah": 59,
       "ayah_number": 0,
-      "word_or_phrase": 6
+      "word_or_phrase": 0
     },
     {
       "surah": 60,
       "ayah_number": 0,
-      "word_or_phrase": 7
+      "word_or_phrase": 0
     },
     {
       "surah": 61,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 62,
       "ayah_number": 0,
-      "word_or_phrase": 4
+      "word_or_phrase": 0
     },
     {
       "surah": 63,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 64,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 65,
       "ayah_number": 0,
-      "word_or_phrase": 5
+      "word_or_phrase": 0
     },
     {
       "surah": 66,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 67,
       "ayah_number": 0,
-      "word_or_phrase": 5
+      "word_or_phrase": 0
     },
     {
       "surah": 68,
       "ayah_number": 0,
-      "word_or_phrase": 13
+      "word_or_phrase": 0
     },
     {
       "surah": 69,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 70,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 71,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 72,
       "ayah_number": 0,
-      "word_or_phrase": 7
+      "word_or_phrase": 0
     },
     {
       "surah": 73,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 74,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 75,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 76,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 77,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 78,
@@ -407,12 +407,12 @@
     {
       "surah": 79,
       "ayah_number": 0,
-      "word_or_phrase": 4
+      "word_or_phrase": 0
     },
     {
       "surah": 80,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 81,
@@ -422,27 +422,27 @@
     {
       "surah": 82,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 83,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 84,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 85,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 86,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 87,
@@ -452,22 +452,22 @@
     {
       "surah": 88,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 89,
       "ayah_number": 0,
-      "word_or_phrase": 2
+      "word_or_phrase": 0
     },
     {
       "surah": 90,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 91,
       "ayah_number": 0,
-      "word_or_phrase": 3
+      "word_or_phrase": 0
     },
     {
       "surah": 92,
@@ -477,7 +477,7 @@
     {
       "surah": 93,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 94,
@@ -487,7 +487,7 @@
     {
       "surah": 95,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 96,
@@ -497,12 +497,12 @@
     {
       "surah": 97,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 98,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 99,
@@ -537,7 +537,7 @@
     {
       "surah": 105,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 106,
@@ -547,7 +547,7 @@
     {
       "surah": 107,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 108,
@@ -567,7 +567,7 @@
     {
       "surah": 111,
       "ayah_number": 0,
-      "word_or_phrase": 1
+      "word_or_phrase": 0
     },
     {
       "surah": 112,
