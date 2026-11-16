@@ -1,0 +1,60 @@
+{
+  "resource_hashes_unchanged": true,
+  "resource_files": 6,
+  "database_checks": {
+    "english": {
+      "table": "word_translation",
+      "schema": "CREATE TABLE word_translation (surah_number INTEGER, ayah_number INTEGER, word_number TEXT, text TEXT)",
+      "rows": 83665,
+      "json_pairs_equal": true,
+      "integrity_check": "ok"
+    },
+    "turkish": {
+      "table": "word_translation",
+      "schema": "CREATE TABLE word_translation (surah_number INTEGER, ayah_number INTEGER, word_number TEXT, text TEXT)",
+      "rows": 70539,
+      "json_pairs_equal": true,
+      "integrity_check": "ok"
+    },
+    "arabic": {
+      "table": "words",
+      "schema": "CREATE TABLE words (id INTEGER, location TEXT, surah INTEGER, ayah INTEGER, word INTEGER, text TEXT)",
+      "rows": 83668,
+      "json_records_equal": true,
+      "integrity_check": "ok"
+    }
+  },
+  "source_english_entries": 83665,
+  "source_turkish_entries": 70539,
+  "source_arabic_entries": 83668,
+  "resource_turkish_equals_initial_pairs": true,
+  "resource_english_equals_initial_pairs": true,
+  "root_english_equals_source_pairs": true,
+  "arabic_only_locations": [
+    {
+      "location": "2:181:4",
+      "arabic": "مَا",
+      "previous_location": "2:181:3",
+      "previous_arabic": "بَعۡدَ",
+      "previous_english": "after what",
+      "note": "The source English gloss combines after and what at the previous location. Preserve original keys and examine the two Arabic positions together; do not renumber or infer a missing Turkish key from this difference alone."
+    },
+    {
+      "location": "8:6:5",
+      "arabic": "مَا",
+      "previous_location": "8:6:4",
+      "previous_arabic": "بَعۡدَ",
+      "previous_english": "after what",
+      "note": "The source English gloss combines after and what at the previous location. Preserve original keys and examine the two Arabic positions together; do not renumber or infer a missing Turkish key from this difference alone."
+    },
+    {
+      "location": "13:37:9",
+      "arabic": "مَا",
+      "previous_location": "13:37:8",
+      "previous_arabic": "بَعۡدَ",
+      "previous_english": "after what",
+      "note": "The source English gloss combines after and what at the previous location. Preserve original keys and examine the two Arabic positions together; do not renumber or infer a missing Turkish key from this difference alone."
+    }
+  ],
+  "policy": "Resources are read-only. Publish updated root-level copies only after the linguistic work and release checks are complete."
+}

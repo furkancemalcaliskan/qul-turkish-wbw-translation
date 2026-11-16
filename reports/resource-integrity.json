@@ -1,0 +1,30 @@
+{
+  "policy": "Immutable original QUL downloads. Never modify these files; update only release copies outside resources.",
+  "recorded_on": "2026-11-16",
+  "files": {
+    "resources/arabic/qpc-hafs-word-by-word.db": {
+      "bytes": 3465216,
+      "sha256": "e1cf266ed47a56e58100c08f69499f635f84c97233318cc53daf17200fb9048e"
+    },
+    "resources/arabic/qpc-hafs-word-by-word.json": {
+      "bytes": 8841417,
+      "sha256": "f366269234e24f322146c043fe5fbf0132990613a94aff4b3f23847f45793ea7"
+    },
+    "resources/english/english-wbw-translation.db": {
+      "bytes": 2023424,
+      "sha256": "7eb453613a199760a5c8e7b607999ac198ba7babb7c94fed47acecd2aba4b1ed"
+    },
+    "resources/english/english-wbw-translation.json": {
+      "bytes": 1899488,
+      "sha256": "42992eec66ae5dd98659cda9bff9d350def46d953edb2622a8e3a444d56313b9"
+    },
+    "resources/turkish/turkish-wbw-translation.db": {
+      "bytes": 1773568,
+      "sha256": "b01ce954cfc2237df172ba2b09894cda0cd2c8163e6836300fda0170d8817089"
+    },
+    "resources/turkish/turkish-wbw-translation.json": {
+      "bytes": 1674055,
+      "sha256": "23c79ff78e4d289acf2e7b4966b56699205207d20059cbc8413776aad16549d5"
+    }
+  }
+}

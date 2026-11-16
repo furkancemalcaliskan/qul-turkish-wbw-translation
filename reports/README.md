@@ -1,5 +1,9 @@
 # Missing-key inventory
 
+Original QUL resource policy: [RESOURCE_POLICY.md](../RESOURCE_POLICY.md). `resource-integrity.json` holds the fixed SHA-256/size baseline for all six original files, and `resource-audit.json` records read-only JSON/SQLite agreement, integrity checks, and the three Arabic-only locations. Verify with `python scripts/audit_resources.py`. These originals must remain unchanged; eventual release artifacts are separate root-level files.
+
+Current linguistic-review stage: see **Turkish spelling and grammar review** below. Earlier alignment reports and their validators target historical snapshots; use `validate_turkish_spelling.py` for the current Turkish file.
+
 Generated with `python scripts/audit_missing.py`. Reports use numeric surah–ayah–word order for review; translation file order is unchanged.
 
 | Measure | Count |
@@ -60,4 +64,19 @@ The latest batch adds all 542 remaining keys and modifies 616 existing values in
 
 There are 172 context-only views in the latest batch, including six newly added keys. The other new keys expose lexical or grammatical contributions. A complete key set does not prove that all source meanings, spelling, grammar, or alignment choices are correct. Context-only entries and interpretive repairs remain visibly queued for semantic review.
 
-Reproduce or verify the current state with `python scripts/finish_remaining_alignment.py --apply`, `python scripts/validate_remaining_alignment.py`, and `python scripts/audit_missing.py`. The preparation script reconstructs its fixed baseline from the committed file plus the previous two manifests and refuses unexpected working-tree changes. Its explicit cases are in `remaining_special_cases.py` and `remaining_final_cases.py`. Earlier manifests and validation results remain historical; later groups supersede their listed source keys.
+That historical completion state is reproduced with `python scripts/finish_remaining_alignment.py --apply` and verified with `python scripts/validate_remaining_alignment.py`. These commands target the state before the subsequent spelling/grammar corrections; do not use them to overwrite or validate the current Turkish file. Their explicit cases are in `remaining_special_cases.py` and `remaining_final_cases.py`.
+
+## Turkish spelling and grammar review
+
+The current combined ledger contains 1,162 changed values relative to `c9dac12`, with no added or removed keys: 1,106 spelling/spacing/inflection corrections, four explicit placeholder/punctuation alignment repairs, and 52 values in 19 construction-repair groups. The second review changes 115 values relative to the 1,051-entry first pass, including four previously edited displays whose boundary spaces were reformatted. English is unchanged. Key coverage remains complete, all 6,236 ayah-number values are preserved, and actual shared expressions remain consistent across complementary views.
+
+- `spelling-changes.json` and `spelling-changes.csv`: complete before/after ledger with English glosses and reasons; construction groups include explicit source-role parts where applicable.
+- `spelling-validation.json`: current independent scope, reference, placeholder, formatting, delimiter, and expression-consistency checks.
+- `grammar-construction-review.json`: two unresolved inherited suffix/clause concerns at `30:43:12` and `39:74:10`, with neighboring entries for review. These are open, not certified correct.
+- `linguistic-review-current.json`: the existing 831-key semantic queue refreshed with current Turkish values and spelling-review history. Use this instead of the historical `linguistic-review.json` for current values. Spelling repairs do not automatically resolve semantic concerns.
+- `spelling-scan-vocabulary.txt`: generated rare-token inspection aid, not a dictionary or list of confirmed errors.
+- `spelling-second-pass-start.json`: the first-pass reconstruction snapshot over `c9dac12`, frozen before the second review.
+- `spelling-second-pass-changes.json` and CSV: exact second-pass before/after delta; the combined ledger remains authoritative for all uncommitted spelling/grammar work.
+- `second-review-candidates.json` and `second-review-repeated-candidates.json`: 646 rare-token and 299 repeated-token similarity candidates from the frozen first-pass input. These are candidate inventories, not current lists of errors. Similarity does not justify replacing legitimate inflections, names, or different words.
+
+Run `python scripts/apply_turkish_spelling.py --apply`, `python scripts/prepare_spelling_review_reports.py`, `python scripts/prepare_second_spelling_review.py`, `python scripts/validate_turkish_spelling.py`, and `python scripts/audit_missing.py` to reproduce and verify this state. `scan_turkish_spelling.py` and `review_turkish_spelling.py` provide additional candidate checks. `scan_turkish_second_review.py` and its `--repeated` mode reconstruct the frozen first-pass candidate inventories. Neither mechanical checks nor focused review queues certify that every inherited sentence is grammatically or semantically correct. See steps 10–11 of `PROCESS.md` for scope, examples, selected sources, and limitations.

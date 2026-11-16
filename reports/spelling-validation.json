@@ -1,0 +1,32 @@
+{
+  "changed_entries": 1162,
+  "alignment_repair_entries": 4,
+  "construction_repair_entries": 52,
+  "entries_per_translation": 83665,
+  "missing_extra_duplicate_keys": 0,
+  "ayah_numbers_preserved": 6236,
+  "english_unchanged_from_initial": true,
+  "exact_reference_order": true,
+  "manifest_reconstruction": "passed",
+  "untouched_values_preserved": true,
+  "paired_surfaces_consistent": true,
+  "independent_identical_before_strings": [
+    [
+      "2:112:12",
+      "2:112:15"
+    ],
+    [
+      "2:112:14",
+      "2:112:16"
+    ]
+  ],
+  "delimiters_and_formatting": "passed",
+  "representative_regressions": "passed",
+  "bare_numeric_placeholders": 0,
+  "turkish_sha256": "4152ef58819ac81148c8f2a0c926c588259ec922aa3a677183de8d8a73d3622a",
+  "open_construction_flags": 2,
+  "existing_semantic_review_flags": 831,
+  "second_pass_changed_entries": 115,
+  "second_pass_reconstruction": "passed",
+  "scope": "Structural verification of recorded spelling and grammar corrections; not exhaustive linguistic certification."
+}

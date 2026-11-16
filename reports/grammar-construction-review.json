@@ -1,0 +1,60 @@
+[
+  {
+    "key": "30:43:12",
+    "english": "[it]",
+    "turkish": "-tan",
+    "status": "requires_construction_review",
+    "reason": "Inherited malformed or isolated suffix display, displaced wording, or incomplete pronoun annotation. A spelling-only substitution cannot establish the complete expression and each source role. Review the Arabic position and neighboring Turkish expression before replacing it.",
+    "context": [
+      {
+        "key": "30:43:11",
+        "english": "(can be) averted",
+        "turkish": "geri çeviril(me)yen"
+      },
+      {
+        "key": "30:43:12",
+        "english": "[it]",
+        "turkish": "-tan"
+      },
+      {
+        "key": "30:43:13",
+        "english": "from",
+        "turkish": "(Allah)'tan"
+      },
+      {
+        "key": "30:43:14",
+        "english": "Allah",
+        "turkish": "Allah('tan)"
+      }
+    ]
+  },
+  {
+    "key": "39:74:10",
+    "english": "[from]",
+    "turkish": "(-ten)",
+    "status": "requires_construction_review",
+    "reason": "Inherited malformed or isolated suffix display, displaced wording, or incomplete pronoun annotation. A spelling-only substitution cannot establish the complete expression and each source role. Review the Arabic position and neighboring Turkish expression before replacing it.",
+    "context": [
+      {
+        "key": "39:74:9",
+        "english": "we may settle",
+        "turkish": "oturacağımız"
+      },
+      {
+        "key": "39:74:10",
+        "english": "[from]",
+        "turkish": "(-ten)"
+      },
+      {
+        "key": "39:74:11",
+        "english": "(in) Paradise",
+        "turkish": "cennet"
+      },
+      {
+        "key": "39:74:12",
+        "english": "wherever",
+        "turkish": "yerinde"
+      }
+    ]
+  }
+]

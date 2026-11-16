@@ -1,0 +1,6 @@
+# Preserve original QUL downloads byte-for-byte, including on Windows checkout.
+resources/** -text
+
+# Working translation checks require canonical LF JSON bytes.
+/english-wbw-translation.json text eol=lf
+/turkish-wbw-translation.json text eol=lf
