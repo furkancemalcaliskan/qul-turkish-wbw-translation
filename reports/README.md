@@ -2,7 +2,7 @@
 
 The initial list of **831 flagged records has been reviewed** against the original Arabic and supplied English: **487 reviewed_with_changes**, **344 reviewed_retained**, **0 pending**. A changed review can concern the construction or adjacent words; these statuses are not counts of individually erroneous keys. Retained flags have explicit functional/idiomatic reasons, not automatic approval because they have a nonempty string.
 
-Current Turkish has **83,665 reference keys**, no missing/extra keys and all **6,236 ayah markers**. All six original QUL resources and the root English bytes are unchanged. Relative to spelling/grammar commit `661144b`, semantic review changes **2,629 distinct values in 1,262 ayahs**. The original source Turkish remains the untouched 70,539-key baseline.
+Current Turkish has **83,665 reference keys**, no missing/extra keys and all **6,236 ayah markers**. All six original QUL resources are unchanged; the redundant root English copy was removed after the user authorized it. Relative to spelling/grammar commit `661144b`, semantic review changes **2,629 distinct values in 1,262 ayahs**. The original source Turkish remains the untouched 70,539-key baseline.
 
 ## Four maintained reports
 
@@ -33,7 +33,7 @@ Outside parentheses is the selected contribution; inside is shared context. Do n
 
 Published comparisons include [2:236](https://quran.com/al-baqarah/236), [34:16](https://quran.com/saba/16), [41:24](https://quran.com/fussilat/24), [45:11](https://quran.com/al-jathiyah/11), [10:3](https://quran.com/yunus/3) and [93:2](https://quran.com/ad-duhaa/2). The original local Arabic/English remains the primary location evidence; failed or wrong-verse web retrievals are not presented as verification.
 
-See the bilingual [README](../README.md) and English [PROCESS.md](../PROCESS.md) for scope, history and commands. Final minification, root SQLite generation, release commit and QUL submission remain pending.
+See the bilingual [README](../README.md) and English [PROCESS.md](../PROCESS.md) for scope, history and commands. The root SQLite copy and separate local release artifacts are prepared and verified; hosted CI, release publication and QUL submission have not occurred. The working Turkish JSON remains unchanged; English is read from its immutable resource. Packaging results are recorded under release_packaging in validation.json.
 
 ## Subsequent notation and spelling review
 

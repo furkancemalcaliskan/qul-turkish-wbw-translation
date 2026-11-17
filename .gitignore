@@ -1,2 +1,31 @@
 __pycache__/
 *.py[cod]
+
+# Personal editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Local environments and generated release/test output.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+/dist/
+/build/
+/.qul-release-*/
+/.turkish-wbw-*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# SQLite runtime sidecars; reviewed databases themselves are versioned.
+*.db-journal
+*.db-wal
+*.db-shm

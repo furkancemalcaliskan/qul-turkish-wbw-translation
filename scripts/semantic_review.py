@@ -128,8 +128,8 @@ def validate():
     en = read(RESOURCES / "english/english-wbw-translation.json")
     ar = read(RESOURCES / "arabic/qpc-hafs-word-by-word.json")
     assert inventory() == read(MANIFEST)["files"]
-    assert (ROOT / "english-wbw-translation.json").read_bytes() == subprocess.check_output(
-        ["git", "show", "4503cdc:english-wbw-translation.json"], cwd=ROOT)
+    assert en == json.loads(subprocess.check_output(
+        ["git", "show", "4503cdc:english-wbw-translation.json"], cwd=ROOT))
     current = baseline()
     old_queue = json.loads(subprocess.check_output(
         ["git", "show", "661144b:reports/linguistic-review-current.json"], cwd=ROOT))
@@ -205,7 +205,7 @@ def validate():
     result = {"batches": list(state["batches"]), "exact_replay_and_untouched_values": "passed",
               "arabic_and_english_provenance": "passed", "source_role_and_delimiter_checks": "passed",
               "reference_keys": len(current), "ayah_markers": len(markers), "resource_hashes_unchanged": True,
-              "english_unchanged_from_initial": True, "queue_records": len(state["queue"]),
+              "english_reference_pairs_equal_initial": True, "queue_records": len(state["queue"]),
               "queue_statuses": dict(Counter(entry["status"] for entry in state["queue"])),
               "pending_semantic_flags": sum(entry["status"] == "requires_semantic_review" for entry in state["queue"]),
               "net_changed_values_since_baseline": sum(current[key] != value for key, value in baseline().items()),

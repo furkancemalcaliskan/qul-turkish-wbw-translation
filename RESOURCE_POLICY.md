@@ -10,7 +10,7 @@ The root `.gitattributes` file disables Git text normalization for `resources/**
 
 | Source | Records | Role |
 | --- | ---: | --- |
-| `resources/english/english-wbw-translation.json` and `.db` | 83,665 each | Original English translation reference; the root English JSON has identical loaded key/value pairs and different formatting bytes. |
+| `resources/english/english-wbw-translation.json` and `.db` | 83,665 each | Original English translation reference; the removed root English JSON had identical loaded key/value pairs and different formatting bytes; tools now read this immutable resource directly. |
 | `resources/turkish/turkish-wbw-translation.json` and `.db` | 70,539 each | Original Turkish baseline; the JSON has identical loaded pairs to the initial Git commit. Preserve these original errors and gaps as historical evidence. |
 | `resources/arabic/qpc-hafs-word-by-word.json` and `.db` | 83,668 each | Original Arabic words, joined to translations by `surah:ayah:word`. Consult these when evaluating uncertain Turkish meanings and grammatical roles. |
 
@@ -26,16 +26,16 @@ Every English reference location exists in the Arabic source. The Arabic source 
 
 ## Final release contract
 
-The user has specified the eventual release layout. It is deferred until linguistic work and final verification are finished:
+Keep the root Turkish working JSON pretty and build separate release artifacts. The user has now authorized removal of the redundant root English JSON; tools must read the immutable English resource directly:
 
 1. Keep all original files under `resources/` byte-for-byte unchanged.
-2. Keep the updated Turkish translation at root as `turkish-wbw-translation.json`, minified for release. Minification must preserve all reviewed key/value pairs, including the retained ayah-number entries. Preserve the flat location-to-string object; do not add metadata or Arabic records to it.
+2. Keep the updated root `turkish-wbw-translation.json` pretty-printed for review. Produce `dist/turkish-wbw-translation.json` as raw UTF-8 with compact separators, no BOM and no trailing newline, matching the original resource JSON serialization. Preserve every reviewed key/value pair, physical reference order and ayah-number entry. Keep release metadata outside the flat translation object.
 3. Copy the original Turkish SQLite database to root as `turkish-wbw-translation.db`, then update only that root copy from the reviewed Turkish JSON. The original database under `resources/turkish/` must remain unchanged.
 4. Preserve QUL's `word_translation` table and columns: `surah_number INTEGER`, `ayah_number INTEGER`, `word_number TEXT`, and `text TEXT`. Word positions start at 1. Keep the existing location identifiers, including source gaps; do not renumber them. Ensure one row per translation key, string word numbers, no duplicate location triples, and exact JSON/SQLite value agreement after updating and adding missing rows.
-5. Remove the root `english-wbw-translation.json` at the final stage, after active tools and checks have been adapted to read the immutable English source in `resources/`. Retain both original English resource files. Do not remove the working English reference prematurely while existing historical scripts still use it.
-6. Verify JSON/SQLite integrity, unchanged resource hashes, exact translation agreement, and the intended final file layout before the final release commit. The current Turkish reference key set has 83,665 entries; changing that contract requires a separately documented decision.
+5. The redundant root English JSON has been removed. Read the immutable English reference under resources/english/ directly. CI and local packaging must not alter the working Turkish JSON or any original resource. Build the release SQLite independently from a new copy of the immutable Turkish source and verify its exact data agreement with both working JSON and the updated root DB. SQLite byte identity across different SQLite versions is not required; schema, storage types, locations and text must agree.
+6. Verify JSON/SQLite integrity, unchanged source/working JSON hashes, exact translation agreement and the final artifact layout. The current Turkish reference key set has 83,665 entries; changing that contract requires a separately documented decision. Keep the updated root DB versioned; ignore generated `dist/` output and SQLite runtime sidecars.
 
-This preserves the [QUL word-by-word translation format](https://qul.tarteel.ai/resources/translation/99/docs): individual word meanings addressed by location, supplied as a flat JSON object and an equivalent SQLite translation table. Arabic remains a separate reference joined by location. No release deletion, minification, database update, or commit was performed when this policy was recorded.
+This preserves the [QUL word-by-word translation format](https://qul.tarteel.ai/resources/translation/99/docs): individual word meanings addressed by location, supplied as a flat JSON object and an equivalent SQLite translation table. Arabic remains a separate reference joined by location. `python scripts/build_release.py --update-root-db` prepares the verified root DB and local artifacts; later `python scripts/build_release.py` refuses a missing/stale root DB and builds release copies only. The CI workflow builds artifacts on branch/PR/manual runs and creates a draft GitHub release only for a pushed `v*` tag. Creating a local package does not publish data to QUL or GitHub.
 
 ## Current Turkish notation
 

@@ -22,7 +22,7 @@ after = read(ROOT / "turkish-wbw-translation.json")
 en = read(RESOURCES / "english/english-wbw-translation.json")
 ar = read(RESOURCES / "arabic/qpc-hafs-word-by-word.json")
 assert inventory() == read(MANIFEST)["files"]
-assert (ROOT / "english-wbw-translation.json").read_bytes() == subprocess.check_output(["git", "show", "4503cdc:english-wbw-translation.json"], cwd=ROOT)
+assert en == json.loads(subprocess.check_output(["git", "show", "4503cdc:english-wbw-translation.json"], cwd=ROOT))
 assert list(after) == list(before) == list(en)
 assert len(after) == 83665
 assert all(isinstance(value, str) and value.strip() == value and value for value in after.values())

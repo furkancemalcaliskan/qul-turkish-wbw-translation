@@ -1,0 +1,67 @@
+name: Verify and package Turkish WBW
+
+on:
+  push:
+    branches: [master, main]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Verify and package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Verify original resources and reviewed translation
+        run: |
+          python scripts/audit_resources.py
+          python scripts/audit_missing.py
+          python scripts/audit_turkish_spelling.py
+          python scripts/semantic_review.py
+      - name: Test release integrity and rejection paths
+        run: python -m unittest discover -s tests -v
+      - name: Build separate QUL JSON and SQLite artifacts
+        env:
+          RELEASE_VERSION: ${{ github.ref_type == 'tag' && github.ref_name || 'snapshot' }}
+        run: python scripts/build_release.py --version "$RELEASE_VERSION"
+      - name: Confirm working JSON, root DB and originals were not rewritten
+        run: git diff --exit-code -- turkish-wbw-translation.json turkish-wbw-translation.db resources/
+      - name: Upload verified package
+        uses: actions/upload-artifact@v6
+        with:
+          name: turkish-wbw-release
+          path: dist/*
+          if-no-files-found: error
+
+  draft-release:
+    if: github.event_name == 'push' && github.ref_type == 'tag'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: turkish-wbw-release
+          path: dist
+      - name: Create a reviewable draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          gh release create "$RELEASE_TAG" --draft --verify-tag
+          --title "Turkish WBW $RELEASE_TAG"
+          --notes-file dist/RELEASE_NOTES.md
+          dist/turkish-wbw-translation.json
+          dist/turkish-wbw-translation.db
+          dist/release-manifest.json dist/SHA256SUMS dist/RELEASE_NOTES.md

@@ -1,4 +1,6 @@
-# Türkçe kelime kelime Kur’an çevirisi / Turkish Quran word-by-word translation
+# qul-turkish-wbw-translation
+
+Türkçe kelime kelime Kur’an çevirisi / Turkish Quran word-by-word translation
 
 [Türkçe](#türkçe) · [English](#english)
 
@@ -6,7 +8,11 @@
 
 Bu bağımsız çalışma, [Tarteel AI Quranic Universal Library (QUL)](https://qul.tarteel.ai/) üzerindeki [Türkçe kelime kelime çevirinin (#99)](https://qul.tarteel.ai/resources/translation/99/docs) eksik ve hatalı karşılıklarını inceleyip düzeltmeyi amaçlar. Asıl hedef, tamamlanan düzeltmeleri QUL’e katkı olarak sunmak ve geliştiricilerin güncel, incelenmiş verilere ulaşmasına yardımcı olmaktır. Bu repo süreci şeffaf tutar; QUL tarafından onaylanmış veya yayımlanmış bir sürüm değildir.
 
-**İlk şüpheli kayıt listesinin incelemesi tamamlandı; release henüz hazırlanmadı.** Listedeki **831 kaydın tamamı** Arapça kaynak ve İngilizce referansla değerlendirildi; bu listede bekleyen kayıt kalmadı. **487 kayıt**, düzeltme içeren incelemelerle; **344 kayıt**, karşılığı gerekçeyle korunarak kapatıldı. Bunlar hata sayısı değildir: bir karar komşu kelimeleri de kapsayabilir. Bu çalışma, 83.665 karşılığın her biri için bağımsız uzman onayı anlamına gelmez.
+**İlk şüpheli kayıt listesinin incelemesi tamamlandı; v1.0.0 yerel olarak hazır; GitHub/QUL yayını henüz yapılmadı.** Listedeki **831 kaydın tamamı** Arapça kaynak ve İngilizce referansla değerlendirildi; bu listede bekleyen kayıt kalmadı. **487 kayıt**, düzeltme içeren incelemelerle; **344 kayıt**, karşılığı gerekçeyle korunarak kapatıldı. Bunlar hata sayısı değildir: bir karar komşu kelimeleri de kapsayabilir. Bu çalışma, 83.665 karşılığın her biri için bağımsız uzman onayı anlamına gelmez.
+
+### Katkı politikası
+
+Dış katkılar şimdilik kapalıdır; pull request veya çeviri önerisi kabul edilmiyor. Repo, süreci ve sürüm çıktılarını şeffaf biçimde göstermek için public paylaşılacaktır. QUL’e yapılması planlanan katkı, bu repoya dış katkı kabul edilmesinden ayrı bir süreçtir. [Katkı politikası](CONTRIBUTING.md) · [v1.0.0 değişiklikleri](CHANGELOG.md).
 
 ### Kaynaklar ve yapılanlar
 
@@ -34,7 +40,7 @@ Parantez dışında ilgili kaynak kelimenin Türkçe katkısı, içinde ortak ba
 
 Raporlar dört dosyada tutulur: [özet](reports/README.md), [inceleme kaydı](reports/review-state.json), [doğrulamalar](reports/validation.json) ve [kaynak hash’leri](reports/resource-integrity.json). Son değişikliklerin önce/sonra değerleri, kaynakları, gerekçeleri ve bekleyen kayıtlar korunur. Geçmiş raporlar Git geçmişindedir; [süreç özeti](PROCESS.md) ilgili commit’leri gösterir.
 
-İnceleme bitince root Türkçe JSON minify edilecek; kaynak Türkçe DB’nin **root’a kopyası** bu JSON ile eşleştirilecek. QUL şeması korunacak. Root İngilizce dosyası son aşamada kaldırılacak; `resources/` orijinalleri kalacak. Nihai release ve QUL’e yükleme henüz yapılmadı. Ayrıntılar: [kaynak/release politikası](RESOURCE_POLICY.md), [QUL katkı yolu](QUL_CONTRIBUTION.md).
+Root Türkçe DB, kaynak DB’nin kopyası üzerinden güncellendi ve 83.665 JSON kaydıyla eşleştirildi; QUL şeması korundu. Root’taki Türkçe JSON pretty kalır. İngilizce referans doğrudan `resources/english/` altından okunur; root’taki kopyası kaldırıldı. Minify JSON ve uyumlu SQLite, `dist/` altında ayrı release çıktıları olarak üretilir. Altı orijinal kaynak değişmez. Yerel paket hazır; GitHub veya QUL’e yayınlama yapılmadı. Ayrıntılar: [kaynak/release politikası](RESOURCE_POLICY.md), [QUL katkı yolu](QUL_CONTRIBUTION.md).
 
 ### Lisans bilgisi
 
@@ -44,7 +50,11 @@ Raporlar dört dosyada tutulur: [özet](reports/README.md), [inceleme kaydı](re
 
 This independent project reviews, completes, and corrects the [Turkish word-by-word translation (#99)](https://qul.tarteel.ai/resources/translation/99/docs) distributed by [Tarteel AI’s Quranic Universal Library (QUL)](https://qul.tarteel.ai/). The intended destination is a contribution to QUL so developers can access reviewed, updated data. This repository provides transparency; it is not an approved or published QUL release.
 
-**The initial flagged-record review is complete; release packaging is pending.** All **831 records** were assessed against Arabic and the English reference; none remains pending in that list. **487 records** were closed through reviews involving changes, and **344** through reasoned retention. These are not error counts: a decision may include adjacent words. This is not independent expert certification of every one of the 83,665 translations.
+**The initial flagged-record review is complete; v1.0.0 is prepared locally; GitHub/QUL publication is pending.** All **831 records** were assessed against Arabic and the English reference; none remains pending in that list. **487 records** were closed through reviews involving changes, and **344** through reasoned retention. These are not error counts: a decision may include adjacent words. This is not independent expert certification of every one of the 83,665 translations.
+
+### Contribution policy
+
+External contributions are currently closed: pull requests and translation proposals are not accepted. This repository is intended for public inspection of the process and release artifacts. The planned maintainer-led contribution to QUL is separate from accepting contributions here. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [v1.0.0 changelog](CHANGELOG.md).
 
 ### Sources and changes
 
@@ -65,7 +75,7 @@ In the example above, `(Rableri)nden` highlights the ablative contribution and `
 
 Four reports hold the [summary](reports/README.md), [review state](reports/review-state.json), [validation results](reports/validation.json), and [source hashes](reports/resource-integrity.json). Current before/after changes, evidence, reasons, and pending records remain available. Earlier reports are in Git history; [PROCESS.md](PROCESS.md) identifies the relevant commits.
 
-After review, the root Turkish JSON will be minified and a **root copy** of the original Turkish DB updated to match it, preserving QUL's schema. The root English JSON will be removed at the final stage; original resources remain. Final packaging and QUL submission have not occurred. See the [resource/release policy](RESOURCE_POLICY.md) and [QUL contribution route](QUL_CONTRIBUTION.md).
+The root Turkish DB was updated from a copy of the original and matches all 83,665 reviewed JSON entries, preserving QUL's schema. The root Turkish JSON remains unchanged and pretty-printed. English is read directly from immutable `resources/english/`; its redundant root copy has been removed. Minified JSON and matching SQLite are built separately under `dist/`; all six original resources stay immutable. Local packaging is ready; nothing has been published to GitHub or QUL. See the [resource/release policy](RESOURCE_POLICY.md) and [QUL contribution route](QUL_CONTRIBUTION.md).
 
 ### Licence information
 
@@ -84,3 +94,34 @@ python scripts/read_arabic_context.py 2:5
 ```
 
 Kontroller kaynak/veri bütünlüğünü ve kaydedilmiş değişiklikleri doğrular; dilbilimsel doğruluk onayı değildir. / Checks verify integrity and recorded changes, not linguistic correctness.
+
+## Release / Sürüm hazırlama
+
+```powershell
+# After an intentional reviewed JSON change, refresh the root database.
+python scripts/build_release.py --update-root-db
+
+# Build separate artifacts; fail if the root database is missing or stale.
+python scripts/build_release.py --version v1.0.0
+python -m unittest discover -s tests -v
+```
+
+`dist/` contains `turkish-wbw-translation.json` (minified UTF-8), `turkish-wbw-translation.db`, `release-manifest.json`, `SHA256SUMS` and `RELEASE_NOTES.md`. The manifest records input/artifact hashes, the Git revision and whether the working tree was dirty. Packaging checks the schema, string word numbers, duplicate locations, all JSON/SQLite values, reference order and ayah markers. The working Turkish JSON and original resources are hash-checked before and after packaging.
+
+[GitHub Actions](.github/workflows/release.yml) runs verification/tests and builds downloadable artifacts on branch pushes and manual runs. A pushed `v*` tag additionally creates a draft GitHub release with the verified files. Full Git history is needed for review-ledger validation. The workflow is prepared for this repository; pushing the release commit and tag to GitHub executes it remotely. External pull requests do not trigger this workflow while contributions are closed.
+
+Root Türkçe JSON inceleme için pretty kalır; indirme/katkı için `dist/` içindeki minify JSON ve SQLite kullanılır. CI Türkçe working JSON’u ve orijinal kaynakları korur. `v*` etiketi push edildiğinde doğrulanmış dosyalarla taslak GitHub release hazırlanır; bu, QUL’e otomatik yayın yapmaz. `.vscode/`, ortam dosyaları, Python önbelleği ve üretilen release çıktıları Git dışında tutulur; root Türkçe DB sürüm kontrolündedir.
+
+## v1.0.0 push / yayınlama
+
+Repository: [furkancemalcaliskan/qul-turkish-wbw-translation](https://github.com/furkancemalcaliskan/qul-turkish-wbw-translation). Create an empty public GitHub repository with this name, without initializing another README or licence. The local annotated v1.0.0 tag identifies the prepared release commit.
+
+```powershell
+git push -u origin master
+# Wait for the Verify and package check to pass, then push the release tag.
+git push origin v1.0.0
+```
+
+The tag workflow creates a draft release with JSON, SQLite, manifest, checksums and release notes. Review that draft before publishing. Repository rulesets and feature settings will be configured through gh after the initial branch push; they have not been applied locally. The intended policy is maintainer-only updates, no force pushes or branch deletion, and external contributions closed. CONTRIBUTING.md and CODEOWNERS document policy/ownership; they do not themselves enforce repository permissions.
+
+Önce boş public repoyu açıp master’ı push et; kontrol geçince v1.0.0 etiketini push et. Taslak release’i kontrol ederek yayımla. İlk branch push’undan sonra ruleset’ler ve katkı ayarları gh ile ayrıca uygulanacak. GitHub/QUL yayını bu yerel hazırlık sırasında yapılmadı.

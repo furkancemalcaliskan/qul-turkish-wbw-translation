@@ -1,6 +1,6 @@
 # Process and review record
 
-This project corrects QUL Turkish word-by-word data while preserving original sources. Documentation/comments are in English except the explicitly bilingual root README. The initial 831-record semantic flag queue is reviewed; final packaging and external submission are pending. This is AI-assisted review with recorded interpretive limits, not independent expert certification of every translation.
+This project corrects QUL Turkish word-by-word data while preserving original sources. Documentation/comments are in English except the explicitly bilingual root README. The initial 831-record semantic flag queue is reviewed; local packaging is verified; external publication and submission are pending. This is AI-assisted review with recorded interpretive limits, not independent expert certification of every translation.
 
 ## History
 
@@ -88,7 +88,7 @@ Current Turkish SHA-256: 9076b351f661aaac319af263c3c241b0f2a00490622624bd9321e3f
 
 RESOURCE_POLICY.md defines immutable originals, the three Arabic-only location exceptions and the final output contract. QUL_CONTRIBUTION.md records the contribution route. Resource #99 reports unavailable copyright information; attribution does not itself establish a data licence.
 
-Final packaging remains deferred: minify root Turkish JSON, update a root copy of Turkish SQLite to match it, and remove root English after current checks use the immutable resource path. Preserve originals and QUL's flat JSON/SQLite contract. No release, database update, external publication or commit occurred in this resumed semantic review. Unrelated .vscode files remain outside the work.
+Historical plan at the end of the semantic-review stage (superseded by the separate-packaging instruction below): minify root Turkish JSON, update a root copy of Turkish SQLite, and remove root English. Preserve originals and QUL's flat JSON/SQLite contract. No release, database update, external publication or commit occurred in this resumed semantic review. Unrelated .vscode files remain outside the work.
 
 ## Notation and strict spelling follow-up (2026-11-17)
 
@@ -103,3 +103,25 @@ Explicit verbal -mağa/-meğe locations were modernized to -maya/-meye. This is 
 audit_turkish_spelling.py scans all 83,665 values for the documented bounded patterns, checks the exact initial delimiter-only operation, and records results inside validation.json. A broad substring candidate also matched the valid vahyetmediğimiz; its pattern was narrowed to the actual gücümüzün yetmediğimiz construction after contextual review. Approximate vocabulary comparisons and repetition scans identify candidates, not automatic correction authority. The audit is not a full Turkish grammar parser or proof of error-free translation.
 
 Orthographic reference: [TDK vadetmek](https://sozluk.gov.tr/?ara=vadetmek). Quranic meanings remain grounded in the immutable local Arabic and English sources.
+
+## Separate release packaging (2026-11-17)
+
+After the completed review commit 188ff1e, the user requested a final data check, a root copy of the Turkish source database updated from reviewed JSON, and CI packaging without rewriting either working JSON. This supersedes the earlier root-minification/English-removal plan. All four existing data/review audits passed; no translation value changed in this packaging stage.
+
+The root DB was copied from the original Turkish SQLite, updated by existing row identifiers and extended with missing locations. Only the copy is writable. The original table definition, column types and zero user/application versions are retained. The root DB has 83,665 unique locations and exactly matches reviewed JSON, including 6,236 ayah markers.
+
+build_release.py builds independent JSON/SQLite files in dist/, verifies protected-input hashes and exact data agreement, and emits checksums, a provenance manifest and English release notes. JSON uses the original resources' raw UTF-8 compact serialization without a trailing newline. Temporary files are staged outside protected directories and a verified root DB is replaced atomically only with --update-root-db. Normal builds reject a stale/missing root DB instead of silently changing it. The manifest distinguishes the build revision and dirty state; generated outputs are not versioned.
+
+Release tests cover update/addition without source mutation, Unicode serialization, source-row loss, duplicate locations, schema drift, reference order, ayah markers, forbidden notation and protected-output paths. Real-data integration checks verify the complete JSON/root-DB/release-DB agreement and repeat-build stability. CI runs the same checks and builds downloadable artifacts; only pushed v* tags trigger creation of a draft GitHub release. No remote repository was configured at this stage, so no hosted CI run, tag push, GitHub release or QUL upload was performed.
+
+Personal editor settings, local environment files, Python caches, generated dist/build output and SQLite sidecars are ignored. The reviewed root database remains versioned.
+
+## Remove redundant root English copy
+
+The user subsequently authorized deletion of only the root english-wbw-translation.json. All active checks, historical helper entry points and packaging now read resources/english/english-wbw-translation.json directly. Historical initial-English comparisons check parsed pairs against Git; original source bytes remain protected by the immutable resource manifest. Earlier statements about preserving both root JSON files describe the preceding stage and are superseded for the English copy only. No Turkish JSON/DB or original-resource values were changed by this cleanup. Release packaging and tests were rerun without the root English file.
+
+## v1.0.0 preparation
+
+Repository name: qul-turkish-wbw-translation; intended owner: furkancemalcaliskan. Prepared a bilingual README, English changelog, closed external-contribution policy and maintainer CODEOWNERS. CI accepts branch/tag pushes and manual runs, not external pull-request events. Release metadata identifies the project and repository. The local release commit and annotated v1.0.0 tag are prepared before the user's push. No source or Turkish translation values changed.
+
+The user will push the repository. GitHub rulesets and feature settings must be applied through gh after the initial branch exists remotely; they were not claimed as enabled by these documentation files. No remote repository creation, push, ruleset update or publication was performed during local preparation.

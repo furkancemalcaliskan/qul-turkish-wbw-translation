@@ -30,7 +30,7 @@
     "source_arabic_entries": 83668,
     "resource_turkish_equals_initial_pairs": true,
     "resource_english_equals_initial_pairs": true,
-    "root_english_equals_source_pairs": true,
+    "root_english_equals_source_pairs": null,
     "arabic_only_locations": [
       {
         "location": "2:181:4",
@@ -62,7 +62,7 @@
   "structure": {
     "scope": "Structural comparison only; missing keys do not establish missing meanings.",
     "source_sha256": {
-      "english": "917a0fb15244cfd84ab3492172d33418225a682e92d74f529c32df96a0f5f7f2",
+      "english": "42992eec66ae5dd98659cda9bff9d350def46d953edb2622a8e3a444d56313b9",
       "turkish": "9076b351f661aaac319af263c3c241b0f2a00490622624bd9321e3fa49a482c7"
     },
     "english_entries": 83665,
@@ -136,7 +136,7 @@
     "reference_keys": 83665,
     "ayah_markers": 6236,
     "resource_hashes_unchanged": true,
-    "english_unchanged_from_initial": true,
+    "english_reference_pairs_equal_initial": true,
     "queue_records": 831,
     "queue_statuses": {
       "reviewed_with_changes": 487,
@@ -181,5 +181,29 @@
       "legitimate reduplication versus duplicate conjunction",
       "source-context parentheses versus explanatory square delimiters"
     ]
+  },
+  "release_packaging": {
+    "status": "passed",
+    "reference_keys": 83665,
+    "ayah_markers": 6236,
+    "resource_hashes_unchanged": true,
+    "root_database_json_exact_agreement": true,
+    "release_database_json_exact_agreement": true,
+    "qul_schema_and_storage_types_preserved": true,
+    "minified_json_format": "UTF-8, compact separators, no BOM or trailing newline",
+    "normal_build_preserves_root_database": true,
+    "repeat_build_stable": true,
+    "artifact_checksums_verified": true,
+    "root_database_sha256": "955919f72f081d8a909856a5fff9d28af86bd9a1afd880765fc4245fd59ac0af",
+    "minified_json_sha256": "afc43339fa0b462123bc5966e6632178b64ccd5242681ad12444acdf1017c9d4",
+    "release_database_sha256": "955919f72f081d8a909856a5fff9d28af86bd9a1afd880765fc4245fd59ac0af",
+    "unit_tests_passed": 4,
+    "hosted_ci_executed": false,
+    "external_publication_performed": false,
+    "working_turkish_json_unchanged_from_188ff1e": true,
+    "english_reference": "resources/english/english-wbw-translation.json",
+    "redundant_root_english_removed": true,
+    "prepared_version": "v1.0.0",
+    "project": "qul-turkish-wbw-translation"
   }
 }

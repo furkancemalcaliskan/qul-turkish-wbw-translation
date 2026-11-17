@@ -31,7 +31,7 @@ def main():
     before = json.loads(source)
     english_raw = (RESOURCES / "english/english-wbw-translation.json").read_bytes()
     en = json.loads(english_raw)
-    assert (ROOT / "english-wbw-translation.json").read_bytes() == committed("english-wbw-translation.json")
+    assert en == json.loads(committed("english-wbw-translation.json"))
     ar = read(RESOURCES / "arabic/qpc-hafs-word-by-word.json")
     groups = []
 

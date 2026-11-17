@@ -8,8 +8,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASELINE = "cf1e80d"
 
 def load_baseline():
-    reference = (ROOT / "english-wbw-translation.json").read_bytes()
-    assert reference == subprocess.check_output(["git", "show", f"{BASELINE}:english-wbw-translation.json"], cwd=ROOT)
+    reference = (ROOT / "resources/english/english-wbw-translation.json").read_bytes()
+    assert json.loads(reference) == json.loads(subprocess.check_output(["git", "show", f"{BASELINE}:english-wbw-translation.json"], cwd=ROOT))
     turkish = subprocess.check_output(["git", "show", f"{BASELINE}:turkish-wbw-translation.json"], cwd=ROOT)
     return json.loads(reference), json.loads(turkish)
 

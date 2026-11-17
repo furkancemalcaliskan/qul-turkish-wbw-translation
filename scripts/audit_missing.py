@@ -8,7 +8,8 @@ from report_store import write_report
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "reports"
-sources = {name: ROOT / f"{name}-wbw-translation.json" for name in ("english", "turkish")}
+sources = {"english": ROOT / "resources/english/english-wbw-translation.json",
+           "turkish": ROOT / "turkish-wbw-translation.json"}
 raw = {name: path.read_bytes() for name, path in sources.items()}
 data = {}
 for name, content in raw.items():
