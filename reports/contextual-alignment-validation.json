@@ -1,5 +1,0 @@
-{
-  "turkish_after_sha256": "94e871f2b1de1aae8c836ac5db4aa5a3f5c4a8c1699463bd00ba46ef93ac2770",
-  "turkish_entries": 82025,
-  "checks": "Manifest reconstruction, untouched pairs, markers, reference order, exact example, exclusions, and unchanged English passed."
-}

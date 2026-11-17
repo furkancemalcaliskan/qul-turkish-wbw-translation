@@ -1,0 +1,185 @@
+{
+  "resources": {
+    "resource_hashes_unchanged": true,
+    "resource_files": 6,
+    "database_checks": {
+      "english": {
+        "table": "word_translation",
+        "schema": "CREATE TABLE word_translation (surah_number INTEGER, ayah_number INTEGER, word_number TEXT, text TEXT)",
+        "rows": 83665,
+        "json_pairs_equal": true,
+        "integrity_check": "ok"
+      },
+      "turkish": {
+        "table": "word_translation",
+        "schema": "CREATE TABLE word_translation (surah_number INTEGER, ayah_number INTEGER, word_number TEXT, text TEXT)",
+        "rows": 70539,
+        "json_pairs_equal": true,
+        "integrity_check": "ok"
+      },
+      "arabic": {
+        "table": "words",
+        "schema": "CREATE TABLE words (id INTEGER, location TEXT, surah INTEGER, ayah INTEGER, word INTEGER, text TEXT)",
+        "rows": 83668,
+        "json_records_equal": true,
+        "integrity_check": "ok"
+      }
+    },
+    "source_english_entries": 83665,
+    "source_turkish_entries": 70539,
+    "source_arabic_entries": 83668,
+    "resource_turkish_equals_initial_pairs": true,
+    "resource_english_equals_initial_pairs": true,
+    "root_english_equals_source_pairs": true,
+    "arabic_only_locations": [
+      {
+        "location": "2:181:4",
+        "arabic": "مَا",
+        "previous_location": "2:181:3",
+        "previous_arabic": "بَعۡدَ",
+        "previous_english": "after what",
+        "note": "The source English gloss combines after and what at the previous location. Preserve original keys and examine the two Arabic positions together; do not renumber or infer a missing Turkish key from this difference alone."
+      },
+      {
+        "location": "8:6:5",
+        "arabic": "مَا",
+        "previous_location": "8:6:4",
+        "previous_arabic": "بَعۡدَ",
+        "previous_english": "after what",
+        "note": "The source English gloss combines after and what at the previous location. Preserve original keys and examine the two Arabic positions together; do not renumber or infer a missing Turkish key from this difference alone."
+      },
+      {
+        "location": "13:37:9",
+        "arabic": "مَا",
+        "previous_location": "13:37:8",
+        "previous_arabic": "بَعۡدَ",
+        "previous_english": "after what",
+        "note": "The source English gloss combines after and what at the previous location. Preserve original keys and examine the two Arabic positions together; do not renumber or infer a missing Turkish key from this difference alone."
+      }
+    ],
+    "policy": "Resources are read-only. Publish updated root-level copies only after the linguistic work and release checks are complete."
+  },
+  "structure": {
+    "scope": "Structural comparison only; missing keys do not establish missing meanings.",
+    "source_sha256": {
+      "english": "917a0fb15244cfd84ab3492172d33418225a682e92d74f529c32df96a0f5f7f2",
+      "turkish": "9076b351f661aaac319af263c3c241b0f2a00490622624bd9321e3fa49a482c7"
+    },
+    "english_entries": 83665,
+    "turkish_entries": 83665,
+    "missing_keys": 0,
+    "missing_by_category": {
+      "ayah_number": 0,
+      "word_or_phrase": 0
+    },
+    "extra_turkish_keys": [],
+    "ayahs_with_missing_word_or_phrase_keys": 0,
+    "missing_by_surah": [],
+    "missing_locations": [],
+    "contexts": []
+  },
+  "semantic_review_001": {
+    "changed_values": 20,
+    "revised_ayahs": 4,
+    "groups": 9,
+    "exact_scope_and_untouched_values": "passed",
+    "arabic_and_english_provenance": "passed",
+    "foreground_source_roles": "passed",
+    "reference_order_and_83665_keys": "passed",
+    "ayah_markers_preserved": 6236,
+    "resource_hashes_unchanged": true,
+    "english_unchanged_from_initial": true,
+    "current_queue_records": 831,
+    "pending_semantic_flags": 829,
+    "resolved_construction_flags": 2,
+    "remaining_construction_flags": 0,
+    "turkish_sha256": "bda393566f4f779989f19b07959206c98434ee8ec356cec12ed974faefd1a905",
+    "scope": "Verifies this recorded batch; not exhaustive certification of the revised ayahs or the whole translation.",
+    "snapshot_status": "Historical first batch only; superseded by semantic_review for current state."
+  },
+  "consolidation": {
+    "date": "2026-11-17",
+    "previous_report_files": 44,
+    "current_report_files": 4,
+    "preserved_queue_records": 831,
+    "pending_semantic_flags": 829,
+    "preserved_latest_changes": 20,
+    "historical_reports_available_in_git": "661144b",
+    "translation_sha256": "bda393566f4f779989f19b07959206c98434ee8ec356cec12ed974faefd1a905",
+    "scope": "Historical documentation-only consolidation before resumed semantic review; current state is recorded under semantic_review."
+  },
+  "semantic_review": {
+    "batches": [
+      "semantic-review-001",
+      "semantic-review-002",
+      "semantic-review-003",
+      "semantic-review-004",
+      "semantic-review-005",
+      "semantic-review-006",
+      "semantic-review-007",
+      "semantic-review-008",
+      "semantic-review-009",
+      "semantic-review-010",
+      "semantic-review-011",
+      "semantic-review-012",
+      "semantic-review-013",
+      "semantic-review-014",
+      "semantic-review-015",
+      "semantic-review-016",
+      "semantic-review-017",
+      "semantic-review-018",
+      "semantic-review-019"
+    ],
+    "exact_replay_and_untouched_values": "passed",
+    "arabic_and_english_provenance": "passed",
+    "source_role_and_delimiter_checks": "passed",
+    "reference_keys": 83665,
+    "ayah_markers": 6236,
+    "resource_hashes_unchanged": true,
+    "english_unchanged_from_initial": true,
+    "queue_records": 831,
+    "queue_statuses": {
+      "reviewed_with_changes": 487,
+      "reviewed_retained": 344
+    },
+    "pending_semantic_flags": 0,
+    "net_changed_values_since_baseline": 2629,
+    "turkish_sha256": "9076b351f661aaac319af263c3c241b0f2a00490622624bd9321e3fa49a482c7",
+    "scope": "Exact recorded changes and decision history; not linguistic certification of unreviewed words or ayahs."
+  },
+  "turkish_spelling_follow_up": {
+    "scope": "All current values scanned against the explicit bounded patterns below; findings require contextual review. Not exhaustive grammar or semantic certification.",
+    "values_scanned": 83665,
+    "turkish_sha256": "9076b351f661aaac319af263c3c241b0f2a00490622624bd9321e3fa49a482c7",
+    "patterns": {
+      "square_delimiters": "[\\[\\]]",
+      "user_reported_agreement_and_possessive": "gücümüzün yetmediğimiz|\\bakitlerizi\\b",
+      "confirmed_misspellings": "\\b(?:şüket\\w*|öc|gurup|deki|yanlız|yalnış|herkez)\\b|ıyle|şartiyle",
+      "incorrect_negative_future": "mıyacak|mıyacağ|miyecek|miyeceğ",
+      "accidental_lexical_concatenations": "nutfesperm|alakaembriyo|sıkışanbulut|karıştıranortak|Semudkavmin|süseşya|kenthalkı|cumartesiyasak|gerçeki",
+      "duplicate_conjunction": "\\bve\\s+ve\\b",
+      "joined_concessive": "\\bolsalarda\\b|\\bolselerde\\b",
+      "joined_question_candidates": "\\b\\w+m[ıiuü](?:s[ıiuü]n(?:[ıiuü]z)?|y[ıiuü]m|y[ıiuü]z)?\\?"
+    },
+    "findings": [],
+    "findings_by_rule": {},
+    "square_delimiter_removal_values": 622,
+    "initial_delimiter_removal_preserved_contents_and_round_parentheses": true,
+    "subsequent_boundary_and_spelling_batches": [
+      "semantic-review-013",
+      "semantic-review-014",
+      "semantic-review-015",
+      "semantic-review-016",
+      "semantic-review-017",
+      "semantic-review-018",
+      "semantic-review-019"
+    ],
+    "distinctions_checked": [
+      "verbal yemeyi versus food-noun yemeği",
+      "interrogative particle versus person suffix",
+      "concessive da versus locative suffix",
+      "legitimate reduplication versus duplicate conjunction",
+      "source-context parentheses versus explanatory square delimiters"
+    ]
+  }
+}

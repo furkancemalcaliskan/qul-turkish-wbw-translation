@@ -18,11 +18,11 @@ The Arabic source is not a replacement translation. Read the original word and i
 
 Arabic JSON values are records containing `id`, `surah`, `ayah`, `word`, `location`, and `text`; the numeric components in JSON are strings. Its SQLite table is `words (id INTEGER, location TEXT, surah INTEGER, ayah INTEGER, word INTEGER, text TEXT)`. Use `location` to join datasets, not Arabic `id` or row order. Keep the original Arabic text, including its marks, unchanged.
 
-`python scripts/read_arabic_context.py 2:5:4 --radius 1` prints nearby original Arabic, source English, and the current root Turkish translation. Pass `2:5` to read a whole ayah. The helper checks source hashes and writes no files. Missing translation locations are displayed explicitly instead of silently shifting positions.
+`python scripts/read_arabic_context.py 2:5:4 --radius 1` prints nearby original Arabic, source English, and the current root Turkish translation. Pass `2:5` to read a whole ayah. The helper checks source hashes and writes no files. Missing translation locations are displayed explicitly instead of silently shifting positions. Current audit results are consolidated under `resources` in `reports/validation.json`.
 
 ## Known location differences
 
-Every English reference location exists in the Arabic source. The Arabic source additionally contains `2:181:4`, `8:6:5`, and `13:37:9`, each with `مَا`. At each preceding location, the English reference combines `بَعۡدَ` and this following word in the gloss `after what`. Both original translation and script datasets remain unchanged. Inspect both Arabic positions together in these cases; do not renumber later words or infer that the Turkish file needs a new key solely from the three-record count difference. The exact neighboring records are in [reports/resource-audit.json](reports/resource-audit.json).
+Every English reference location exists in the Arabic source. The Arabic source additionally contains `2:181:4`, `8:6:5`, and `13:37:9`, each with `مَا`. At each preceding location, the English reference combines `بَعۡدَ` and this following word in the gloss `after what`. Both original translation and script datasets remain unchanged. Inspect both Arabic positions together in these cases; do not renumber later words or infer that the Turkish file needs a new key solely from the three-record count difference. The exact neighboring records are under `resources.arabic_only_locations` in [reports/validation.json](reports/validation.json).
 
 ## Final release contract
 
@@ -36,3 +36,7 @@ The user has specified the eventual release layout. It is deferred until linguis
 6. Verify JSON/SQLite integrity, unchanged resource hashes, exact translation agreement, and the intended final file layout before the final release commit. The current Turkish reference key set has 83,665 entries; changing that contract requires a separately documented decision.
 
 This preserves the [QUL word-by-word translation format](https://qul.tarteel.ai/resources/translation/99/docs): individual word meanings addressed by location, supplied as a flat JSON object and an equivalent SQLite translation table. Arabic remains a separate reference joined by location. No release deletion, minification, database update, or commit was performed when this policy was recorded.
+
+## Current Turkish notation
+
+Current working/release Turkish values must not contain square-bracket delimiters. Preserve round parentheses used for shared-expression/source-context views and preserve the reference ayah-number markers. Removing old explanatory delimiters must not create concatenated lexical alternatives or change a suffix accidentally; assess such boundaries explicitly against the Arabic/English context. Historical review records retain exact earlier values, including obsolete notation. This rule does not authorize editing any original resource.

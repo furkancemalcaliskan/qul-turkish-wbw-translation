@@ -6,6 +6,7 @@ import re
 import sqlite3
 import subprocess
 from pathlib import Path
+from report_store import write_report
 
 ROOT = Path(__file__).resolve().parents[1]
 RESOURCES = ROOT / "resources"
@@ -101,7 +102,7 @@ def main():
               "resource_turkish_equals_initial_pairs": True, "resource_english_equals_initial_pairs": True,
               "root_english_equals_source_pairs": root_en_equal, "arabic_only_locations": extras,
               "policy": "Resources are read-only. Publish updated root-level copies only after the linguistic work and release checks are complete."}
-    (ROOT / "reports/resource-audit.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    write_report("resource-audit.json", report)
     print(json.dumps({key: report[key] for key in ["resource_hashes_unchanged", "resource_files", "source_english_entries", "source_turkish_entries", "source_arabic_entries"]}, indent=2))
     print("JSON/SQLite agreement and integrity checks passed for all three languages.")
 

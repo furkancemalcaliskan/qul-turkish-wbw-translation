@@ -1,11 +1,10 @@
 """Create a structural inventory; do not infer missing meanings from missing keys."""
-import csv
 import hashlib
-import io
 import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
+from report_store import write_report
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "reports"
@@ -45,17 +44,6 @@ summary = {
         for s in range(1, 115)
     ],
 }
-(OUT / "missing-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-buffer = io.StringIO(newline="")
-writer = csv.writer(buffer, lineterminator="\n")
-writer.writerow(["key", "category", "english", "previous_key", "previous_turkish", "next_key", "next_turkish", "review_status"])
-for key in missing:
-    keys = by_ayah[":".join(key.split(":")[:2])]
-    index = keys.index(key)
-    previous = next((k for k in reversed(keys[:index]) if k in tr), "")
-    following = next((k for k in keys[index + 1:] if k in tr), "")
-    writer.writerow([key, category(key), en[key], previous, tr.get(previous, ""), following, tr.get(following, ""), "not_reviewed"])
-(OUT / "missing-keys.csv").write_text(buffer.getvalue(), encoding="utf-8")
 contexts = [
     {"ayah": ayah, "entries": [
         {"key": k, "english": en[k], "turkish": tr.get(k),
@@ -64,7 +52,10 @@ contexts = [
     ]}
     for ayah in sorted(affected, key=lambda a: tuple(map(int, a.split(":"))))
 ]
-(OUT / "missing-word-contexts.json").write_text(json.dumps(contexts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+summary["missing_locations"] = missing
+summary["contexts"] = contexts
+summary["missing_by_surah"] = [row for row in summary["missing_by_surah"] if row["ayah_number"] or row["word_or_phrase"]]
+write_report("missing-summary.json", summary)
 assert len(missing) + len(en.keys() & tr.keys()) == len(en)
 assert sum(counts.values()) == len(missing)
 assert all(path.read_bytes() == raw[name] for name, path in sources.items())
